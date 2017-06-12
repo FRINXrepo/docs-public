@@ -1,0 +1,55 @@
+---
+ID: 1964
+post_title: 'Blog &#038; News'
+author: frinxeditor
+post_date: 2016-10-17 11:45:08
+post_excerpt: ""
+layout: page
+permalink: https://frinx.io/blog
+published: true
+sidebar:
+  - ""
+footer:
+  - ""
+header_title_bar:
+  - ""
+header_transparency:
+  - ""
+---
+### Welcome to the FRINX blog and news section
+
+Here we present updates on implementations of our software and Proof of Concept development work.
+
+2017-06-07 *[Open Source Proving Essential to Telcos' Future][1]*
+
+2017-06-07 *[L3VPN service on the FRINX ODL platform - Network-wide transactions & multi-vendor device support][2]*
+
+2017-05-30 *[FRINX and SoftBank Collaborate to Create Open-Source Based Network Operations System][3]*
+
+2017-04-07 *[NFV-Service Function Chaining interview from ONS 2017, Santa Clara, CA][4]*
+
+2017-02-07 *[FRINX FD.io distribution][5]*
+
+2017-02-03 *[FRINX Smart Build Engine][6]*
+
+2017-01-30 *[Open Data Plane Analytics][7]*
+
+2017-01-18 *[BGP Route Manipulation][8]*
+
+2017-01-11 *[FRINX ODL Elasticsearch][9]*
+
+2016-10-18 *[Hands-on with the the Wedge 100 Open Compute Platform Switch from Facebook][10]*
+
+2016-12-28 *[PC Revue article][11]*
+
+ [1]: https://frinx.io/opensourcetelcosfuture
+ [2]: https://youtu.be/qxnMJG_Cz-c
+ [3]: https://frinx.io/frinx_softbank_collaboration
+ [4]: https://youtu.be/girJq2tNnyA
+ [5]: https://frinx.io/frinx-fdio-distribution
+ [6]: https://youtu.be/a8nKwjPCkSw
+ [7]: https://youtu.be/Wy1msKi_Tkk
+ [8]: https://youtu.be/yBptUn1Bwpk
+ [9]: https://youtu.be/_nIIiZSh0Qs
+ [10]: https://frinx.io/wedge100
+ [11]: https://www.pcrevue.sk/a/Predstavujeme-slovenske-startupy--FRINX--s--r--o

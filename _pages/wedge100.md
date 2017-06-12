@@ -1,0 +1,23 @@
+---
+ID: 2982
+post_title: Wedge 100 Switch
+author: frinxadmin
+post_date: 2016-11-21 12:19:20
+post_excerpt: ""
+layout: page
+permalink: https://frinx.io/wedge100
+published: true
+sidebar:
+  - ""
+footer:
+  - ""
+header_title_bar:
+  - ""
+header_transparency:
+  - ""
+---
+### Hands-on with the Wedge 100 Open Compute Platform Switch from Facebook
+
+Here at FRINX we are not big believers in the "One controller to rule them all" fairy tale. Instead we believe in simple building blocks, disaggregated and often times distributed solutions. When we first had the opportunity to work with the Wedge 100 switch, we were looking for proof that Open Compute Project (OCP) and OpenDaylight (ODL) can play nicely together. Prior to our analysis, we had seen few synergies between the OCP and the Linux Foundation governed OpenDaylight project. Little did we know that after some experimentation, we would quickly discover that ODL has all the basic ingredients to serve as a control plane on top of Open Network Linux that runs on OCP switches. OpenDaylight provides us with a solid BGP implementation and an open interface to the data plane based on either the OpenFlow data plane agent or Facebook’s Open Switching System. We are proud to have some of the most productive and most experienced ODL developers within our small team. With their help, we are able to shape BGP and data plane interface implementations to fit our needs and also to expose an ODL Netconf interface for switch configuration tasks in addition to their native implementation in ONL. An example is the use of YANG models to expose the switch interfaces to northbound provisioning, configuration or management applications. We think that OpenDaylight provides a package of features (BGP, Data plane interface / OpenFlow, Netconf/Restconf and others) that are conveniently packaged and tested to provide a good starting point for such an implementation.
+
+<img class="aligncenter wp-image-2376" src="https://frinx.io/wp-content/uploads/2016/10/Picture1-1-e1476787096709.png" alt="" width="550" height="354" /> In the course of our exploration, we installed OpenDaylight on top of Open Network Linux running on the Wedge 100 switches. We were able to install the BGP module in ODL and we could further verify that OpenDaylight can act as a fully featured L3 control plane on top of the Wedge 100 switches. We expect the scalability and convergence time to be acceptable for small to medium scale deployments. There is opportunity to optimize the system performance to scale up to large scale deployments. Further, we can envisage using a subset of the ODL code base similar to what is being used as a Netconf interface in the FD.io project and optimizing that for a higher scale and smaller memory footprint together with an optimized BGP implementation. FRINX leverages the lessons learnt from large scale data center deployments and offers a supported, open source control plane that works with OCP switches like the Wedge 100. FRINX understands the needs of many companies who want to benefit from the design experience that successful Web companies have accumulated but that lack the resources to invest in their own control plane development, support and ongoing integration efforts. FRINX offers a hardened version of the popular OpenDaylight controller platform in addition to support and custom development services.
