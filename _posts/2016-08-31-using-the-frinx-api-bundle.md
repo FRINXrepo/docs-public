@@ -88,7 +88,8 @@ Gives the following output:
 
 This function allows the user to easily upload any KAR file to the Karaf distribution. There is an HTTP servlet which listens on
 
-http://[host]:[port]/kar-uploader
+    http://[host]:[port]/kar-uploader
+    
 
 For example:
 
