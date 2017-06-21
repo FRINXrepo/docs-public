@@ -102,7 +102,7 @@ If you have not cloned an existing repository and want to connect your repositor
 
 To propose a changes (add it to the Index) use
 
-    git add <filename>   
+    git add [filename]   
     
 
 or
@@ -185,7 +185,7 @@ In both cases Git tries to auto-merge changes. Unfortunately, this is not always
 
 Before merging, you can preview changes using
 
-    git diff <source_branch> <target_branch>
+    git diff [source_branch] [target_branch]
     
 
 **Log**  
@@ -214,7 +214,7 @@ For more info, see git log --help
 **Replace local changes**  
 If you made a mistake you can replace local changes using
 
-    git checkout --<filename>
+    git checkout --[filename]
     
 
 This replaces the changes in your **Working directory** with the last content in **HEAD**. Changes already added to the **Index**, as well as new files, will be kept.

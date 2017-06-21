@@ -67,7 +67,7 @@ More instructions on the format can be found in Step 6 here: <https://frinx.io/f
 Then, from within your sbe directory, run:
 
     ./sbe instance-update 
-    ./sbe run ldap-import <filename>.ldif  
+    ./sbe run ldap-import [filename].ldif  
     
 
 Now create another new group called "Contributors". The purpose of creating two groups is so that we can later assign different access rights to the two groups.
@@ -87,10 +87,10 @@ First we need to add an SSH public key to Gerrit:
 
 To create a new account group called Committers with initial members committer1 and committer2:
 
-    ssh -p 29418 admin@<localhost> gerrit create-group --member committer1 --member committer2 Committers
+    ssh -p 29418 admin@[localhost] gerrit create-group --member committer1 --member committer2 Committers
     
 
-*Replace `<localhost>` with whatever is set as hostname in ~/sbe/instances/default/config*
+*Replace `[localhost]` with whatever is set as hostname in ~/sbe/instances/default/config*
 
 ### Creating a project in Gerrit
 
@@ -104,14 +104,14 @@ Optional: In **Rights Inherit From** choose a project. (see below for more info 
 
 This can be done as follows:
 
-    ssh -p 29418 admin@<localhost> gerrit create-project example-name
+    ssh -p 29418 admin@[localhost] gerrit create-project example-name
     
 
-*Replace `<localhost>` with whatever is set as hostname in ~/sbe/instances/default/config*
+*Replace `[localhost]` with whatever is set as hostname in ~/sbe/instances/default/config*
 
 It is also possible to import a project from public git:
 
-    ./sbe run project-import <project name> <URL>
+    ./sbe run project-import [project name] [URL]
     
 
 Projects added via the command line will be viewable in the Gerrit interface.
