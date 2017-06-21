@@ -44,4 +44,4 @@ Example of SSH login into "apache-ds" component container:
     ssh admin@<compomonet-ip>
     
 
-[/wpmem_form]
+Note the SSHd service is not enabled by default for each component [/wpmem_form]
