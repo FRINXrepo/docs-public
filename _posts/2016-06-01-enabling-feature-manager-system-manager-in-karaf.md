@@ -17,7 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]  
 **Enabling Feature Manager (installer) frontend**  
 Currently this feature is installed automatically. You can confirm this by typing the following text in the karaf console:
 
@@ -42,4 +41,4 @@ This feature is in BETA release state, it is installed automatically but uses se
 
 <http://localhost:8181/index.html#/configmgr/index>  
 
-(Username karaf, password karaf) [/wpmem_form]
+(Username karaf, password karaf)
