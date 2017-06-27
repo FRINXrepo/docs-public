@@ -106,4 +106,56 @@ Should give the following output which confirms that the file has been uploaded 
     HTTP/1.1 100 Continue > > HTTP/1.1 200 OK > Content-Length: 0 > Server: Jetty(8.1.15.v20140411) >
     
 
-<img src="https://frinx.io/wp-content/uploads/2016/08/api-fe.png" alt="" width="625" height="92" class="alignleft size-full wp-image-4885" />
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature Guide
+      </th>
+      
+      <th>
+      </th>
+      
+      <th>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        Feature introduced in
+      </td>
+      
+      <td>
+        FRINX 1.2.6
+      </td>
+      
+      <td>
+        API bundle module
+      </td>
+    </tr>
+  </tbody>
+</table>
