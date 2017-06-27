@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 See our Elasticsearch video [here][1]
 
 **Prerequisites**  
@@ -93,7 +91,7 @@ Kibana can be downloaded locally or as a Docker image (several exist). [Configur
 [Running Logstash and Elasticsearch in docker][8]  
 [How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][9]
 
-[/wpmem_form]
+<img src="https://frinx.io/wp-content/uploads/2017/01/feat-es.png" alt="" width="629" height="94" class="alignleft size-full wp-image-4881" />
 
  [1]: https://youtu.be/_nIIiZSh0Qs
  [2]: https://frinx.io//downloads/ "FRINX distribution"
