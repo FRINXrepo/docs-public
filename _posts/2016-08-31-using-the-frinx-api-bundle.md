@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 The API is based on REST services. This means that functionality can be tested using CURL. This bundle consists of 4 services:
 
 **Show version**
@@ -108,6 +106,4 @@ Should give the following output which confirms that the file has been uploaded 
     HTTP/1.1 100 Continue > > HTTP/1.1 200 OK > Content-Length: 0 > Server: Jetty(8.1.15.v20140411) >
     
 
-***API Feature first introduced in FRINX 1.2.6***
-
-[/wpmem_form]
+<img src="https://frinx.io/wp-content/uploads/2016/08/api-fe.png" alt="" width="625" height="92" class="alignleft size-full wp-image-4885" />
