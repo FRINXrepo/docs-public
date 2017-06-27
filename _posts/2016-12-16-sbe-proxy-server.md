@@ -21,8 +21,6 @@ apost_date:
 hheader_title_bar:
   - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
 ---
-[wpmem_form login]
-
 ### Proxy server configuration
 
 This part describe how to setup SBE proxy server, if you provide more SBE instances on more hosts. SBE proxy server is reverse proxy server provided by NGINX.
@@ -75,8 +73,5 @@ Stop proxy server
 Restart proxy server
 
     ./sbe proxy-restart
-    
-
-[/wpmem_form]
 
  [1]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc.git/master/3-multi-host.png
