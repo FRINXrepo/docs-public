@@ -91,7 +91,59 @@ Kibana can be downloaded locally or as a Docker image (several exist). [Configur
 [Running Logstash and Elasticsearch in docker][8]  
 [How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][9]
 
-<img src="https://frinx.io/wp-content/uploads/2017/01/feat-es.png" alt="" width="629" height="94" class="alignleft size-full wp-image-4881" />
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature Guide
+      </th>
+      
+      <th>
+      </th>
+      
+      <th>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        Feature introduced in
+      </td>
+      
+      <td>
+        FRINX 1.4.0
+      </td>
+      
+      <td>
+        Elastic search module
+      </td>
+    </tr>
+  </tbody>
+</table>
 
  [1]: https://youtu.be/_nIIiZSh0Qs
  [2]: https://frinx.io//downloads/ "FRINX distribution"
