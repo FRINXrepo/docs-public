@@ -160,7 +160,11 @@ You are allowed to change the design of your Redmine, set up new modules, organi
 
 ### 13 Good to know
 
-**Table 1 Useful links** Redmine overview http://www.redmine.org/ List of features http://www.redmine.org/ Installation, administration, user & developer guide http://www.redmine.org/projects/redmine/wiki/Guide Translated guide to Japaneese language http://redmine.jp/guide/ Recomended literature https://www.packtpub.com/application-development/mastering-redmine
+**Table 1 Useful links**  
+[Redmine overview][18]  
+[List of features][18]  
+[Installation, administration, user & developer guide][19]  
+[Translated guide to Japanese language][20] [Recomended literature][21]
 
  [1]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig1.jpg "Figure 1: Redmine registration"
  [2]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig2.jpg "Figure 2: Completion of registration form"
@@ -179,3 +183,7 @@ You are allowed to change the design of your Redmine, set up new modules, organi
  [15]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig15.jpg "Figure 15: View of Documents"
  [16]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig16.jpg "Figure 16: Wiki"
  [17]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig17.jpg "Figure 17: Adding multiple files"
+ [18]: http://www.redmine.org/
+ [19]: http://www.redmine.org/projects/redmine/wiki/Guide
+ [20]: http://redmine.jp/guide/
+ [21]: https://www.packtpub.com/application-development/mastering-redmine
