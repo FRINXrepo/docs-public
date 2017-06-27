@@ -17,7 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]  
 KARAF <http://karaf.apache.org/manual/latest/#_osgi>- Lightweight OSGI container used to dynamically load java classes
 
 MD-SAL <https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:FAQ>- Model driven service application layer
@@ -34,4 +33,4 @@ Network Configuration Protocol (NETCONF) <https://tools.ietf.org/html/rfc5277>
 
 NETCONF Event Notifications <https://tools.ietf.org/html/rfc6243>
 
-With-defaults Capability for NETCONF YANG <https://tools.ietf.org/html/rfc6020> a modelling language for NETCONF [/wpmem_form]
+With-defaults Capability for NETCONF YANG <https://tools.ietf.org/html/rfc6020> a modelling language for NETCONF
