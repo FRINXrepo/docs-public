@@ -17,7 +17,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login] **Dump VPP message table**
+**Dump VPP message table**
 
 Vpp APIs work with messages, to check all the available messages and their indices use in VAT:
 
@@ -36,6 +36,3 @@ VPP is implemented as a set of ordered graph nodes, to see them live, use follow
 To record the execution of its APIs, use following command outside of VPP:
 
     sudo vppctl api trace save demo.api && sudo vppctl api trace custom-dump /tmp/demo.api
-    
-
-[/wpmem_form]
