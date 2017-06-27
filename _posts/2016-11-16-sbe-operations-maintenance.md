@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 *   Container maintenance
 *   Build scripts description
 *   Building project
@@ -117,7 +115,5 @@ To clone one of the above repositories, replace xxx with the repository name in 
     
 
 When prompted for a password enter the [customerpassword] provided by FRINX.
-
-[/wpmem_form]
 
  [1]: https://frinx.io/frinx-documents/sbe-project-definition.html
