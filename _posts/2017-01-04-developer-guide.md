@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 The FRINX SBE uses Git and Gerrit to manage version control. Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 Gerrit is a code review project developed by Google. It is intended to provide a lightweight framework for working with Git, and makes it easy to review every commit before it is accepted into the code base. Changes are uploaded to Gerrit but are not applied to the project until they’ve been reviewed and accepted.
@@ -266,8 +264,5 @@ The response could include for example: commit 7d7356151634a6c258f3d9eb2ce592df0
 Then use git revert with the commit number
 
     git revert 7d7356151634a6c258f3d9eb2ce592df016aa494
-    
-
-[/wpmem_form]
 
  [1]: https://git-scm.com/download/linux "Installations"
