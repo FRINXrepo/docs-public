@@ -21,8 +21,6 @@ apost_date:
 hheader_title_bar:
   - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
 ---
-[wpmem_form login]
-
 The build project has its project definition as one yaml file in the "projects/" folder. Projects which you will build using the SBE have a definition file (yaml document). Such a yaml file is required for each project.
 
 SBE project definition file e.g.: sbe/projects/hello-world-samples.yaml
@@ -62,5 +60,3 @@ This is the default deploy configuration, which uploads project artifacts into t
     
 
 The SBE has all the necessary credentials for uploading to the Frinx Artifactory store.
-
-[/wpmem_form]
