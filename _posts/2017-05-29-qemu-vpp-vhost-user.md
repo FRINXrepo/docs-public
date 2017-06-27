@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 This article shows you how to set up a VM or a bare metal machine with qemu and KVM and VPP handling L2 networking between VMs.
 
 ### Resources
@@ -134,8 +132,6 @@ Now, ping and any other traffic should be working fine between VMs.
 ### Troubleshooting
 
 VPP vhost user bug: Fix: <https://gerrit.fd.io/r/#/c/6735>
-
-[/wpmem_form]
 
  [1]: https://wiki.fd.io/view/VPP/Installing_VPP_binaries_from_packages
  [2]: https://pve.proxmox.com/wiki/Nested_Virtualization
