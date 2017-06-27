@@ -158,7 +158,7 @@ Share the files with your team. The Files tab under your project will allow you 
 
 You are allowed to change the design of your Redmine, set up new modules, organize the members group, use, categorize the issues and use forums for further discussions. What can be modified: **Information** The basic information of your project and type of issues (bugs, features and support) **Modules** Many different types of modules/tabs taht will be used in your project for instance Time tracking, Wiki etc **Members** Add a new member or modigy the gropups and editing the existing members **Issue categories** Create an issue category as you wish and use it for issue management **Wiki** Change the name of your wiki page **Forums** Create and manage a forum for your colleagues **Activities (time tracking)** Choose a method for how Design and Development will be tracked
 
-### 13 Good to know
+### 13 Useful to know
 
 **Table 1 Useful links**  
 [Redmine overview][18]  
