@@ -17,7 +17,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login] In OpenDaylight, OpenFlow is implemented by the following features: odl-l2switch (and dependencies), openflowplugin and openflowjava. These can be installed in one of the following two ways:
+In OpenDaylight, OpenFlow is implemented by the following features: odl-l2switch (and dependencies), openflowplugin and openflowjava. These can be installed in one of the following two ways:
 
 **Option A: Installing Openflow features using the karaf console**  
 Open or connect to a karaf console and type:
@@ -42,7 +42,7 @@ Use the following command to start Mininet, replacing < your controller ip > wi
 
 If the command is successful, then if you go to
 
-<http://10.10.199.149:8181/index.html#/topology> you will see something like the screenshot below: <img class="aligncenter wp-image-1284 size-large" src="https://frinx.io/wp-content/uploads/2016/06/2-1030x620.png" alt="2" width="1030" height="620" /> The OpenDaylight userguide describes alternative ways to start mininet: [https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/\_create\_a_network_using_mininet.html][2] [/wpmem_form]
+<http://10.10.199.149:8181/index.html#/topology> you will see something like the screenshot below: <img class="aligncenter wp-image-1284 size-large" src="https://frinx.io/wp-content/uploads/2016/06/2-1030x620.png" alt="2" width="1030" height="620" /> The OpenDaylight userguide describes alternative ways to start mininet: [https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/\_create\_a_network_using_mininet.html][2]
 
  [1]: http://localhost:8181/index.html#/featuremgr/index
  [2]: https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_create_a_network_using_mininet.html
