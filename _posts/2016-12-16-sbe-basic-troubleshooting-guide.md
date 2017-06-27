@@ -21,8 +21,6 @@ apost_date:
 hheader_title_bar:
   - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
 ---
-[wpmem_form login]
-
 You can use this guide to help you identify and resolve basic problems you may experience with your SBE instance.
 
 Each SBE container has the following pre-installed tools:
@@ -44,4 +42,4 @@ Example of SSH login into "apache-ds" component container:
     ssh admin@<compomonet-ip>
     
 
-Note the SSHd service is not enabled by default for each component [/wpmem_form]
+Note the SSHd service is not enabled by default for each component
