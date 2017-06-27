@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 Once a local license file has been generated you can start karaf without providing a token.
 
 Using the command line, navigate to the folder that was just extracted. Now run
@@ -40,4 +38,4 @@ You should see a karaf prompt similar to this one:
     Frinx version: 1.0.0-Beryllium-SR1.2-frinx frinx-user@root>
     
 
-Once the controller is started press `Tab` to see the CLI commands available. [/wpmem_form]
+Once the controller is started press `Tab` to see the CLI commands available.
