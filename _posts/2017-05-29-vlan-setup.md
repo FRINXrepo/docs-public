@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 ### Topology
 
     +-------------------------+                    +-------------------------+
@@ -87,6 +85,3 @@ Similarly to disabling traffic from a certain IP, replace the table and session 
 
     classify_add_del_table mask l3 ip4 src
     classify_add_del_session acl-hit-next deny table-index 0 skip_n 1 match_n 1 match l3 ip4 src 192.168.1.10
-    
-
-[/wpmem_form]
