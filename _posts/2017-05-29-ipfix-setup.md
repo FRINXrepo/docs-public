@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 ### Configure VPP using VAT
 
 **Set interface on index 1: up + IP**
@@ -73,5 +71,3 @@ To also export ports, configure with:
 3.  Matching L4 ports is also triggered for port-less protocols like ICMP, exporting each ICMP packet as new flow (since ports are assigned random numbers), which makes IPFIX export packets too big
 4.  Each flow/connection creates a new classify session in order to be able to report it via IPFIX, however the sessions are not "garbage collected" making this a memory leak
 5.  Due to creating new sessions for each flow, it is impossible to customize IPFIX matching e.g. match only TCP/UDP protocols, any IP with a port range
-
-[/wpmem_form]
