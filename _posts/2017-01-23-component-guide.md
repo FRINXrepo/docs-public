@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 This guide explains how to update the SBE - both in its entirety and on a component-by-component basis.
 
 ### Updating SBE core
@@ -205,5 +203,3 @@ Make sure your new version of the component starts using
     
 
 You should see your new version listed.
-
-[/wpmem_form]
