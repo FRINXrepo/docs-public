@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 The FRINX SBE runs on one or multiple hosts. The following instructions explain how to install it on one host. For installations across multiple hosts please contact info@frinx.io.
 
 *   Prepare the host
@@ -422,8 +420,6 @@ In order to enable LDAP authentication for Nexus, do the following (Note - these
 *   In the field **'BaseDN'**, enter -> 'ou=accounts'
 *   Click on **'Create'**
 *   *Now try to logout and log in to Nexus using LDAP credentials*
-
-[/wpmem_form]
 
  [1]: https://docs.docker.com/engine/installation/linux/fedora/ "Docker guide"
  [2]: https://docs.docker.com/engine/installation/linux/ubuntulinux/ "Docker installation guide"
