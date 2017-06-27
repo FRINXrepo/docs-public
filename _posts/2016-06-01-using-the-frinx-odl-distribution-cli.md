@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 The Apache Karaf container used by the Frinx ODL Distribution supports three different start modes:
 
 1.  ***regular*** mode starts Apache Karaf in the foreground, including the shell console.
@@ -218,6 +216,6 @@ b. On Windows:
     
 
 **Apache Karaf client**  
--a [port] specify the port to connect to -h [host] specify the host to connect to -u [user] specify the user name --help shows this help message -v raise verbosity -r [attempts] retry connection establishment (up to attempts times) -d [delay] intra-retry delay (defaults to 2 seconds) -b batch mode, specify multiple commands via standard input -f [file] read commands from the specified file [commands] commands to run *If no commands are specified, the client will be put in an interactive mode* [/wpmem_form]
+-a [port] specify the port to connect to -h [host] specify the host to connect to -u [user] specify the user name --help shows this help message -v raise verbosity -r [attempts] retry connection establishment (up to attempts times) -d [delay] intra-retry delay (defaults to 2 seconds) -b batch mode, specify multiple commands via standard input -f [file] read commands from the specified file [commands] commands to run *If no commands are specified, the client will be put in an interactive mode*
 
  [1]: https://karaf.apache.org/manual/latest/#_integration_in_the_operating_system_the_service_wrapper
