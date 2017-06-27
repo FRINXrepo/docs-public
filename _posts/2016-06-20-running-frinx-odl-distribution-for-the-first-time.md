@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 **System requirements**  
 2GB RAM minimum; we recommend 4GB. Releases based on Beryllium and Boron (and subsequent releases) require Java 8. Unless stated otherwise, this documentation assumes you are using Linux.
 
@@ -50,8 +48,6 @@ Generate fingerprint json to a local file: OFFLINE# $KARAF_HOME/bin/karaf frinx.
 
 <pre>OFFLINE# $KARAF_HOME/bin/karaf
 </pre>
-
-[/wpmem_form]
 
  [1]: https://license.frinx.io/download/distribution-karaf-2.2.1.frinx.zip
  [2]: https://license.frinx.io/download/distribution-karaf-1.4.4.frinx.zip
