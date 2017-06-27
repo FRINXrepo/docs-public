@@ -21,8 +21,6 @@ apost_date:
 hheader_title_bar:
   - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
 ---
-[wpmem_form login]
-
 This is the Redmine manual for users to develop, track and manage tasks in the Secondary Build Environment. Redmine is a flexible project management Web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database. Redmine is open source and released under the terms of the GNU General Public License v2 (GPL). It allows you to create multiple projects, assign multiple persons with the help of a local Wiki page and document storage place. Redmine can be used by managers, developers and reporters (support teams). It allows you to create a nice project hierarchy and to organize and track multiple bugs, features and support nice and smoothly.  
 The translation of the Redmine guide is available in Japanese language here: http://redmine.jp/guide/
 
@@ -163,8 +161,6 @@ You are allowed to change the design of your Redmine, set up new modules, organi
 ### 13 Good to know
 
 **Table 1 Useful links** Redmine overview http://www.redmine.org/ List of features http://www.redmine.org/ Installation, administration, user & developer guide http://www.redmine.org/projects/redmine/wiki/Guide Translated guide to Japaneese language http://redmine.jp/guide/ Recomended literature https://www.packtpub.com/application-development/mastering-redmine
-
-[/wpmem_form]
 
  [1]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig1.jpg "Figure 1: Redmine registration"
  [2]: https://gerrit.frinx.io/plugins/gitblit/raw/sbe-doc/master/redmine!fig2.jpg "Figure 2: Completion of registration form"
