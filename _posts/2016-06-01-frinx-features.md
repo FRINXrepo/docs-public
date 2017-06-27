@@ -17,7 +17,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login] The FRINX distribution offers the following features:
+The FRINX distribution offers the following features:
 
      odlparent
      yangtools
@@ -47,6 +47,6 @@ The Frinx ODL Distribution release schedule is tightly synched with OpenDaylight
 **Compatibility between features**  
 The link below describes the compatibility between OpenDaylight features.
 
-[https://wiki.opendaylight.org/view/AAA:Beryllium_System_Test_Plan][1] [/wpmem_form]
+[https://wiki.opendaylight.org/view/AAA:Beryllium_System_Test_Plan][1]
 
  [1]: http://wiki.opendaylight.org/view/AAA:Beryllium_System_Test_Plan
