@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 Follow the steps below in order to configure NETCONF. Note that it doesn't matter whether you are running on a single node or a cluster - the steps are the same. If you are running a cluster then simply enter these commands on one of the cluster nodes and that node will pass the information to the other nodes.
 
 **Netconf mount**  
@@ -164,6 +162,4 @@ To configure the mountpoint for SROS 14, enter the following command, replacing 
     '
     
 
-***Feature first introduced in FRINX 1.4.1***
-
-[/wpmem_form]
+<img src="https://frinx.io/wp-content/uploads/2017/01/feature-netconf-clustering.png" alt="" width="626" height="89" class="alignleft size-full wp-image-4879" />
