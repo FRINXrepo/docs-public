@@ -17,7 +17,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login] This guide shows how to run VPP in debug mode. It enables you to:
+This guide shows how to run VPP in debug mode. It enables you to:
 
 *   Collect trace if VPP crashes 
 *   Debug VPP with break-points 
@@ -69,6 +69,3 @@ header_transparency:
     #8  0x00007ffff7783e7d in vlib_unix_main (argc=45, argv=0x1239b00) at /home/localadmin/vpp.17.01.3/build-data/../vlib/vlib/unix/main.c:545
     #9  0x0000000000c2b194 in main (argc=45, argv=0x1239b00) at /home/localadmin/vpp.17.01.3/build-data/../vpp/vnet/main.c:271
     (gdb)
-    
-
-[/wpmem_form]
