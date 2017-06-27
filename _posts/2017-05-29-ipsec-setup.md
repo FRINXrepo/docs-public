@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 <img src="https://frinx.io/wp-content/uploads/2017/05/ipsec.png" alt="" width="611" height="542" class="alignleft size-full wp-image-4598" />
 
 ### Configure VPP from the console using the following commands:
@@ -114,6 +112,3 @@ header_transparency:
     ping 192.168.10.1 source loop0 repeat 2
     
     ping 192.168.20.1 source loop0 repeat 2
-    
-
-[/wpmem_form]
