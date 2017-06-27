@@ -17,7 +17,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login] Clustering is a mechanism that enables multiple processes and programs to work together as one entity. For example, a Google Web search is in fact processed by thousands of web servers connected in a cluster. Similarly, you can have multiple instances of the OpenDaylight controller working together as one entity. There are a number of uses for clustering:
+Clustering is a mechanism that enables multiple processes and programs to work together as one entity. For example, a Google Web search is in fact processed by thousands of web servers connected in a cluster. Similarly, you can have multiple instances of the OpenDaylight controller working together as one entity. There are a number of uses for clustering:
 
 **Scaling**  
 If you have multiple controllers running, you can potentially do more work with or store more data on those controllers if they are clustered. You can also break your data into smaller chunks (known as shards) and either distribute that data across the cluster or perform certain operations on certain members of the cluster.
@@ -157,6 +157,6 @@ https://git.opendaylight.org/gerrit/integration/test.git
 
 Instructions for use are available at:
 
-<https://wiki.opendaylight.org/view/Running_and_testing_an_OpenDaylight_Cluster> [/wpmem_form]
+<https://wiki.opendaylight.org/view/Running_and_testing_an_OpenDaylight_Cluster>
 
  [1]: https://nexus.opendaylight.org/content/sites/site/org.opendaylight.docs/master/userguide/manuals/userguide/bk-user-guide/content/_setting_up_clustering_on_an_opendaylight_controller.html
