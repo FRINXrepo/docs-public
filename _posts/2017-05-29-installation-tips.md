@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 ### VPP Installation
 
 Described at: [VPP install packages][1]
@@ -113,9 +111,6 @@ Set content:
 Installation with YUM can be done with:
 
     sudo yum install vpp vpp-plugins vpp-monitoring-agent
-    
-
-[/wpmem_form]
 
  [1]: https://wiki.fd.io/view/VPP/Installing_VPP_binaries_from_packages
  [2]: https://wiki.fd.io/view/VPP
