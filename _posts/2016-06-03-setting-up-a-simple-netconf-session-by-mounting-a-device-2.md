@@ -17,7 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]  
 In this example we connect the controller to itself to verify that that NETCONF features were installed correctly. It is similar to loopback but done over a NETCONF session. After mounting itself, the YANG model of the Frinx ODL Distribution is exposed by RESTCONF and is an interesting point to begin exploring.
 
 **Step 1 Install Features**
@@ -40,4 +39,4 @@ Send a GET request to mount the controller using RESTCONF
 
 Examine the HTTP response - there should be a 200 status code and the text string
 
-*netconf-node-inventory:connected":true*[/wpmem_form]
+*netconf-node-inventory:connected":true*
