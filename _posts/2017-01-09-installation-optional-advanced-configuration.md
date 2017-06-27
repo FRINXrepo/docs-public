@@ -17,8 +17,6 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[wpmem_form login]
-
 The following are optional steps and not required for a standard installation.
 
 ### Setting up Multiple SBE Instances
@@ -93,8 +91,6 @@ Apache Directory Studio is free for Linux, Mac & Windows. [Download: Apache Dire
 ### Importing LDIF template into Apache Directory
 
 Open Apache Directory Studio. Create a connection to the Docker container named "apache-directory". Host: check the IP address in the config.sbe file. Port: change to 10389. Go to the LDAP browser -> Right click on "Root DSE", select "Import" and then "LDIF Import" from the pull-down menu. Select the LDIF file from "ldap/base.ldif" and click the Import button.
-
-[/wpmem_form]
 
  [1]: http://directory.apache.org/studio/downloads.html
  [2]: http://directory.apache.org/
