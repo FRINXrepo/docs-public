@@ -8,6 +8,14 @@ layout: post
 permalink: >
   https://frinx.io/uncategorized/postman-json.html
 published: true
+sidebar:
+  - ""
+footer:
+  - ""
+header_title_bar:
+  - ""
+header_transparency:
+  - ""
 ---
     {
        "variables": [],
