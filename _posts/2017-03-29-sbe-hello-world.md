@@ -2,20 +2,12 @@
 ID: 4242
 post_title: 'SBE example: hello world project'
 author: frinxadmin
-post_date: 2017-03-29 08:43:21
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/sbe-hello-world.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-03-29 08:43:21
 ---
 This section explains how to mirror the hello-world-samples repository from github to SBE's gerrit and build it in the SBE.
 
@@ -27,12 +19,12 @@ Read [the documentation][1] on how to start the SBE.
 
 To be able to push docker images to Nexus, you need to enable insecure docker registry - Read Deploying a plain HTTP registry [1][1] and Configuring Docker[2][2].
 
-Open the docker daemon configuration ( /etc/systemd/system/docker.service in centos), find  
+Open the docker daemon configuration ( /etc/systemd/system/docker.service ), find  
 `--insecure-registry nexus.YOUR-SBE-FQDN:8082`.  
 Don't forget to replace YOUR-SBE-FQDN.  
 Make sure docker host can resolve this domain name e.g. using ping.  
 Restart docker.  
-In centos, run
+Run:
 
     systemctl daemon-reload 
     systemctl restart docker
