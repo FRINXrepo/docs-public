@@ -33,17 +33,17 @@ Many large companies are using OpenDaylight as a network controller. AT&T togeth
 
 We are happy to say that our mission is to make open source projects like OpenDaylight simple to use, highly available and supported, so you can focus on your job and grow and run the network. We see that open source has become the de-facto standard for new networking applications and we are committed to be a part of this thriving ecosystem.
 
+[Sign up and download][3]
+
 <http://www.lightreading.com/nfv/nfv-mano/open-o-ecomp-combine-to-create-onap/d/d-id/730522>
 
-<https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/>[3][3]
+<https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/>[3][4]
 
 <http://www.lightreading.com/carrier-sdn/softbanks-open-source-source-is-a-slovakian-startup/d/d-id/733465>
 
 <https://www.opendaylight.org/user-stories>
 
-[Sign up and download][4]
-
  [1]: https://frinx.io/frinx-documents/l3vpn.html
  [2]: https://frinx.io/frinx-documents/cli-user-guide.html
- [3]: http://https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/
- [4]: https://frinx.io/downloads
+ [3]: https://frinx.io/downloads
+ [4]: http://https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/
