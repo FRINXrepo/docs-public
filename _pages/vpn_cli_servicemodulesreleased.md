@@ -35,7 +35,7 @@ We are happy to say that our mission is to make open source projects like OpenDa
 
 <http://www.lightreading.com/nfv/nfv-mano/open-o-ecomp-combine-to-create-onap/d/d-id/730522>
 
-[https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/][3]
+<https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/>[3][3]
 
 <http://www.lightreading.com/carrier-sdn/softbanks-open-source-source-is-a-slovakian-startup/d/d-id/733465>
 
@@ -45,5 +45,5 @@ We are happy to say that our mission is to make open source projects like OpenDa
 
  [1]: https://frinx.io/frinx-documents/l3vpn.html
  [2]: https://frinx.io/frinx-documents/cli-user-guide.html
- [3]: http://%20https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/
+ [3]: http://https://www.sdxcentral.com/articles/news/centurylink-surges-forward-version-cord/2017/03/
  [4]: https://frinx.io/downloads
