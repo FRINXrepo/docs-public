@@ -1,11 +1,11 @@
 ---
 ID: 4750
-post_title: CLI Plugin user guide
+post_title: CLI Service Module
 author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/frinx-documents/cli-user-guide.html
+  https://frinx.io/frinx-documents/cli-service-module.html
 published: true
 post_date: 2017-06-21 10:46:36
 ---
