@@ -1,21 +1,13 @@
 ---
 ID: 4750
-post_title: 'Protected: CLI Plugin user guide'
+post_title: CLI Plugin user guide
 author: frinxadmin
-post_date: 2017-06-21 10:46:36
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/cli-user-guide.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-06-21 10:46:36
 ---
 The CLI southbound plugin for Opendaylight enables the controller to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underyling transport and can manage devices over the CLI in the same exact way as devices over netconf.
 
