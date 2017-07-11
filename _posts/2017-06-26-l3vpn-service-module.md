@@ -5,7 +5,7 @@ author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/frinx-documents/l3vpn.html
+  https://frinx.io/frinx-documents/l3vpn-service-module.html
 published: true
 post_date: 2017-06-26 10:10:28
 ---
