@@ -9,11 +9,13 @@ permalink: >
 published: true
 post_date: 2017-07-12 10:32:45
 ---
-# CLI southbound plugin developer guide
-
 This document provides developer-level details for the FRINX CLI southbound plugin, both for the framework itself as well as for the pluggable translation units.
 
-Pre-requisite reading: - Honeycomb design documentation: - https://wiki.fd.io/view/Honeycomb - https://docs.fd.io/honeycomb/1.17.04/release-notes-aggregator/release_notes.html - CLI plugin available presentations: - https://frinxhelpdesk.atlassian.net/wiki/display/~mmarsalek/CLI+southbound+plugin+docs - CLI plugin user guide
+Pre-requisite reading: - Honeycomb design documentation:  
+- https://wiki.fd.io/view/Honeycomb  
+- https://docs.fd.io/honeycomb/1.17.04/release-notes-aggregator/release_notes.html  
+CLI plugin available presentations:  
+- https://frinxhelpdesk.atlassian.net/wiki/display/~mmarsalek/CLI+southbound+plugin+docs - CLI plugin user guide
 
 ## Building on honeycomb
 
@@ -110,9 +112,9 @@ There are 2 types of handlers. Those which handle writes of configuration data a
 
 An RPC handler is a special kind of handler, different to the data handlers. RPC handler can encapsulate any commands. The biggest difference is that any configuration processing in RPCs is not part of transactions, reconciliation etc.
 
- [1]: ./ODL.png "ODL"
- [2]: ./HC.png "HC"
- [3]: ./HCsMdsal.png "Honeycomb's core"
- [4]: ./cliMountpoint.png "Honeycomb's core as Mountpoint"
- [5]: ./cliInComponents.png "CLI plugin components"
- [6]: ./projectComponents.png "CLI plugin modules"
+ [1]: https://frinx.io/wp-content/uploads/2017/07/ODL.png "ODL"
+ [2]: https://frinx.io/wp-content/uploads/2017/07/HC.png "HC"
+ [3]: https://frinx.io/wp-content/uploads/2017/07/HCsMdsal.png "Honeycomb's core"
+ [4]: https://frinx.io/wp-content/uploads/2017/07/cliMountpoint.png "Honeycomb's core as Mountpoint"
+ [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
+ [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
