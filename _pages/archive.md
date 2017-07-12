@@ -10,8 +10,8 @@ post_date: 2017-03-01 13:05:10
 ---
 Boron  
 [distribution-karaf-2.3.0.frinx.zip][1]  
-[distribution-karaf-2.2.0.frinx.zip][2]  
-[distribution-karaf-2.2.1.frinx.zip][3]
+[distribution-karaf-2.2.1.frinx.zip][2]  
+[distribution-karaf-2.2.0.frinx.zip][3]
 
 Beryllium  
 [distribution-karaf-1.4.5.frinx.zip][4]  
@@ -27,8 +27,8 @@ Beryllium
 [distribution-karaf-1.2.2.frinx.zip][14]
 
  [1]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
- [2]: https://license.frinx.io/download/distribution-karaf-2.2.0.frinx.zip
- [3]: https://license.frinx.io/download/distribution-karaf-2.2.1.frinx.zip
+ [2]: https://license.frinx.io/download/distribution-karaf-2.2.1.frinx.zip
+ [3]: https://license.frinx.io/download/distribution-karaf-2.2.0.frinx.zip
  [4]: https://license.frinx.io/download/distribution-karaf-1.4.5.frinx.zip
  [5]: https://license.frinx.io/download/distribution-karaf-1.4.4.frinx.zip
  [6]: https://license.frinx.io/download/distribution-karaf-1.4.3.frinx.zip
