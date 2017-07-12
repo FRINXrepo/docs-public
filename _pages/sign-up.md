@@ -18,13 +18,7 @@ post_date: 2016-05-27 07:38:48
 
 [wpmem_logged_out]
 
-[wpmem_form register] [sbscrbr_form]
-
-<p style="text-align: center;">
-  <a href="https://frinx.io/log-in">Click here</a> to log in
-</p>
-
-[/wpmem_logged_out]
+[wpmem_form register] [sbscrbr_form] [/wpmem_logged_out]
 
 [wpmem_logged_in]You are already logged in as **[wpmem_field field=user_login]**
 
