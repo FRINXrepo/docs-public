@@ -23,19 +23,19 @@ The essential idea behind the CLI southbound plugin comes from Honeycomb. Honeyc
 
 The following series of diagrams shows the evolution from Opendaylight to Honeycomb and back into Opendaylight as a CLI mountpoint:
 
-1.  High level Opendaylight overview with its concept of a Mountpoint:
+High level Opendaylight overview with its concept of a Mountpoint:
 
 ![ODL][1]
 
-1.  High level Honeycomb overview:
+High level Honeycomb overview:
 
 ![HC][2]
 
-1.  Honeycomb core (custom MD-SAL implementation) overview:
+Honeycomb core (custom MD-SAL implementation) overview:
 
 ![Honeycomb's core][3]
 
-1.  How Honeycomb is encapsulated as a mount point in Opendaylight:
+How Honeycomb is encapsulated as a mount point in Opendaylight:
 
 ![Honeycomb's core as mountpoint][4]
 
@@ -83,7 +83,7 @@ Running maven build should now succeed for the new unit. From this point, the un
 
 ### Installing to Opendaylight
 
-For a unit generated from the archetype, you can directly install it into the already running Opendaylight CLI southbound plugin. For how to run Opendaylight with the CLI southbound plugin, please refer to the user guide. To install a bundle with a new unit (e.g. previously built with maven) it is sufficient to run the following command in the karaf console:
+For a unit generated from the archetype, you can directly install it into the already running Opendaylight CLI southbound plugin. For how to run Opendaylight with the CLI southbound plugin, please refer to the [user guide][7]. To install a bundle with a new unit (e.g. previously built with maven) it is sufficient to run the following command in the karaf console:
 
     bundle:install -s file:///home/devel/ios-vrfs-unit/target/ios-vrfs-unit-1.0-SNAPSHOT.jar
     
@@ -96,11 +96,11 @@ It is also possible to include this bundle into a karaf feature and make it inst
 
 ### Testing
 
-Please refer to the user guide section, which details how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
+Please refer to the [user guide][7] section which details how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
 
 ### Choosing the right YANG models
 
-Before writing a custom YANG model for a unit, it is important to check whether such a model doesn't already exist. There are plenty of YANG models available, modeling many aspects of network device management. The biggest groups of models are: - Openconfig https://github.com/openconfig/public/tree/master/release/models - IETF https://github.com/YangModels/yang/tree/master/standard/ietf
+Before writing a custom YANG model for a unit, it is important to check whether such a model doesn't already exist. There are plenty of YANG models available, modeling many aspects of network device management. The biggest groups of models are: - Openconfig https://github.com/openconfig/public/tree/master/release/models - IETF <https://github.com/YangModels/yang/tree/master/standard/ietf>
 
 It is usually wiser to choose an existing YANG model instead of developing a custom one. Also it is very important to check for existing units already implemented for a device. If there are any, the best approach will most likely be to use YANG models from the same family as existing units use.
 
@@ -118,3 +118,4 @@ An RPC handler is a special kind of handler, different to the data handlers. RPC
  [4]: https://frinx.io/wp-content/uploads/2017/07/cliMountpoint.png "Honeycomb's core as Mountpoint"
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
  [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
+ [7]: https://frinx.io/frinx-documents/cli-service-module.html
