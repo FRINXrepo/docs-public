@@ -1,0 +1,118 @@
+---
+ID: 4975
+post_title: CLI Service Module Developer Guide
+author: frinxadmin
+post_excerpt: ""
+layout: post
+permalink: >
+  https://frinx.io/frinx-documents/cli-service-module-devguide.html
+published: true
+post_date: 2017-07-12 10:32:45
+---
+# CLI southbound plugin developer guide
+
+This document provides developer-level details for the FRINX CLI southbound plugin, both for the framework itself as well as for the pluggable translation units.
+
+Pre-requisite reading: - Honeycomb design documentation: - https://wiki.fd.io/view/Honeycomb - https://docs.fd.io/honeycomb/1.17.04/release-notes-aggregator/release_notes.html - CLI plugin available presentations: - https://frinxhelpdesk.atlassian.net/wiki/display/~mmarsalek/CLI+southbound+plugin+docs - CLI plugin user guide
+
+## Building on honeycomb
+
+The essential idea behind the CLI southbound plugin comes from Honeycomb. Honeycomb defines, implements and uses the same pipeline and the same framework to handle data. The APIs, some implementations and also SPIs used in the CLI southbound plugin's translation layer come from Honeycomb. However, the CLI southbound plugin creates multiple instances of Honeycomb components and encapsulates them behind a mount point.
+
+The following series of diagrams shows the evolution from Opendaylight to Honeycomb and back into Opendaylight as a CLI mountpoint:
+
+1.  High level Opendaylight overview with its concept of a Mountpoint:
+
+![ODL][1]
+
+1.  High level Honeycomb overview:
+
+![HC][2]
+
+1.  Honeycomb core (custom MD-SAL implementation) overview:
+
+![Honeycomb's core][3]
+
+1.  How Honeycomb is encapsulated as a mount point in Opendaylight:
+
+![Honeycomb's core as mountpoint][4]
+
+## Major components
+
+The following diagram shows the major components of the CLI southbound plugin and their relationships: ![CLI plugin components][5]
+
+## Modules
+
+The following diagram shows project modules and their dependencies: ![CLI plugin modules][6]
+
+## Developing a device specific translation unit
+
+This section provides a tutorial for developing a device specific translation unit.
+
+### Using the archetype
+
+There is an archetype to generate a skeleton of a translation unit. To generate a skeleton from the archetype, invoke the following command:
+
+    mvn -X archetype:generate -DarchetypeGroupId=io.frinx.cli -DarchetypeArtifactId=unit-archetype -DarchetypeVersion=0.1.0-SNAPSHOT
+    
+
+You will be asked to fill in some parameters. As an example, values could be:
+
+    Define value for property 'device-type': ios
+    [INFO] Using property: device-version = *
+    Define value for property 'group-id-prefix': io.frinx.cli
+    Define value for property 'unit-domain': vrfs
+    Define value for property 'groupId' io.frinx.cli.ios.vrfs: :
+    Define value for property 'artifactId' ios-vrfs-unit: :
+    Define value for property 'version' 1.0-SNAPSHOT: :
+    [INFO] Using property: version = 1.0-SNAPSHOT
+    Define value for property 'package' io.frinx.cli.ios.vrfs: :
+    [INFO] Using property: cli-version = 0.1.0-SNAPSHOT
+    Define value for property 'unit-name' iosvrfsUnit: :
+    
+
+This will generate just a single maven module called *ios-vrfs-unit*. The module contains:
+
+*   sample YANG model
+*   2 handlers handling CRUD operations for a node inside the YANG model
+*   glue code to inject itself into the CLI southbound plugin framework
+
+Running maven build should now succeed for the new unit. From this point, the unit can be extended in any way necessary.
+
+### Installing to Opendaylight
+
+For a unit generated from the archetype, you can directly install it into the already running Opendaylight CLI southbound plugin. For how to run Opendaylight with the CLI southbound plugin, please refer to the user guide. To install a bundle with a new unit (e.g. previously built with maven) it is sufficient to run the following command in the karaf console:
+
+    bundle:install -s file:///home/devel/ios-vrfs-unit/target/ios-vrfs-unit-1.0-SNAPSHOT.jar
+    
+
+Now the new unit should be reported by the CLI southbound plugin as being available. To verify its presence from RESTCONF, use the provided postman collection, *CLI registry* folder.
+
+#### As a feature
+
+It is also possible to include this bundle into a karaf feature and make it install with that particular feature instead of using the *bundle:install* command.
+
+### Testing
+
+Please refer to the user guide section, which details how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
+
+### Choosing the right YANG models
+
+Before writing a custom YANG model for a unit, it is important to check whether such a model doesn't already exist. There are plenty of YANG models available, modeling many aspects of network device management. The biggest groups of models are: - Openconfig https://github.com/openconfig/public/tree/master/release/models - IETF https://github.com/YangModels/yang/tree/master/standard/ietf
+
+It is usually wiser to choose an existing YANG model instead of developing a custom one. Also it is very important to check for existing units already implemented for a device. If there are any, the best approach will most likely be to use YANG models from the same family as existing units use.
+
+### Implementing handlers
+
+There are 2 types of handlers. Those which handle writes of configuration data and those which handle reads of operational data. The responsibility of a handler is just to transform between CLI commands and the YANG data. There is nothing more a handler needs to do. For an example, refer to the section discussing unit archetype.
+
+### Implementing RPCs
+
+An RPC handler is a special kind of handler, different to the data handlers. RPC handler can encapsulate any commands. The biggest difference is that any configuration processing in RPCs is not part of transactions, reconciliation etc.
+
+ [1]: ./ODL.png "ODL"
+ [2]: ./HC.png "HC"
+ [3]: ./HCsMdsal.png "Honeycomb's core"
+ [4]: ./cliMountpoint.png "Honeycomb's core as Mountpoint"
+ [5]: ./cliInComponents.png "CLI plugin components"
+ [6]: ./projectComponents.png "CLI plugin modules"
