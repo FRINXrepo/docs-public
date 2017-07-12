@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-07-12 13:54:06
 ---
-This document describes the latest changes, additions, known issues, and fixes for the Frinx Controller.<!--more-->[wpmem_form login]
+This document describes the latest changes, additions, known issues, and fixes for the Frinx Controller.<!--more-->
 
 **Note that FRINX ODL distribution 2.3.0 requires Java 8**
 
@@ -20,12 +20,11 @@ This document describes the latest changes, additions, known issues, and fixes f
 
 #### Known Issues
 
-1.  After node isolation netconf clustering does not function
+1.  After node isolation netconf clustering does not function correctly
+2.  GBP-features odl-groupbasedpolicy-clustered and odl-groupbasedpolicy-noop does not function correctly
 
 #### Opendaylight Boron Release Notes
 
 The Frinx controller 2.3.0 is based on Opendaylight Boron.
 
 <https://wiki.opendaylight.org/view/Simultaneous_Release/Boron/Release_Notes>
-
-[/wpmem_form]
