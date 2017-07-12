@@ -39,5 +39,5 @@ post_date: 2016-05-27 07:38:48
 [/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation=''][/av_one_fourth]
 
  [1]: https://frinx.io
- [2]: https://frinx.io/user-account-2
+ [2]: https://frinx.io/user-account
  [3]: /sign-up?a=logout
