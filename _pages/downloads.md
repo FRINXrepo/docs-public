@@ -40,7 +40,7 @@ docker run -it --hostname some-hostname --name some-frinx -p 8181:8181 frinx/fri
 
 for Boron
 
-<pre>docker pull frinx/frinx_odl:2.2.1.frinx
+<pre>docker pull frinx/frinx_odl:2.3.0.frinx
 TOKEN=[frinx-license_secret-token]
 docker run -it --hostname some-hostname --name some-frinx -p 8181:8181 frinx/frinx_odl frinx.createtoken.force $TOKEN
 </pre>
