@@ -23,7 +23,7 @@ This document describes the latest changes, additions, known issues, and fixes f
 1.  After node isolation netconf clustering does not function correctly
 2.  GBP-features odl-groupbasedpolicy-clustered and odl-groupbasedpolicy-noop does not function correctly
 
-***Note - running feature:install odl-l3vpn produces an error, shown below. This error message is benign; l3vpn works as expected*  
+***Note - running feature:install odl-l3vpn produces an error message, shown below. This error message is benign and can be ignored; l3vpn works as expected*  
 Error message:**
 
 2017-07-13 14:13:53,123 | ERROR | l for user karaf | lBundleScanningSchemaServiceImpl | 169 - org.opendaylight.controller.sal-schema-service - 1.4.3.Boron-SR3_2_3_0-frinxodl | Exception occured during invoking listener  
