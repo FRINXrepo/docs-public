@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-07-12 13:54:06
 ---
-This document describes the latest changes, additions, known issues, and fixes for the Frinx Controller.<!--more-->
+This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution.<!--more-->
 
 **Note that FRINX ODL distribution 2.3.0 requires Java 8**
 
