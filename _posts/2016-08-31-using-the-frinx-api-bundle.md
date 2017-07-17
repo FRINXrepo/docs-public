@@ -99,7 +99,11 @@ Or typing:
 
 This will give the following output which confirms that the file has been uploaded correctly:
 
-    HTTP/1.1 100 Continue > > HTTP/1.1 200 OK > Content-Length: 0 > Server: Jetty(8.1.15.v20140411) >
+    {
+       "output":{
+          "outcome":"Data was successfully uploaded. Length of file is: 7456 bytes"
+       }
+    }
     
 
 <table>
