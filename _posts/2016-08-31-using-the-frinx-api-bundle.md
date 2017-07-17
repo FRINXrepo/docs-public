@@ -81,16 +81,9 @@ This function allows the user to easily upload any KAR file to the Karaf distrib
     http://[host]:[port]/kar-uploader
     
 
-The POST request contains the one parameter, which hold the binary data. Note the binary data must be in Base64 format, according to [RFC 6020][1]
+The POST request contains one parameter - the path to the KAR file, which should hold binary data. Note the binary data must be in Base64 format, according to [RFC 6020][1]
 
-You can upload a KAR file as follows:
-
-By REST (as POST):
-
-    http://[host]:[port]/restconf/operations/installer:upload-kar  
-    
-
-Or typing:
+You can upload a KAR file by typing:
 
     curl 'http://localhost:8181/restconf/operations/installer:upload-kar' -H 'Host: localhost:8181' -H 'Content-Type: application/yang.data+json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post -d '{"input":{"data":"'"$(base64 --wrap=0 upload/dummy-1.0.0.kar)"'"}}' -H 'Connection: keep-alive' -H "Expect:"
     
