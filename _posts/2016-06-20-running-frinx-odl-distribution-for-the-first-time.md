@@ -2,26 +2,18 @@
 ID: 1650
 post_title: Running for the first time
 author: frinxeditor
-post_date: 2016-06-20 08:13:07
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-20 08:13:07
 ---
 **System requirements**  
 2GB RAM minimum; we recommend 4GB. Releases based on Beryllium and Boron (and subsequent releases) require Java 8. Unless stated otherwise, this documentation assumes you are using Linux.
 
 **Download and activate the FRINX ODL Distribution**  
-Please click on the following link to download a zip archive of the FRINX ODL Distribution for Boron [distribution-karaf-2.2.1.frinx.zip ][1] and for Beryllium [distribution-karaf-1.4.4.frinx.zip ][2]By downloading the file you accept the FRINX software [EULA][3]
+Please click on the following link to download a zip archive of the FRINX ODL Distribution for Boron [distribution-karaf-2.3.0.frinx.zip ][1] and for Beryllium [distribution-karaf-1.4.6.frinx.zip ][2]By downloading the file you accept the FRINX software [EULA][3]
 
 **Start your FRINX ODL Distribution for the first time**
 
@@ -49,6 +41,6 @@ Generate fingerprint json to a local file: OFFLINE# $KARAF_HOME/bin/karaf frinx.
 <pre>OFFLINE# $KARAF_HOME/bin/karaf
 </pre>
 
- [1]: https://license.frinx.io/download/distribution-karaf-2.2.1.frinx.zip
- [2]: https://license.frinx.io/download/distribution-karaf-1.4.4.frinx.zip
+ [1]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
+ [2]: https://license.frinx.io/download/distribution-karaf-1.4.6.frinx.zip
  [3]: https://frinx.io/wp-content/uploads/2016/06/7793505-v7-Frinx-ODL-Distribution-Software-End-User-License-Agreement.pdf
