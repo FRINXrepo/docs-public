@@ -9,11 +9,6 @@ permalink: >
 published: true
 post_date: 2016-08-31 13:41:48
 ---
-To use the following functionality, first enter the following command within the karaf console in order to install:
-
-    feature:install frinx-installer-backend
-    
-
 The API is based on REST services. This means that functionality can be tested using CURL. This bundle consists of 4 services:
 
 **Show version**
@@ -27,7 +22,7 @@ By REST (as POST):
 
 Or typing:
 
-    curl 'http://localhost:8181/restconf/operations/installer:show-version' -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
+    curl '<a class="remarkup-link" href="http://localhost:8181/restconf/operations/installer:show-version'" target="_blank" rel="noreferrer">http://localhost:8181/restconf/operations/installer:show-version'</a> -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
     
 
 Gives the following output:
@@ -50,7 +45,7 @@ By REST (as POST):
 
 Or typing:
 
-    curl '<a class="remarkup-link" href="http://localhost:8181/restconf/operational/installer:features'" target="_blank" rel="noreferrer">http://localhost:8181/restconf/operational/installer:features'</a> -H 'Host: localhost:8181' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Authorization: Basic YWRtaW46YWRtaW4='
+    curl 'http://localhost:8181/restconf/operational/installer:features' -H 'Host: localhost:8181' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Authorization: Basic YWRtaW46YWRtaW4='
     
 
 Gives the following output:
@@ -71,7 +66,7 @@ By REST (as POST):
 
 Or typing
 
-    curl '<a class="remarkup-link" href="http://localhost:8181/restconf/operations/installer:monitor-resources'" target="_blank" rel="noreferrer">http://localhost:8181/restconf/operations/installer:monitor-resources'</a> -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
+    curl 'http://localhost:8181/restconf/operations/installer:monitor-resources' -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
     
 
 Gives the following output:
