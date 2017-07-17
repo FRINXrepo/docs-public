@@ -2,21 +2,18 @@
 ID: 2222
 post_title: API bundle
 author: ngray@frinx.io
-post_date: 2016-08-31 13:41:48
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/using-the-frinx-api-bundle.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-08-31 13:41:48
 ---
+To use the following functionality, first enter the following command within the karaf console in order to install:
+
+    feature:install frinx-installer-backend
+    
+
 The API is based on REST services. This means that functionality can be tested using CURL. This bundle consists of 4 services:
 
 **Show version**
