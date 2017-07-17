@@ -1,21 +1,13 @@
 ---
 ID: 4824
-post_title: postman.json
+post_title: CLI user guide postman collection.json
 author: frinxadmin
-post_date: 2017-06-27 07:18:25
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/uncategorized/postman-json.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-06-27 07:18:25
 ---
     {
        "variables": [],
