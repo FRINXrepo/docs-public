@@ -22,7 +22,7 @@ By REST (as POST):
 
 Or typing:
 
-    curl '<a class="remarkup-link" href="http://localhost:8181/restconf/operations/installer:show-version'" target="_blank" rel="noreferrer">http://localhost:8181/restconf/operations/installer:show-version'</a> -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
+    curl 'http://localhost:8181/restconf/operations/installer:show-version' -H 'Host: localhost:8181' -H 'Content-Type: application/json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
     
 
 Gives the following output:
