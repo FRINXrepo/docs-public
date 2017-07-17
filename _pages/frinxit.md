@@ -8,4 +8,4 @@ permalink: https://frinx.io/frinxit
 published: true
 post_date: 2017-07-17 08:58:45
 ---
-`[iframe src="http://www.youtube.com/embed/4qsGTXLnmKs" width="100%" height="500"]`
+[iframe src="http://www.youtube.com/embed/4qsGTXLnmKs" width="100%" height="500"]
