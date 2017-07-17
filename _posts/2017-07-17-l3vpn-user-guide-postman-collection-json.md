@@ -5,7 +5,7 @@ author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/uncategorized/l3vpn-user-guide-postman-collection-json.html
+  https://frinx.io/frinx-documents/l3vpn-user-guide-postman-collection-json.html
 published: true
 post_date: 2017-07-17 13:01:44
 ---
