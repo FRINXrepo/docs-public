@@ -90,6 +90,9 @@ By REST (as POST):
 
 Or typing:
 
+    curl 'http://localhost:8181/restconf/operations/installer:upload-kar' -H 'Host: localhost:8181' -H 'Content-Type: application/yang.data+json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post -d '{"input":{"data":"'"$(base64 --wrap=0 upload/dummy-1.0.0.kar)"'"}}' -H 'Connection: keep-alive' -H "Expect:"
+    
+
 Should give the following output which confirms that the file has been uploaded correctly:
 
     HTTP/1.1 100 Continue > > HTTP/1.1 200 OK > Content-Length: 0 > Server: Jetty(8.1.15.v20140411) >
