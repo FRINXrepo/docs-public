@@ -81,7 +81,7 @@ This function allows the user to easily upload any KAR file to the Karaf distrib
     http://[host]:[port]/kar-uploader
     
 
-The POST request contains one parameter which indicates the location of the KAR file and specifies base64 binary data format (see the example curl command below). Note the binary data must be in Base64 format, according to [RFC 6020][1]
+The POST request contains one parameter which indicates the location of the KAR file. The parameter should be specified in [base64 binary data format][1] (as in the example curl command below).
 
 You can upload a KAR file by typing:
 
