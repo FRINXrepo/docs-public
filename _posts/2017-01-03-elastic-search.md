@@ -2,20 +2,12 @@
 ID: 3404
 post_title: Elastic Search
 author: frinxadmin
-post_date: 2017-01-03 08:19:00
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/elastic-search.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-03 08:19:00
 ---
 See our Elasticsearch video [here][1]
 
@@ -36,10 +28,13 @@ Backup your old config if it exists:
     mv org.ops4j.pax.logging.cfg org.ops4j.pax.logging.cfg.bkp
     
 
-Create a new config file using the following command (this will change the first four lines of the config file):
+Create a new config file using the following command
 
     cat << EOF > org.ops4j.pax.logging.cfg
     
+
+This will change the first four lines of the config file:
+
     log4j.rootLogger= INFO, out,ELKTransform,osgi:* log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500  log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
     
     # CONSOLE appender not used by default  
