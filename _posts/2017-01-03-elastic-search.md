@@ -70,7 +70,7 @@ We must configure socket lister for Logstash by creating a file named logstash.c
     }
     
 
-The **elk_host** and **elk_port** depend on how and where Elasticsearch is installed - by default Logstash and Elasticsearch are on the same server. So for example host is 127.0.0.1 and the port is the default 9200.
+Set the **logstash port** to **9500**. The **elk_host** and **elk_port** depend on how and where Elasticsearch is installed - by default **Logstash** and **Elasticsearch** are on the same server. So for example host is **127\.0.0.1** and the port is the default **9200**.
 
 For more info see: [Getting started with Logstash][3] and [Log4j][4]
 
