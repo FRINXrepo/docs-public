@@ -76,12 +76,14 @@ Gives the following output:
 
 **Upload a KAR file**
 
-This function allows the user to easily upload any KAR file to the Karaf distribution. There is an HTTP servlet which listens on
+This function allows the user to easily upload any KAR file to the Karaf distribution. Before installing, the KAR file is validated. There is an HTTP servlet which listens on
 
     http://[host]:[port]/kar-uploader
     
 
-For example:
+The POST request contains the one parameter, which hold the binary data. Note the binary data must be in Base64 format, according to [RFC 6020][1]
+
+You can upload a KAR file as follows:
 
 By REST (as POST):
 
@@ -93,7 +95,9 @@ Or typing:
     curl 'http://localhost:8181/restconf/operations/installer:upload-kar' -H 'Host: localhost:8181' -H 'Content-Type: application/yang.data+json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post -d '{"input":{"data":"'"$(base64 --wrap=0 upload/dummy-1.0.0.kar)"'"}}' -H 'Connection: keep-alive' -H "Expect:"
     
 
-Should give the following output which confirms that the file has been uploaded correctly:
+*where upload/dummy-1.0.0.kar is the path of the KAR file to be uploaded*
+
+This will give the following output which confirms that the file has been uploaded correctly:
 
     HTTP/1.1 100 Continue > > HTTP/1.1 200 OK > Content-Length: 0 > Server: Jetty(8.1.15.v20140411) >
     
@@ -151,3 +155,5 @@ Should give the following output which confirms that the file has been uploaded 
     </tr>
   </tbody>
 </table>
+
+ [1]: https://tools.ietf.org/html/rfc6020#section-9.8.2
