@@ -20,7 +20,7 @@ The API is based on REST services. This means that functionality can be tested u
 
 This displays the current Karaf distribution version. For example:
 
-By REST (as GET):
+By REST (as GET). This can be done in a Web browser or using Postman (username: admin password: admin)
 
     http://[host]:[port]/restconf/operations/installer:show-version
     
@@ -43,7 +43,7 @@ name - version - repository - description - installed (boolean value, whether it
 
 For example:
 
-By REST (as GET):
+By REST (as GET) This can be done in a Web browser or using Postman (username: admin password: admin):
 
     http://[host]:[port]/restconf/operational/installer:features
     
@@ -64,7 +64,7 @@ This displays base information about system, memory and disk management
 
 For example:
 
-By REST (as GET):
+By REST (as GET) This can be done in a Web browser or using Postman (username: admin password: admin):
 
     http://[host]:[port]/restconf/operations/installer:monitor-resources
     
@@ -88,7 +88,7 @@ This function allows the user to easily upload any KAR file to the Karaf distrib
 
 The POST request contains one parameter which indicates the location of the KAR file. The parameter should be specified in [base64 binary data format][1] (as in the example curl command below).
 
-You can upload a KAR file by typing:
+You can upload a KAR file by typing the following in a terminal:
 
     curl 'http://localhost:8181/restconf/operations/installer:upload-kar' -H 'Host: localhost:8181' -H 'Content-Type: application/yang.data+json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post -d '{"input":{"data":"'"$(base64 --wrap=0 upload/dummy-1.0.0.kar)"'"}}' -H 'Connection: keep-alive' -H "Expect:"
     
