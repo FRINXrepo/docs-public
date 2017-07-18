@@ -83,15 +83,20 @@ For more info see: [Getting started with Logstash][7] and [Log4j][8]
 
 **Run ODL**
 
-Start a karaf session: `KARAF_HOME/bin/karaf` All information is logged to an Elasticsearch node though Logstash where you can define for example pipelines.
+Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
-Kibana can be downloaded locally or as a Docker image (several exist). [Configuring Kibana][9]
+Start karaf with the command
+
+    bin/karaf
+    
+
+All information is logged to an Elasticsearch node though Logstash where you can define for example pipelines.
 
 **Other links**  
-[Elastic search products][10]  
-[Installing Logstash][11]  
-[Running Logstash and Elasticsearch in docker][12]  
-[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][13]
+[Elastic search products][9]  
+[Installing Logstash][10]  
+[Running Logstash and Elasticsearch in docker][11]  
+[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][12]
 
 <table>
   <thead>
@@ -155,8 +160,7 @@ Kibana can be downloaded locally or as a Docker image (several exist). [Configur
  [6]: https://www.elastic.co/downloads/kibana
  [7]: https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html "Getting started with Logstash"
  [8]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-log4j.html "Log4j"
- [9]: https://www.elastic.co/guide/en/kibana/current/index.html "Configuring KIbana"
- [10]: https://www.elastic.co/products "Elastic search products"
- [11]: https://www.elastic.co/guide/en/logstash/current/installing-logstash.html "Installing Logstash"
- [12]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
- [13]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
+ [9]: https://www.elastic.co/products "Elastic search products"
+ [10]: https://www.elastic.co/guide/en/logstash/current/installing-logstash.html "Installing Logstash"
+ [11]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
+ [12]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
