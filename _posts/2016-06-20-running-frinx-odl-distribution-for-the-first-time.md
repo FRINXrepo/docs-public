@@ -1,8 +1,6 @@
 ---
 ID: 1650
-post_title: >
-  Running the FRINX ODL Distribution for
-  the first time
+post_title: Running the FRINX ODL Distribution
 author: frinxeditor
 post_excerpt: ""
 layout: post
@@ -11,16 +9,18 @@ permalink: >
 published: true
 post_date: 2016-06-20 08:13:07
 ---
+This guide explains how to run the distribution for the first time. If you have run it previously, please see [this guide][1]
+
 ***System requirements***  
 **RAM:** 2GB minimum; we recommend 4GB. **Java:** Releases based on Beryllium and Boron (and subsequent releases) require Java 8. **Linux** Unless stated otherwise, this documentation assumes you are using Linux.
 
 **Download and activate the FRINX ODL Distribution**  
 Please click on the following link to download a zip archive of the FRINX ODL Distribution:
 
-*Boron*: [distribution-karaf-2.3.0.frinx.zip ][1]  
-*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][2]
+*Boron*: [distribution-karaf-2.3.0.frinx.zip ][2]  
+*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][3]
 
-By downloading the file you accept the FRINX software agreement: [EULA][3]
+By downloading the file you accept the FRINX software agreement: [EULA][4]
 
 **Start your FRINX ODL Distribution for the first time**
 
@@ -29,7 +29,7 @@ To activate your installation, unzip the file and open the directory. Enter th
     bin/karaf frinx.createtoken [frinx-license_secret-token]
     
 
-## Non-standard use
+## Non-standard setups
 
 **Activating the FRINX ODL Distribution behind a proxy**  
 Please set up java system properties as described here: <https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html>
@@ -61,6 +61,7 @@ Copy frinx.license.cfg back to OFFLINE machine, replacing the file in karaf's e
 
     OFFLINE# $KARAF_HOME/bin/karaf
 
- [1]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
- [2]: https://license.frinx.io/download/distribution-karaf-1.4.6.frinx.zip
- [3]: https://frinx.io/wp-content/uploads/2016/06/7793505-v7-Frinx-ODL-Distribution-Software-End-User-License-Agreement.pdf
+ [1]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-after-activation.html
+ [2]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
+ [3]: https://license.frinx.io/download/distribution-karaf-1.4.6.frinx.zip
+ [4]: https://frinx.io/wp-content/uploads/2016/06/7793505-v7-Frinx-ODL-Distribution-Software-End-User-License-Agreement.pdf
