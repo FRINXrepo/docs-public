@@ -44,17 +44,17 @@ Now open org.ops4j.pax.logging.cfg in a text editor.
 
 At the top of the file you will see the following lines:
 
-# Root logger
+> # Root logger
+> 
+> log4j.rootLogger=INFO, async, osgi:*
+> 
+> log4j.category.org.apache.karaf.features=DEBUG log4j.category.io.frinx=DEBUG log4j.category.org.opendaylight.controller.cluster=DEBUG log4j.category.org.opendaylight.netconf.sal.connect=DEBUG log4j.category.org.opendaylight.netconf.topology=DEBUG
 
-log4j.rootLogger=INFO, async, osgi:*
+Replace the first four of these lines with the following:
 
-log4j.category.org.apache.karaf.features=DEBUG log4j.category.io.frinx=DEBUG log4j.category.org.opendaylight.controller.cluster=DEBUG log4j.category.org.opendaylight.netconf.sal.connect=DEBUG log4j.category.org.opendaylight.netconf.topology=DEBUG
-
-replace the first four of these lines with the following:
-
-log4j.rootLogger= INFO, out,ELKTransform,osgi:*
-
-log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
+> log4j.rootLogger= INFO, out,ELKTransform,osgi:*
+> 
+> log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
 
 Save the file.
 
