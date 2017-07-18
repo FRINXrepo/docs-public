@@ -42,10 +42,8 @@ Backup your old Log4j config if it exists:
 
 Now open org.ops4j.pax.logging.cfg in a text editor.
 
-At the top of the file you will see the following lines:
+At the top of the file, under 'Root logger' you will see the following lines:
 
-> # Root logger
-> 
 > log4j.rootLogger=INFO, async, osgi:*
 > 
 > log4j.category.org.apache.karaf.features=DEBUG log4j.category.io.frinx=DEBUG log4j.category.org.opendaylight.controller.cluster=DEBUG log4j.category.org.opendaylight.netconf.sal.connect=DEBUG log4j.category.org.opendaylight.netconf.topology=DEBUG
