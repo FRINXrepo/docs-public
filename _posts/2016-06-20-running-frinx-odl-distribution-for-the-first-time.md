@@ -10,17 +10,15 @@ published: true
 post_date: 2016-06-20 08:13:07
 ---
 ***System requirements***  
-**RAM:** 2GB minimum; we recommend 4GB.
-
-**Java:** Releases based on Beryllium and Boron (and subsequent releases) require Java 8.
-
-**Linux** Unless stated otherwise, this documentation assumes you are using Linux.
+**RAM:** 2GB minimum; we recommend 4GB. **Java:** Releases based on Beryllium and Boron (and subsequent releases) require Java 8. **Linux** Unless stated otherwise, this documentation assumes you are using Linux.
 
 **Download and activate the FRINX ODL Distribution**  
 Please click on the following link to download a zip archive of the FRINX ODL Distribution:
 
 *Boron*: [distribution-karaf-2.3.0.frinx.zip ][1]  
-*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][2] **By downloading the file you accept the FRINX software** [EULA][3]
+*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][2]
+
+By downloading the file you accept the FRINX software agreement: [EULA][3]
 
 **Start your FRINX ODL Distribution for the first time**
 
@@ -28,6 +26,8 @@ To activate your installation, unzip the file and open the directory. Enter th
 
     bin/karaf frinx.createtoken [frinx-license_secret-token]
     
+
+## Non-standard use
 
 **Activating the FRINX ODL Distribution behind a proxy**  
 Please set up java system properties as described here: <https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html>
