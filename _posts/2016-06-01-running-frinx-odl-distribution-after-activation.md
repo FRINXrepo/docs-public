@@ -1,8 +1,6 @@
 ---
 ID: 752
-post_title: >
-  Running the FRINX ODL Distribution after
-  activation
+post_title: Running after activation
 author: frinxeditor
 post_excerpt: ""
 layout: post
@@ -11,6 +9,8 @@ permalink: >
 published: true
 post_date: 2016-06-01 14:40:57
 ---
+Running the FRINX ODL distribution after initial activation.
+
 After running for the first time and generating a local license file, you no longer need to provide a token when starting karaf.
 
 To start karaf, go to your Frinx ODL Distribution folder, for example /home/username/distribution-karaf-2.3.0.frinx.
