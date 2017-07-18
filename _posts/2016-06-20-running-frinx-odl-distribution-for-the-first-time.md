@@ -17,7 +17,10 @@ post_date: 2016-06-20 08:13:07
 **Linux** Unless stated otherwise, this documentation assumes you are using Linux.
 
 **Download and activate the FRINX ODL Distribution**  
-Please click on the following link to download a zip archive of the FRINX ODL Distribution for Boron [distribution-karaf-2.3.0.frinx.zip ][1] and for Beryllium [distribution-karaf-1.4.6.frinx.zip ][2]By downloading the file you accept the FRINX software [EULA][3]
+Please click on the following link to download a zip archive of the FRINX ODL Distribution:
+
+*Boron*: [distribution-karaf-2.3.0.frinx.zip ][1]  
+*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][2] **By downloading the file you accept the FRINX software** [EULA][3]
 
 **Start your FRINX ODL Distribution for the first time**
 
