@@ -9,6 +9,11 @@ permalink: >
 published: true
 post_date: 2016-08-31 13:41:48
 ---
+To use this functionality, run the following command in the karaf console:
+
+    feature:install frinx-installer-gui
+    
+
 The API is based on REST services. This means that functionality can be tested using CURL. This bundle consists of 4 services:
 
 **Show version**
@@ -17,7 +22,7 @@ This displays the current Karaf distribution version. For example:
 
 By REST (as POST):
 
-    http://[host]:[port]/restconf/operations/installer:show-version</em>
+    http://[host]:[port]/restconf/operations/installer:show-version
     
 
 Or typing:
@@ -40,7 +45,7 @@ For example:
 
 By REST (as POST):
 
-    http://[host]:[port]/restconf/operational/installer:feature</em>
+    http://[host]:[port]/restconf/operational/installer:feature
     
 
 Or typing:
@@ -61,7 +66,7 @@ For example:
 
 By REST (as POST):
 
-    http://[host]:[port]/restconf/operations/installer:monitor-resources</em>
+    http://[host]:[port]/restconf/operations/installer:monitor-resources
     
 
 Or typing
