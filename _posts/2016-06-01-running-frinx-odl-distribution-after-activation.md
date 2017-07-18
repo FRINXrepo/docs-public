@@ -1,34 +1,35 @@
 ---
 ID: 752
-post_title: Running after activation
+post_title: >
+  Running the FRINX ODL Distribution after
+  activation
 author: frinxeditor
-post_date: 2016-06-01 14:40:57
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/running-frinx-odl-distribution-after-activation.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-01 14:40:57
 ---
-Once a local license file has been generated you can start karaf without providing a token.
+After running for the first time and generating a local license file, you no longer need to provide a token when starting karaf.
 
-Using the command line, navigate to the folder that was just extracted. Now run
+To start karaf, go to your Frinx ODL Distribution folder, for example /home/username/distribution-karaf-2.3.0.frinx.
 
-    bin/karaf clean
+Then type
+
+    bin/karaf 
     
 
-The clean parameter is optional and clears the karaf cache. When restarting the controller, using this option will delete features you previously installed. This is useful when recovering the controller to a known state.
+If you want to start the controller cleanly - that is, deleting any features you previously installed - then you can instead use
 
-You should see a karaf prompt similar to this one:
+    /bin/karaf clean
+    
 
-      ./bin/karaf clean
+The clean parameter clears the karaf cache. This is useful when recovering the controller to a known state.
+
+After starting karaf you should see a karaf prompt similar to this one:
+
+      /bin/karaf clean
            _________      .__                  
            __________ __|__| ____ __  ___    
              / | ___  V__  |/      /  /    
