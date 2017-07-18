@@ -20,7 +20,7 @@ The API is based on REST services. This means that functionality can be tested u
 
 This displays the current Karaf distribution version. For example:
 
-By REST (as GET). This can be done in a Web browser or using Postman (username: admin password: admin)
+By REST (as GET). (username: admin password: admin). This can be done in a Web browser or using Postman.
 
     http://[host]:[port]/restconf/operations/installer:show-version
     
@@ -43,7 +43,7 @@ name - version - repository - description - installed (boolean value, whether it
 
 For example:
 
-By REST (as GET) This can be done in a Web browser or using Postman (username: admin password: admin):
+By REST (as GET). (username: admin password: admin). This can be done in a Web browser or using Postman.
 
     http://[host]:[port]/restconf/operational/installer:features
     
@@ -64,7 +64,7 @@ This displays base information about system, memory and disk management
 
 For example:
 
-By REST (as GET) This can be done in a Web browser or using Postman (username: admin password: admin):
+By REST (as GET). (username: admin password: admin). This can be done in a Web browser or using Postman.
 
     http://[host]:[port]/restconf/operations/installer:monitor-resources
     
