@@ -12,7 +12,7 @@ post_date: 2017-01-03 08:19:00
 See our Elasticsearch video [here][1]
 
 **Prerequisites**  
-1\. [FRINX distribution][2]  
+1\. [Install the FRINX ODL distribution][2]  
 2\. [Install Logstash][3] - Collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.  
 3\. [Install Elasticsearch][4] - Store the data that Logstash processed and provide a full-text index  
 4\. Kibana (optional) - Web console allowing the user to interact with Elasticsearch. Kibana can be [downloaded][5] or pulled as a Docker image - several exist.
