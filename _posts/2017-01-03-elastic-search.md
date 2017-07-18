@@ -13,7 +13,10 @@ See our Elasticsearch video [here][1]
 
 **Prerequisites**  
 1\. [Install the FRINX ODL distribution][2]  
-2\. Install Logstash, ElasticSearch and Kibana. The easiest way is to pull a pre-configured Docker image which includes all three. We have used [this one][3] and recommend it. If you use this method you can ignore prerequisites 3,4 and 5 below.
+2\. Install Logstash, ElasticSearch and Kibana. The easiest way is to pull a pre-configured Docker image which includes all three. We have used [this one][3] and recommend it. If you use this method you can ignore prerequisites 3,4 and 5 below.You can pull the image with:
+
+    sudo docker pull sebp/elk
+    
 
 3\. [Install Logstash][4] - Collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.  
 4\. [Install Elasticsearch][5] - Store the data that Logstash processed and provide a full-text index  
