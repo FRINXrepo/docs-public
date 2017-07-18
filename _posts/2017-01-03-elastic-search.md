@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-01-03 08:19:00
 ---
-See our Elasticsearch video [here][1]
+For an introduction, see our Elasticsearch video [here][1]
 
 **Prerequisites**  
 1\. [Install the FRINX ODL distribution][2]  
