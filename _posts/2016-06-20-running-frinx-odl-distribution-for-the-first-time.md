@@ -23,7 +23,7 @@ To activate your installation, unzip the file and open the directory. Enter th
     
 
 **Activating the FRINX ODL Distribution behind a proxy**  
-Please set up java system properties as described here: <<https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html>>
+Please set up java system properties as described here: <https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html>
 
 This means running karaf with something like this:
 
