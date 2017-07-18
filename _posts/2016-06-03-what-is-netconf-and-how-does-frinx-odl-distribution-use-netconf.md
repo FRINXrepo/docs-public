@@ -2,24 +2,20 @@
 ID: 1234
 post_title: 'NETCONF: Intro'
 author: frinxeditor
-post_date: 2016-06-03 11:31:07
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/what-is-netconf-and-how-does-frinx-odl-distribution-use-netconf.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-03 11:31:07
 ---
 #### What is NETCONF?
 
-NETCONF is an Internet Engineering Task Force (IETF) protocol used to “create, recover, update, and delete configurations of network devices”. NETCONF operations are overlaid on the Remote Procedure Call (RPC) layer and may be described in either XML or JSON. An introduction to the IEFT working group and a summary of relevant RFCs and drafts is available at
+NETCONF is an Internet Engineering Task Force (IETF) protocol used to “create, recover, update, and delete configurations of network devices”.
+
+NETCONF operations are overlaid on the Remote Procedure Call (RPC) layer and may be described in either XML or JSON.
+
+An introduction to the IEFT working group and a summary of relevant RFCs and drafts is available at
 
 <http://www.netconfcentral.org/> and the white paper included.
 
