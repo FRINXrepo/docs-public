@@ -45,7 +45,7 @@ For example:
 
 By REST (as POST):
 
-    http://[host]:[port]/restconf/operational/installer:feature
+    http://[host]:[port]/restconf/operational/installer:features
     
 
 Or typing:
