@@ -13,12 +13,17 @@ For an introduction, see our Elasticsearch video [here][1]
 
 **Prerequisites**  
 1\. [Install the FRINX ODL distribution][2]  
-2\. Install Logstash, ElasticSearch and Kibana. The easiest way is to pull a pre-configured Docker image which includes all three. We have used [this one][3] and recommend it. You can pull the image with:
+2\. Install Logstash, ElasticSearch and Kibana. The easiest way is to pull a pre-configured Docker image which includes all three. We have used [this one][3] and recommend it. *If you use this method you can ignore prerequisites 3,4 and 5 below.*
+
+You can pull the image with:
 
     sudo docker pull sebp/elk
     
 
-*If you use this method you can ignore prerequisites 3,4 and 5 below.*
+Now start up a container from the image:
+
+    sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk
+    
 
 3\. [Install Logstash][4] - Collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.  
 4\. [Install Elasticsearch][5] - Store the data that Logstash processed and provide a full-text index  
@@ -35,31 +40,27 @@ Backup your old Log4j config if it exists:
     mv org.ops4j.pax.logging.cfg org.ops4j.pax.logging.cfg.bkp
     
 
-Create a new config file using the following command
+Now open org.ops4j.pax.logging.cfg in a text editor.
 
-    cat << EOF > org.ops4j.pax.logging.cfg
-    
+At the top of the file you will see the following lines:
 
-This will change the first four lines of the config file:
+# Root logger
 
-    log4j.rootLogger= INFO, out,ELKTransform,osgi:* log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500  log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
-    
-    # CONSOLE appender not used by default  
-    log4j.appender.stdout=org.apache.log4j.ConsoleAppender log4j.appender.stdout.layout=org.apache.log4j.PatternLayout log4j.appender.stdout.layout.ConversionPattern=%d{ISO8601} | %-5.5p | %-16.16t | %-32.32c{1} | %X{bundle.id} - %X{bundle.name} - %X{bundle.version} | %m%n
-    
-    # Async appender forwarding to file appender  
-    log4j.appender.async=org.apache.log4j.AsyncAppender log4j.appender.async.appenders=out
-    
-    # File appender  
-    log4j.appender.out=org.apache.log4j.RollingFileAppender log4j.appender.out.layout=org.apache.log4j.PatternLayout log4j.appender.out.layout.ConversionPattern=%d{ISO8601} | %-5.5p | %-16.16t | %-32.32c{1} | %X{bundle.id} - %X{bundle.name} - %X{bundle.version} | %m%n log4j.appender.out.file=${karaf.data}/log/karaf.log log4j.appender.out.append=true log4j.appender.out.maxFileSize=1MB log4j.appender.out.maxBackupIndex=10
-    
-    # Sift appender  
-    log4j.appender.sift=org.apache.log4j.sift.MDCSiftingAppender log4j.appender.sift.key=bundle.name log4j.appender.sift.default=karaf log4j.appender.sift.appender=org.apache.log4j.FileAppender log4j.appender.sift.appender.layout=org.apache.log4j.PatternLayout log4j.appender.sift.appender.layout.ConversionPattern=%d{ISO8601} | %-5.5p | %-16.16t | %-32.32c{1} | %m%n log4j.appender.sift.appender.file=${karaf.data}/log/${bundle.name}.log log4j.appender.sift.appender.append=true EOF \``\`  
-    
+log4j.rootLogger=INFO, async, osgi:*
+
+log4j.category.org.apache.karaf.features=DEBUG log4j.category.io.frinx=DEBUG log4j.category.org.opendaylight.controller.cluster=DEBUG log4j.category.org.opendaylight.netconf.sal.connect=DEBUG log4j.category.org.opendaylight.netconf.topology=DEBUG
+
+replace the first four of these lines with the following:
+
+log4j.rootLogger= INFO, out,ELKTransform,osgi:*
+
+log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
+
+Save the file.
 
 **Configure Logstash**
 
-We must configure socket lister for Logstash by creating a file named logstash.conf in the logstash directory. Create the file, and enter the following into it. Paramters in [] are explained below:
+We must now configure socket listener for Logstash by creating a file named logstash.conf in the logstash directory, which was created automatically when you started the Docker container. Create the file, and enter the following into it. Paramters in [] are explained below:
 
     input {
       log4j {
@@ -90,7 +91,7 @@ Start karaf with the command
     bin/karaf
     
 
-All information is logged to an Elasticsearch node though Logstash where you can define for example pipelines.
+All logging information is now logged to an Elasticsearch node though Logstash. This information can be analysed with Kibana.
 
 **Other links**  
 [Elastic search products][9]  
