@@ -52,7 +52,7 @@ Replace the first four of these lines with the following:
 
 > log4j.rootLogger= INFO, out,ELKTransform,osgi:*
 > 
-> log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1 log4j.throwableRenderer=org.apache.log4j.OsgiThrowableRenderer
+> log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1
 
 Save the file.
 
