@@ -1,6 +1,8 @@
 ---
 ID: 1650
-post_title: Running for the first time
+post_title: >
+  Running the FRINX ODL Distribution for
+  the first time
 author: frinxeditor
 post_excerpt: ""
 layout: post
