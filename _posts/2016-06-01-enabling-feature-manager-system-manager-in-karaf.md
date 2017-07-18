@@ -28,8 +28,10 @@ You should see a link 'Feature Manager'.
 **Enabling System Manager frontend – BETA**  
 This feature is in BETA release state, it is installed automatically but uses separate authentication to the Feature Manager. To install manually, type:
 
-    frinx-user@root> feature:install frinx-config-gui Open this link in a browser:  
+    frinx-user@root> feature:install frinx-config-gui 
     
+
+Then open this link in a browser:
 
 <http://localhost:8181/index.html#/configmgr/index>  
 
