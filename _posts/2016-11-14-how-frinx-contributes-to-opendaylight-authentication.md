@@ -2,20 +2,12 @@
 ID: 2562
 post_title: RADIUS
 author: frinxadmin
-post_date: 2016-11-14 07:44:22
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/how-frinx-contributes-to-opendaylight-authentication.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-11-14 07:44:22
 ---
 Within OpenDaylight, authentication and authorization is handled by the AAA feature, of which Apache Shiro is the core component. Apache Shiro can itself cooperate with third party authentication and authorization tools. However, in its current implementation within OpenDaylight it supports only LDAP.
 
