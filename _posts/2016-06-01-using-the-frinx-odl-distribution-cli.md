@@ -2,20 +2,12 @@
 ID: 772
 post_title: Karaf CLI
 author: frinxeditor
-post_date: 2016-06-01 14:45:50
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/using-the-frinx-odl-distribution-cli.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-01 14:45:50
 ---
 The Apache Karaf container used by the Frinx ODL Distribution supports three different start modes:
 
@@ -30,7 +22,7 @@ Uses the `bin/karaf` Linux script (`binkaraf.bat` on Windows). It's the default 
 
 a. On Linux:
 
-    ./bin/karaf
+    /bin/karaf
     
            _________      .__                  
            __________ __|__| ____ __  ___    
