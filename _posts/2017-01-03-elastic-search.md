@@ -80,7 +80,7 @@ Set the **logstash port** to **9500**. The **elk_host** and **elk_port** depend 
 
 For more info see: [Getting started with Logstash][7] and [Log4j][8]
 
-**Run ODL**
+**Run the FRINX ODL Distribution**
 
 Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
