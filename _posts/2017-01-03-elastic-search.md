@@ -21,7 +21,7 @@ The base configuration is to use log4j socket listener for Logstash and the log4
 
 **Configure Log4j**
 
-In the Frinx ODL distribution, go to your `KARAF_HOME/etc` directory.
+In the Frinx ODL distribution, go to your /etc directory.
 
 Backup your old config if it exists:
 
