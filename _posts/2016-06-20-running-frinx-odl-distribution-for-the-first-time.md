@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2016-06-20 08:13:07
 ---
-**System requirements**  
+***System requirements***  
 2GB RAM minimum; we recommend 4GB. Releases based on Beryllium and Boron (and subsequent releases) require Java 8. Unless stated otherwise, this documentation assumes you are using Linux.
 
 **Download and activate the FRINX ODL Distribution**  
