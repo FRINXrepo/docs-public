@@ -53,7 +53,7 @@ In the Frinx ODL distribution, go to your /etc directory.
 
 Backup your old Log4j config if it exists:
 
-    mv org.ops4j.pax.logging.cfg org.ops4j.pax.logging.cfg.bkp
+    cp org.ops4j.pax.logging.cfg org.ops4j.pax.logging.cfg.bkp
     
 
 Now open org.ops4j.pax.logging.cfg in a text editor.
