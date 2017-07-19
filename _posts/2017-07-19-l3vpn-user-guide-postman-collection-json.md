@@ -1,13 +1,13 @@
 ---
-ID: 4824
-post_title: CLI user guide postman collection.json
+ID: 5147
+post_title: L3VPN user guide postman collection.json
 author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/frinx-documents/postman-json.html
+  https://frinx.io/frinx-documents/l3vpn-user-guide-postman-collection-json.html
 published: true
-post_date: 2017-06-27 07:18:25
+post_date: 2017-07-19 11:01:33
 ---
     {
        "variables": [],
