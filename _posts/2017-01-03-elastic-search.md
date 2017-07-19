@@ -130,9 +130,8 @@ All logging information is now logged to an Elasticsearch node though Logstash. 
 
 **Other links**  
 [Elastic search products][9]  
-[Installing Logstash][10]  
-[Running Logstash and Elasticsearch in docker][11]  
-[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][12]
+[Running Logstash and Elasticsearch in docker][10]  
+[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][11]
 
 <table>
   <thead>
@@ -197,6 +196,5 @@ All logging information is now logged to an Elasticsearch node though Logstash. 
  [7]: https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html "Getting started with Logstash"
  [8]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-log4j.html "Log4j"
  [9]: https://www.elastic.co/products "Elastic search products"
- [10]: https://www.elastic.co/guide/en/logstash/current/installing-logstash.html "Installing Logstash"
- [11]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
- [12]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
+ [10]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
+ [11]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
