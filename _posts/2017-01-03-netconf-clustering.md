@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-01-03 12:13:47
 ---
-Follow the steps below in order to configure NETCONF. Note that it doesn't matter whether you are running on a single node or a cluster - the steps are the same. If you are running a cluster then simply enter these commands on one of the cluster nodes and that node will pass the information to the other nodes.
+Follow the steps below in order to configure NETCONF. Note that it doesn't matter whether you are running on a single node or a cluster - the steps are the same. If you are running a cluster then simply enter these commands on ogene of the cluster nodes and that node will pass the information to the other nodes.
 
 **Netconf mount**  
 Before we can add the NETCONF device we must configure a set of parameters (via the command line). Enter the following commands in a terminal, using the values that are relevant for your particular case.
@@ -89,7 +89,7 @@ Toaster example response:
     }
     
 
-**Get list of netconf devices + their connection status**  
+**Getting a list of netconf devices + their connection status**  
 Replace ${ODL_HOST} with the IP address of the machine on which you are running the FRINX OpenDaylight distribution.
 
     curl --user admin:admin -v "http://${ODL_HOST}:8181/restconf/operational/network-topology:network-topology/topology/topology-netconf/?prettyPrint=true"
