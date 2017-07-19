@@ -118,7 +118,8 @@ Now start logstash
     bin/logstash
     
 
-**Operation** We have already started elasticsearch, kibana, and logstash. Now start karaf as normal by going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
+**Operation**  
+We have already started elasticsearch, kibana, and logstash. Now start karaf as normal by going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
 Start karaf
 
