@@ -9,11 +9,11 @@ permalink: >
 published: true
 post_date: 2017-06-26 10:10:28
 ---
+*The postman collection for the L3VPN service module can be accessed [here][1]*
+
 The goal of this project is to automate provisioning of Layer 3 Virtual Private Network (L3VPN) on Service Provider (SP) routers.
 
-This is done by using the Frinx ODL controller which configures routers based on intent of the L3VPN service. The Frinx ODL controller translates the L3VPN service abstraction to network element configuration. ![L3VPN Service][1]
-
-The postman collection for the L3VPN service module can be accessed [here][2]
+This is done by using the Frinx ODL controller which configures routers based on intent of the L3VPN service. The Frinx ODL controller translates the L3VPN service abstraction to network element configuration. ![L3VPN Service][2]
 
 ## A bit about L3VPN
 
@@ -211,7 +211,7 @@ Installs L3VPN Provider with IOS-XRv NEP and NETCONF connector. This feature is 
 **Description:**  
 Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for testing and demonstration purposes where real PE devices are not available.
 
-The postman collection for the L3VPN service module can be accessed [here][2]
+*The postman collection for the L3VPN service module can be accessed [here][1]*
 
 <table>
   <thead>
@@ -267,8 +267,8 @@ The postman collection for the L3VPN service module can be accessed [here][2]
   </tbody>
 </table>
 
- [1]: https://frinx.io/wp-content/uploads/2017/06/l3vpn_service.png "L3VPN Service"
- [2]: https://github.com/FRINXio/postman-collections
+ [1]: https://github.com/FRINXio/postman-collections
+ [2]: https://frinx.io/wp-content/uploads/2017/06/l3vpn_service.png "L3VPN Service"
  [3]: https://frinx.io/wp-content/uploads/2017/06/problem.png "Example of problem"
  [4]: https://frinx.io/wp-content/uploads/2017/06/problem_solution.png "L3VPN between sites"
  [5]: https://frinx.io/wp-content/uploads/2017/06/terminology.png "Terminology in picture"
