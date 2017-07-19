@@ -74,7 +74,19 @@ Save the file.
 
 **Configure Logstash**
 
-We must now configure socket listener for Logstash by creating a file named logstash.conf in /etc/logstash. Create the file, and enter the following into it. Parameters in [] are explained below:
+We must now configure socket listener for Logstash.
+
+Go to /etc/logstash
+
+    cd /etc/logstash
+    
+
+Create a blank file named logstash.conf
+
+    sudo touch logstash.conf
+    
+
+Create the following content in the file and save it. Parameters in [] are explained below:
 
     input {
       log4j {
