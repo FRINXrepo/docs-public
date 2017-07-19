@@ -98,8 +98,8 @@ Create the following content in the file and save it. Parameters in [] are expla
     output {
       elasticsearch {
         protocol => "http"
-        host => "[elk_host]"
-        port => "[elk_port]"
+        host => [elk_host]
+        port => [elk_port]
       }
     }
     
