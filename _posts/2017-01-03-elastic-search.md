@@ -44,7 +44,7 @@ Save the file.
 
 **Configure Logstash**
 
-We must now configure socket listener for Logstash by creating a file named logstash.conf in the logstash directory, which was created automatically when you started the Docker container. Create the file, and enter the following into it. Parameters in [] are explained below:
+We must now configure socket listener for Logstash by creating a file named logstash.conf in /etc/logstash. Create the file, and enter the following into it. Parameters in [] are explained below:
 
     input {
       log4j {
