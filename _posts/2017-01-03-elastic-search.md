@@ -110,13 +110,6 @@ For more info see: [Getting started with Logstash][6] and [Log4j][7]
 
 **Operation**
 
-Start Elasticsearch, logstash and kibana
-
-    sudo service elasticsearch start
-    sudo service kibana start
-    sudo service logstash start
-    
-
 Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
 Start karaf
