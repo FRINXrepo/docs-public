@@ -81,7 +81,7 @@ From your logstash folder (the folder created from unpackaging the download file
 
 Create a blank file named logstash.conf
 
-    touch logstash.conf
+    touch frinx.conf
     
 
 Enter the following into the file and save it. Parameters in [] are explained below:
@@ -89,20 +89,14 @@ Enter the following into the file and save it. Parameters in [] are explained be
     input {
       log4j {
         mode => server
-        port => [logstash_port]
+        port => 9500
         type => "log4j"
       }
     }
     output {
-      elasticsearch {
-        protocol => "http"
-        host => [elk_host]
-        port => [elk_port]
-      }
+      elasticsearch { hosts => ["localhost:9200"] }
     }
     
-
-Set the **logstash port** to **9500**. The **elk_host** and **elk_port** depend on how and where Elasticsearch is installed - by default **Logstash** and **Elasticsearch** are on the same server. So for example host is **127\.0.0.1** and the port is the default **9200**.
 
 For more info see: [Getting started with Logstash][7] and [Log4j][8]
 
@@ -113,14 +107,9 @@ We now need to start logstash. Move to your main logstash folder:
     cd ..
     
 
-Now start logstash
+The start logstash with
 
-    We started elasticsearch and kibana after downloading (see the start of this guide).
-    
-
-We need to start logstash. In your logstash folder (the folder created from unpackaging the download file at the start of this guide), type
-
-    bin/logstash -f config/logstash.conf
+    bin/logstash -f config/frinx.conf
     
 
 **Operation**  
