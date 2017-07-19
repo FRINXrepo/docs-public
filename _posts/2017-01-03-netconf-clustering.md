@@ -2,20 +2,12 @@
 ID: 3425
 post_title: NETCONF Clustering
 author: frinxadmin
-post_date: 2017-01-03 12:13:47
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/netconf-clustering.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-03 12:13:47
 ---
 Follow the steps below in order to configure NETCONF. Note that it doesn't matter whether you are running on a single node or a cluster - the steps are the same. If you are running a cluster then simply enter these commands on one of the cluster nodes and that node will pass the information to the other nodes.
 
@@ -109,7 +101,9 @@ To delete the remote NETCONF device from OpenDaylight, enter the following comma
     curl --user admin:admin -X DELETE "http://${ODL_HOST}:8181/restconf/config/network-topology:network-topology/topology/topology-netconf/node/${NETCONF_NAME}" -v
     
 
-**Using SROS 13 (not relevant for most customers)**  
+## Vendor/device specific implementations
+
+**Using SROS 13**  
 To configure netconf, use following restconf call. Note the first line below (which configures the IP of the machine hosting the FRINX OpenDaylight distribution) should be edited as required. Within the first line of the curl command, replace ${ODL_HOST} with the IP address of the machine on which the FRINX OpenDaylight distribution is running: :
 
     ODL_HOST=127.0.0.1 # change this accordingly
@@ -133,7 +127,7 @@ To configure netconf, use following restconf call. Note the first line below (wh
 
 The only difference between normal configuration and this is the customization factory and 2 added capabilities that are missing in hello message.
 
-**Using SROS 140R04 (not relevant for most customers)**  
+**Using SROS 140R04**  
 For this version, use `netconf-customization-alu-ignore-candidate` as customization factory. The purpose of the customization is to ensure that the response from the SROS device is in the required format.
 
 To configure the mountpoint for SROS 14, enter the following command, replacing ${ODL_HOST} with the IP address of the machine on which the FRINX OpenDaylight distribution is running:
