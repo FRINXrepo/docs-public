@@ -1,8 +1,6 @@
 ---
 ID: 5137
-post_title: >
-  Frinx ODL Distribution Base Feature
-  Content – Rel. 2.3.0
+post_title: 'Base Feature Content: FRINX Boron 2.3.0'
 author: frinxadmin
 post_excerpt: ""
 layout: post
