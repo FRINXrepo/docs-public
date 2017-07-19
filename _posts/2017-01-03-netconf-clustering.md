@@ -67,7 +67,7 @@ Toaster example response:
     }
     
 
-**Getting operational data from device (SROS does not support this. For SROS devices, see the end of this document)**  
+**Getting operational data from device** *(SROS does not support this. For SROS devices, see the end of this document)*  
 Similar to the above command, but extracts operational rather than config data. Again, replace ${ODL_HOST} with the IP address of the machine on which you are running the FRINX OpenDaylight distribution.
 
     curl --user admin:admin -v "http://${ODL_HOST}:8181/restconf/operational/network-topology:network-topology/topology/topology-netconf/node/${NETCONF_NAME}/yang-ext:mount/?prettyPrint=true" -H "Content-Type: application/yang.data+json"
