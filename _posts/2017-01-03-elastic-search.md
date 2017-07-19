@@ -21,7 +21,7 @@ For an introduction, see our Elasticsearch video [here][1]
 
 In the unpackaged folder, start elasticsearch with
 
-    /bin/elasticsearch
+    bin/elasticsearch
     
 
 3\. [Install Kibana][5] - download the version appropriate to your system. For the Linuz-64 bit tar.gz download file, unpackage it with
@@ -31,7 +31,7 @@ In the unpackaged folder, start elasticsearch with
 
 In the unpackaged folder, start kibana with
 
-    /bin/kibana
+    bin/kibana
     
 
 4\. [Install logstash][6] - which we'll use for collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.
