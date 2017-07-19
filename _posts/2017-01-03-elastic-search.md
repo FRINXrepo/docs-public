@@ -108,7 +108,7 @@ Set the **logstash port** to **9500**. The **elk_host** and **elk_port** depend 
 
 For more info see: [Getting started with Logstash][4] and [Log4j][5]
 
-**Run the FRINX ODL Distribution**
+**Operation**
 
 Start Elasticsearch, logstash and kibana
 
@@ -117,8 +117,6 @@ Start Elasticsearch, logstash and kibana
     sudo service logstash start
     
 
-Open kibana in a Web browser by going to http://localhost:5601
-
 Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
 Start karaf
@@ -126,7 +124,7 @@ Start karaf
     bin/karaf
     
 
-All logging information is now logged to an Elasticsearch node though Logstash. This information can be analysed with Kibana.
+All logging information is now logged to an Elasticsearch node though Logstash. This information can be analysed with Kibana. Open Kibana in a Web browser by going to <http://localhost:5601>
 
 **Other links**  
 [Elastic search products][6]  
