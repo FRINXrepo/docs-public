@@ -11,7 +11,7 @@ post_date: 2016-08-31 13:41:48
 ---
 To use this functionality, run the following command in the karaf console:
 
-    feature:install frinx-installer-gui
+    feature:install frinx-installer-backend
     
 
 The API is based on REST services. This means that functionality can be tested using CURL. This bundle consists of 4 services:
@@ -64,7 +64,7 @@ This displays base information about system, memory and disk management
 
 For example:
 
-By REST (as GET). (username: admin password: admin). This can be done in a Web browser or using Postman.
+By REST (as POST). (username: admin password: admin). This can be done in a Web browser or using Postman.
 
     http://[host]:[port]/restconf/operations/installer:monitor-resources
     
