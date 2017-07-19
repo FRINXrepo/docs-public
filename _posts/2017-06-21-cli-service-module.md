@@ -9,9 +9,11 @@ permalink: >
 published: true
 post_date: 2017-06-21 10:46:36
 ---
-The CLI southbound plugin for Opendaylight enables the controller to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underyling transport and can manage devices over the CLI in the same exact way as devices over netconf.
+*The postman collection for the L3VPN service module can be accessed [here][1]*
 
-![CLI southbound plugin][1]
+The CLI southbound plugin for Opendaylight enables the controller to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underlying transport and can manage devices over the CLI in the same exact way as devices over netconf.
+
+![CLI southbound plugin][2]
 
 ## Architecture
 
@@ -43,7 +45,7 @@ The plugin relies on MD-SAL and its concept of mountpoints to expose management 
 
 The following diagram shows the layers of a CLI mountpoint:
 
-![CLI mountpoint][2]
+![CLI mountpoint][3]
 
 #### APIs
 
@@ -85,7 +87,7 @@ Each unit has to be registered under a specific device type(s) e.g. an interface
 
 The following diagram shows an IOS device translation plugin split into multiple units:
 
-![IOS translation plugin][3]
+![IOS translation plugin][4]
 
 #### Transport layer
 
@@ -106,14 +108,14 @@ Just as there are 2 types of data, there are 2 streams of data in the CLI southb
     *   user/application intended configuration for the device 
     *   translation plugins/units need to handle this configuration in data handlers as C(reate), U(pdate) and D(elete) operations - these data flow only towards the device - these data are cached in the mountpoint so when application performs read Config, it gets the cached version
 
-![Config data][4]
+![Config data][5]
 
 *   **Operational** 
     *   actual configuration on the device
     *   optionally statistics from the device
     *   translation plugins/units need to pull these data out of the device when R(ead) operation is requested
 
-![Operational data][5]
+![Operational data][6]
 
 *   **RPCs** stand on their own and can actually encapsulate any command(s) on the device.
 
@@ -163,13 +165,13 @@ If finer logging is required, use the following command to enable DEBUG/TRACE lo
 
 ### Listing supported devices over REST
 
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][6], folder *CLI registry* to see the actual list:
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list:
 
 ### IOS device
 
 #### Mounting and managing over REST
 
-Please refer to the [POSTMAN collection][6], folder *Ios mount*:
+Please refer to the [POSTMAN collection][1], folder *Ios mount*:
 
 #### Mounting and managing from an application
 
@@ -235,7 +237,7 @@ In this case *Version* operational data is being read from the device. In order 
 
 #### Mounting and managing over REST
 
-Please refer to the [POSTMAN collection][6], folder *Linux mount*:
+Please refer to the [POSTMAN collection][1], folder *Linux mount*:
 
 ## Supported devices
 
@@ -307,9 +309,9 @@ It is possible to mount any network device as a generic device. This allows invo
   </tbody>
 </table>
 
- [1]: https://frinx.io/wp-content/uploads/2017/06/cliSouthPlugin.png "CLI southbound plugin"
- [2]: https://frinx.io/wp-content/uploads/2017/06/cliMountpoint.png "CLI mountpoint"
- [3]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
- [4]: https://frinx.io/wp-content/uploads/2017/06/readCfg.png "Config data"
- [5]: https://frinx.io/wp-content/uploads/2017/06/readOper.png "Operational data"
- [6]: https://frinx.io/uncategorized/postman-json.html
+ [1]: https://github.com/FRINXio/postman-collections
+ [2]: https://frinx.io/wp-content/uploads/2017/06/cliSouthPlugin.png "CLI southbound plugin"
+ [3]: https://frinx.io/wp-content/uploads/2017/06/cliMountpoint.png "CLI mountpoint"
+ [4]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
+ [5]: https://frinx.io/wp-content/uploads/2017/06/readCfg.png "Config data"
+ [6]: https://frinx.io/wp-content/uploads/2017/06/readOper.png "Operational data"
