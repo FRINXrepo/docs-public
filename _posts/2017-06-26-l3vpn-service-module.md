@@ -13,6 +13,8 @@ The goal of this project is to automate provisioning of Layer 3 Virtual Private 
 
 This is done by using the Frinx ODL controller which configures routers based on intent of the L3VPN service. The Frinx ODL controller translates the L3VPN service abstraction to network element configuration. ![L3VPN Service][1]
 
+The postman collection for the L3VPN service module can be accessed [here][2]
+
 ## A bit about L3VPN
 
 ### Problem definition and L3VPN
@@ -21,9 +23,9 @@ A company needs to reconnect multiple sites with each other via a Service Provid
 
 Host1 and Host2 are two different sites for the same company and they both connect to the Service Provider using a separate connection. They need to interconnect two of their sites.
 
-![Two company's sites connected to SP][2]
+![Two company's sites connected to SP][3]
 
-In this case L3VPN provides site-to-site connectivity and the SP network behaves as a router between the company’s sites. The company’s routes are exchanged via the SP network. ![Solution with L3VPN between sites.][3]
+In this case L3VPN provides site-to-site connectivity and the SP network behaves as a router between the company’s sites. The company’s routes are exchanged via the SP network. ![Solution with L3VPN between sites.][4]
 
 ### Terminology
 
@@ -33,7 +35,7 @@ The following terms are often used in the L3VPN domain:
 *   **Provider Edge (PE)** device – router at the edge of the SP network which provides connectivity for CE
 *   **Provider (P)** device – core router on the SP network providing connectivity among PE routers
 
-![Terminology in picture][4]
+![Terminology in picture][5]
 
 ### Topologies
 
@@ -41,11 +43,11 @@ Common topologies used in L3VPN.
 
 #### Any to Any
 
-Sites can forward traffic directly among each other in a VPN. Communication is restricted to a particular VPN so it is not possible to communicate with sites on different VPNs. ![Any to Any topology example][5]
+Sites can forward traffic directly among each other in a VPN. Communication is restricted to a particular VPN so it is not possible to communicate with sites on different VPNs. ![Any to Any topology example][6]
 
 #### Hub and Spoke
 
-Spoke sites in the VPN can communicate with each other only through the hub site. This is usually used when all sites must communicate through an access control device. ![Hub and Spoke topology example][6]
+Spoke sites in the VPN can communicate with each other only through the hub site. This is usually used when all sites must communicate through an access control device. ![Hub and Spoke topology example][7]
 
 ## L3VPN Provider
 
@@ -61,13 +63,13 @@ L3VPN Provider can be used on a network where:
 *   CE - PE connection belongs to only one VPN
 *   CE runs BGP for route advertising to PE
 
-![Use case example][7]
+![Use case example][8]
 
 ### Architecture
 
 L3VPN Provider is composed of multiple components. The high level architecture is shown in the picture below.
 
-![Architecture][8]
+![Architecture][9]
 
 An external application modifies *l3vpn-svc* in CONF DS. L3VPN can be configured on nodes which are read from *provider-edge-topology*. When all changes are done, the external application calls RPC *commit-l3vpn-svc*. The RPC reads the intended state from CONF DS, schedules processing, stores *status-l3vpn-provider* with "in-progress" status to OPER DS and then returns RPC output. L3VPN Provider creates a diff between *configured-l3vpn-svc* and *l3vpn-svc*. This diff is configured inside the network-wide transaction on the necessary PE routers by using particular Network Element Plugins.
 
@@ -81,9 +83,9 @@ As has been mentioned, NEP registers network elements to L3VPN Provider. L3VPN P
 
 The API is described using YANG modules. An external application can consume the API via RESTCONF, NETCONF, or JAVA. The L3VPN service module provides domain-specific abstraction where the abstraction describes attributes of VPNs and sites instead of configuration of network elements. The SDN controller translates the abstraction to network element configuration.
 
-##### [ietf-l3vpn-svc@2017-05-02.yang][9]
+##### [ietf-l3vpn-svc@2017-05-02.yang][10]
 
-The original YANG is from [RFC 8049][10]. Supported statements are shown in [generated UML from the original YANG][11]. This YANG module is modified in order to reuse its parts and is extended with L3VPN Provider elements - [modified ietf-l3vpn-svc YANG module][12]
+The original YANG is from [RFC 8049][11]. Supported statements are shown in [generated UML from the original YANG][12]. This YANG module is modified in order to reuse its parts and is extended with L3VPN Provider elements - [modified ietf-l3vpn-svc YANG module][13]
 
 The YANG module contains 3 root statements and one RPC:
 
@@ -94,7 +96,7 @@ The YANG module contains 3 root statements and one RPC:
 
 ##### l3vpn-svc-aug@2017-05-02.yang
 
-Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN - [l3vpn-svc-aug YANG module][13]
+Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN - [l3vpn-svc-aug YANG module][14]
 
 ### Network Element Plugin
 
@@ -108,7 +110,7 @@ The Network Element Plugin (NEP) is a unit which implements SPI from the L3VPN P
 
 This plugin configures L3VPN on IOS-XRv using NETCONF. It listens on topology-netconf and announces PE capable devices to the L3VPN Provider. Rollback on a device is done automatically using the "Rollback-on-Error" capability.
 
-![IOS-XRv NEP][14]
+![IOS-XRv NEP][15]
 
 IOS-XRv NEP listens on nodes in *topology-netconf*. When a new IOS-XRv device is connected to Frinx ODL it appears as a new node in *topology-netconf* and IOS-XRv registers that node as PE to L3VPN Provider. If L3VPN Provider calls SPI in order to configure PEs via the IOS-XRv NEP, NETCONF is used for device configuration.
 
@@ -169,7 +171,7 @@ NETCONF session configuration in IOS XR to allow ODL to connect:
 
 #### Mock Network Element Plugin
 
-The purpose of this plugin is to mock functionality of the Network Element Plugin. It is used mainly for testing when you do not need to connect real devices. ![Mock NEP][15]
+The purpose of this plugin is to mock functionality of the Network Element Plugin. It is used mainly for testing when you do not need to connect real devices. ![Mock NEP][16]
 
 The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, the NEP registers this node as a PE node to the L3VPN Provider. When the L3VPN Provider calls the SPI which Mock NEP implements, instead of configuration of real devices, the SPI DTOs are stored under nodes in *mock-pe-topology* of OPER DS.
 
@@ -177,7 +179,7 @@ The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, t
 
 Implementation of L3VPN provider does not support all statements in ietf-l3vpn-svc@2017-05-02.yang. Unsupported statements can be found in YANG deviations.
 
-[Inheritance of Parameters Defined at Site Level and Site Network Access Level][16] is not supported, therefore parameters must be defined at Site Network Access level. L3VPN Provider does not support reconciliation, therefore only L3VPN created via L3VPN Provider are visible through the API.
+[Inheritance of Parameters Defined at Site Level and Site Network Access Level][17] is not supported, therefore parameters must be defined at Site Network Access level. L3VPN Provider does not support reconciliation, therefore only L3VPN created via L3VPN Provider are visible through the API.
 
 Other limitations:
 
@@ -208,6 +210,8 @@ Installs L3VPN Provider with IOS-XRv NEP and NETCONF connector. This feature is 
 
 **Description:**  
 Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for testing and demonstration purposes where real PE devices are not available.
+
+The postman collection for the L3VPN service module can be accessed [here][2]
 
 <table>
   <thead>
@@ -264,18 +268,19 @@ Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for
 </table>
 
  [1]: https://frinx.io/wp-content/uploads/2017/06/l3vpn_service.png "L3VPN Service"
- [2]: https://frinx.io/wp-content/uploads/2017/06/problem.png "Example of problem"
- [3]: https://frinx.io/wp-content/uploads/2017/06/problem_solution.png "L3VPN between sites"
- [4]: https://frinx.io/wp-content/uploads/2017/06/terminology.png "Terminology in picture"
- [5]: https://frinx.io/wp-content/uploads/2017/06/topo_any-to-any.png "Any to Any topology"
- [6]: https://frinx.io/wp-content/uploads/2017/06/topo_hub-and-spoke.png "Hub and Spoke topology"
- [7]: https://frinx.io/wp-content/uploads/2017/06/use-case.png "Use case example"
- [8]: https://frinx.io/wp-content/uploads/2017/06/architecture.png "Architecture"
- [9]: https://frinx.io/frinx-documents/l3vpn-svc-aug2017-05-02-yang.html
- [10]: https://tools.ietf.org/html/rfc8049
- [11]: https://frinx.io/wp-content/uploads/2017/06/ietf-l3vpn-svc_uml.png "IETF UML"
- [12]: https://frinx.io/frinx-documents/ietf-l3vpn-svc2017-05-02-yang.html "ietf-l3vpn-svc@2017-05-02.yang"
- [13]: https://frinx.io/frinx-documents/l3vpn-svc-aug2017-05-02-yang.html "l3vpn-svc-aug@2017-05-02.yang"
- [14]: https://frinx.io/wp-content/uploads/2017/06/nep_ios-xrv.png "IOS-XRv NEP"
- [15]: https://frinx.io/wp-content/uploads/2017/06/nep_mock.png "Mock NEP"
- [16]: https://tools.ietf.org/html/rfc8049#section-6.3.2.3
+ [2]: https://github.com/FRINXio/postman-collections
+ [3]: https://frinx.io/wp-content/uploads/2017/06/problem.png "Example of problem"
+ [4]: https://frinx.io/wp-content/uploads/2017/06/problem_solution.png "L3VPN between sites"
+ [5]: https://frinx.io/wp-content/uploads/2017/06/terminology.png "Terminology in picture"
+ [6]: https://frinx.io/wp-content/uploads/2017/06/topo_any-to-any.png "Any to Any topology"
+ [7]: https://frinx.io/wp-content/uploads/2017/06/topo_hub-and-spoke.png "Hub and Spoke topology"
+ [8]: https://frinx.io/wp-content/uploads/2017/06/use-case.png "Use case example"
+ [9]: https://frinx.io/wp-content/uploads/2017/06/architecture.png "Architecture"
+ [10]: https://frinx.io/frinx-documents/l3vpn-svc-aug2017-05-02-yang.html
+ [11]: https://tools.ietf.org/html/rfc8049
+ [12]: https://frinx.io/wp-content/uploads/2017/06/ietf-l3vpn-svc_uml.png "IETF UML"
+ [13]: https://frinx.io/frinx-documents/ietf-l3vpn-svc2017-05-02-yang.html "ietf-l3vpn-svc@2017-05-02.yang"
+ [14]: https://frinx.io/frinx-documents/l3vpn-svc-aug2017-05-02-yang.html "l3vpn-svc-aug@2017-05-02.yang"
+ [15]: https://frinx.io/wp-content/uploads/2017/06/nep_ios-xrv.png "IOS-XRv NEP"
+ [16]: https://frinx.io/wp-content/uploads/2017/06/nep_mock.png "Mock NEP"
+ [17]: https://tools.ietf.org/html/rfc8049#section-6.3.2.3
