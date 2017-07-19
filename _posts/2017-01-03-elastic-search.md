@@ -14,7 +14,7 @@ For an introduction, see our Elasticsearch video [here][1]
 ## Installation
 
 1\. If you have not already done so, [Download the FRINX ODL distribution][2] and [install it][3]  
-2\. [Install Elasticsearch][4] - download the zip file, then unpackage it with
+2\. [Install Elasticsearch][4] - download the zip file, then unpackage it by opening a terminal, going to the directory where the download file is, and typing
 
     unzip filename
     
@@ -118,9 +118,7 @@ Now start logstash
     bin/logstash
     
 
-**Operation**
-
-Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
+**Operation** We have already started elasticsearch, kibana, and logstash. Now start karaf as normal by going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
 Start karaf
 
