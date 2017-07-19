@@ -43,7 +43,7 @@ For an introduction, see our Elasticsearch video [here][1]
     sudo apt-get install logstash
     
 
-## Configuration
+## Running Elastic Search with logstash and Kibana
 
 The base configuration is to use log4j socket listener for Logstash and the log4j socket appender in ODL Frinx.
 
