@@ -1,6 +1,6 @@
 ---
 ID: 3404
-post_title: Elastic Search
+post_title: Elasticsearch
 author: frinxadmin
 post_excerpt: ""
 layout: post
@@ -9,12 +9,10 @@ permalink: >
 published: true
 post_date: 2017-01-03 08:19:00
 ---
-For an introduction, see our Elasticsearch video [here][1]
-
 ## Installation
 
-1\. If you have not already done so, [Download the FRINX ODL distribution][2] and [install it][3]  
-2\. [Install Elasticsearch][4] - download the zip file, then unpackage it by opening a terminal, going to the directory where the download file is, and typing
+1\. If you have not already done so, [Download the FRINX ODL distribution][1] and [install it][2]  
+2\. [Install Elasticsearch][3] - download the zip file, then unpackage it by opening a terminal, going to the directory where the download file is, and typing
 
     unzip filename
     
@@ -24,7 +22,7 @@ In the unpackaged folder, start elasticsearch with
     bin/elasticsearch
     
 
-3\. [Install Kibana][5] - download the version appropriate to your system. For the Linuz-64 bit tar.gz download file, unpackage it with
+3\. [Install Kibana][4] - download the version appropriate to your system. For the Linuz-64 bit tar.gz download file, unpackage it with
 
     tar -xvf filename
     
@@ -34,7 +32,7 @@ In the unpackaged folder, start kibana with
     bin/kibana
     
 
-4\. [Install logstash][6] - which we'll use for collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.
+4\. [Install logstash][5] - which we'll use for collecting and parsing log files. It can transform an unstructured log into something meaningful and searchable.
 
 For the Linuz-64 bit tar.gz download file, unpackage it with
 
@@ -98,7 +96,7 @@ Enter the following into the file and save it. Parameters in [] are explained be
     }
     
 
-For more info see: [Getting started with Logstash][7] and [Log4j][8]
+For more info see: [Getting started with Logstash][6] and [Log4j][7]
 
 We started elasticsearch and kibana after downloading (see the start of this guide).
 
@@ -124,9 +122,9 @@ Then type
 All logging information is now logged to an Elasticsearch node though Logstash. This information can be analysed with Kibana. Open Kibana in a Web browser by going to <http://localhost:5601>
 
 **Other links**  
-[Elastic search products][9]  
-[Running Logstash and Elasticsearch in docker][10]  
-[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][11]
+[Elastic search products][8]  
+[Running Logstash and Elasticsearch in docker][9]  
+[How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04][10]
 
 <table>
   <thead>
@@ -182,14 +180,13 @@ All logging information is now logged to an Elasticsearch node though Logstash. 
   </tbody>
 </table>
 
- [1]: https://youtu.be/_nIIiZSh0Qs
- [2]: https://frinx.io//downloads/ "FRINX distribution"
- [3]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
- [4]: https://www.elastic.co/downloads/elasticsearch
- [5]: https://www.elastic.co/downloads/kibana
- [6]: https://www.elastic.co/downloads/logstash
- [7]: https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html "Getting started with Logstash"
- [8]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-log4j.html "Log4j"
- [9]: https://www.elastic.co/products "Elastic search products"
- [10]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
- [11]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
+ [1]: https://frinx.io//downloads/ "FRINX distribution"
+ [2]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
+ [3]: https://www.elastic.co/downloads/elasticsearch
+ [4]: https://www.elastic.co/downloads/kibana
+ [5]: https://www.elastic.co/downloads/logstash
+ [6]: https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html "Getting started with Logstash"
+ [7]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-log4j.html "Log4j"
+ [8]: https://www.elastic.co/products "Elastic search products"
+ [9]: https://www.elastic.co/guide/en/logstash/current/docker.html "Running Logstash and Elastic Search in Docker"
+ [10]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04 "How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04"
