@@ -110,16 +110,20 @@ For more info see: [Getting started with Logstash][4] and [Log4j][5]
 
 **Run the FRINX ODL Distribution**
 
+Start Elasticsearch, logstash and kibana
+
+    sudo service elasticsearch start
+    sudo service kibana start
+    sudo service logstash start
+    
+
+Open kibana in a Web browser by going to http://localhost:5601
+
 Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
 Start karaf
 
     bin/karaf
-    
-
-Start elastic search
-
-    sudo service elasticsearch start
     
 
 All logging information is now logged to an Elasticsearch node though Logstash. This information can be analysed with Kibana.
