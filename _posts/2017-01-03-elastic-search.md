@@ -115,7 +115,12 @@ We now need to start logstash. Move to your main logstash folder:
 
 Now start logstash
 
-    bin/logstash
+    We started elasticsearch and kibana after downloading (see the start of this guide).
+    
+
+We need to start logstash. In your logstash folder (the folder created from unpackaging the download file at the start of this guide), type
+
+    bin/logstash -f config/logstash.conf
     
 
 **Operation**  
