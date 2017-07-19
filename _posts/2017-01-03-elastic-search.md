@@ -74,17 +74,17 @@ Save the file.
 
 We must now configure socket listener for Logstash.
 
-Go to /etc/logstash
+From your logstash folder (the folder created from unpackaging the download file at the start of this guide), move into the config folder:
 
-    cd /etc/logstash
+    cd config
     
 
 Create a blank file named logstash.conf
 
-    sudo touch logstash.conf
+    touch logstash.conf
     
 
-Create the following content in the file and save it. Parameters in [] are explained below:
+Enter the following into the file and save it. Parameters in [] are explained below:
 
     input {
       log4j {
@@ -106,14 +106,19 @@ Set the **logstash port** to **9500**. The **elk_host** and **elk_port** depend 
 
 For more info see: [Getting started with Logstash][7] and [Log4j][8]
 
-**Operation**
-
 We started elasticsearch and kibana after downloading (see the start of this guide).
 
-We need to start logstash. In your logstash folder (the folder created from unpackaging the download file at the start of this guide), type
+We now need to start logstash. Move to your main logstash folder:
+
+    cd ..
+    
+
+Now start logstash
 
     bin/logstash
     
+
+**Operation**
 
 Start karaf as normal by first opening a terminal and going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
