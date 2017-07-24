@@ -50,7 +50,7 @@ By REST (as GET). (username: admin password: admin). This can be done in Postman
 
 Or typing:
 
-    curl 'http://localhost:8181/restconf/operational/installer:features' -H 'Host: localhost:8181' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post
+    curl 'http://localhost:8181/restconf/operational/installer:features' -H 'Host: localhost:8181' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X get
     
 
 Gives the following output:
@@ -86,9 +86,9 @@ This function allows the user to easily upload any KAR file to the Karaf distrib
     http://[host]:[port]/kar-uploader
     
 
-The POST request contains one parameter which indicates the location of the KAR file. The parameter should be specified in [base64 binary data format][1] (as in the example curl command below).
+The POST request contains one parameter which indicates the binary data of the KAR file. The parameter should be specified in [base64 binary data format][1] (as in the example curl command below).
 
-You can upload a KAR file by typing the following in a terminal:
+For example the CURL has a function to convert file location to binary data. You can upload a KAR file by typing the following in a terminal:
 
     curl 'http://localhost:8181/restconf/operations/installer:upload-kar' -H 'Host: localhost:8181' -H 'Content-Type: application/yang.data+json;charset=utf-8' -H 'Authorization: Basic YWRtaW46YWRtaW4=' -X post -d '{"input":{"data":"'"$(base64 --wrap=0 upload/dummy-1.0.0.kar)"'"}}' -H 'Connection: keep-alive' -H "Expect:"
     
