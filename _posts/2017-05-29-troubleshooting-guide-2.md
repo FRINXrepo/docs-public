@@ -2,20 +2,12 @@
 ID: 4552
 post_title: Troubleshooting Guide
 author: frinxadmin
-post_date: 2017-05-29 12:46:05
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/uncategorized/troubleshooting-guide-2.html
+  https://frinx.io/frinx-documents/troubleshooting-guide-2.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 12:46:05
 ---
 This guide shows how to run VPP in debug mode. It enables you to:
 
