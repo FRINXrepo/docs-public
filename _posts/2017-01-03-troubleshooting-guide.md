@@ -2,23 +2,13 @@
 ID: 3452
 post_title: Troubleshooting Guide
 author: frinxadmin
-post_date: 2017-01-03 14:25:27
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/troubleshooting-guide.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-03 14:25:27
 ---
-[wpmem_form login]
-
 The troubleshooting guide is based around a [flow chart][1].
 
 This guide can be used in two ways:
@@ -641,8 +631,6 @@ This test focuses on testing Netconf end to end functionality with a Netconf dev
 
 **Correction Steps:**  
 Failure of these test suites indicates that clustering functionality is impaired. Verify the test setup and test environment are correctly configured then raise a bug report.
-
-[/wpmem_form]
 
  [1]: http://i.imgur.com/2fwTem4.png "flow chart"
  [2]: http://i.imgur.com/2fwTem4.png "see flow chart"
