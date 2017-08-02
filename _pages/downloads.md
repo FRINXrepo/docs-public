@@ -33,7 +33,7 @@ Last release notes for boron [ Release notes boron][4] Last release notes for be
 
 If you do not have Internet connectivity on the machine that you want to install the FRINX ODL distribution on, please contact us at <support@frinx.io> and we can help you get up and running in no time. Running as a Docker container By downloading the docker image you accept the FRINX software [EULA][1] Starting a new container and activating the license Enter the following commands to start your docker container and activate your installation: for Beryllium
 
-<pre>docker pull frinx/frinx_odl:1.4.6.frinx
+<pre>docker pull frinx/frinx_odl:1.4.7.frinx
 TOKEN=[frinx-license_secret-token]
 docker run -it --hostname some-hostname --name some-frinx -p 8181:8181 frinx/frinx_odl frinx.createtoken.force $TOKEN
 </pre>
@@ -173,8 +173,8 @@ You will now be able to start karaf normally:
 
  [1]: https://frinx.io/wp-content/uploads/2017/01/EULA_ODL_20170104_v102.pdf
  [2]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
- [3]: https://license.frinx.io/download/distribution-karaf-1.4.6.frinx.zip
+ [3]: https://license.frinx.io/download/distribution-karaf-1.4.7.frinx.zip
  [4]: https://frinx.io/frinx-documents/frinx-odl-distribution-2.3.0.html
- [5]: https://frinx.io/frinx-documents/frinx-odl-distribution-1.4.6.html
+ [5]: https://frinx.io/frinx-documents/frinx-odl-distribution-1.4.7.html
  [6]: https://frinx.io/archive
  [7]: https://docs.docker.com/engine/userguide/networking/dockernetworks/
