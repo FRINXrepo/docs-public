@@ -20,7 +20,7 @@ This guide explains how to run the distribution for the first time. If you have 
 Please click on the following link to download a zip archive of the FRINX ODL Distribution:
 
 *Boron*: [distribution-karaf-2.3.0.frinx.zip ][2]  
-*Beryllium*: [distribution-karaf-1.4.6.frinx.zip ][3]
+*Beryllium*: [distribution-karaf-1.4.7.frinx.zip ][3]
 
 By downloading the file you accept the FRINX software agreement: [EULA][4]
 
@@ -65,5 +65,5 @@ Copy frinx.license.cfg back to OFFLINE machine, replacing the file in karaf's e
 
  [1]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-after-activation.html
  [2]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
- [3]: https://license.frinx.io/download/distribution-karaf-1.4.6.frinx.zip
+ [3]: https://license.frinx.io/download/distribution-karaf-1.4.7.frinx.zip
  [4]: https://frinx.io/wp-content/uploads/2016/06/7793505-v7-Frinx-ODL-Distribution-Software-End-User-License-Agreement.pdf
