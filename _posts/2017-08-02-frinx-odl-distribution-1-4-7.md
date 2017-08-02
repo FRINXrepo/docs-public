@@ -5,7 +5,7 @@ author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/uncategorized/frinx-odl-distribution-1-4-7.html
+  https://frinx.io/frinx-odl-distribution-1-4-7/frinx-odl-distribution-1-4-7.html
 published: true
 post_date: 2017-08-02 13:30:09
 ---
