@@ -11,11 +11,11 @@ post_date: 2017-08-02 13:30:09
 ---
 This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution. <!--more-->
 
-**Note that FRINX ODL distribution 1.4.7 requires Java 8**
+**Note that FRINX ODL Distribution 1.4.7 requires Java 8**
 
 #### New Features, Improvements
 
-1.  Added counter to make tx actor names unique. Appended an incrementing counter value to the actor name which will guarantee uniqueness.Based on https://git.opendaylight.org/gerrit/gitweb?p=controller.git;a=commit;h=7b94771d6216ebb5217e3412ecc7f496ff6cee52
+1.  Added counter to make tx actor names unique. Appended an incrementing counter value to the actor name which will guarantee uniqueness. Based on <https://git.opendaylight.org/gerrit/gitweb?p=controller.git;a=commit;h=7b94771d6216ebb5217e3412ecc7f496ff6cee52>
 
 #### Known Issues
 
