@@ -18,7 +18,7 @@ USER: **[wpmem_field field=user_login]** Please choose from one of the following
 
 **Download zip file **Please click on the following link to download a zip archive of the FRINX ODL Distribution. By downloading the file you accept the FRINX software [EULA][1]
 
-Boron [distribution-karaf-2.3.0.frinx.zip][2] Beryllium [distribution-karaf-1.4.6.frinx.zip][3]
+Boron [distribution-karaf-2.3.0.frinx.zip][2] Beryllium [distribution-karaf-1.4.7.frinx.zip][3]
 
 Last release notes for boron [ Release notes boron][4] Last release notes for beryllium [ Release notes beryllium][5] Download release from archive [Archive][6]
 
