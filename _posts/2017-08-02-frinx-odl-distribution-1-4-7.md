@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-08-02 13:30:09
 ---
-This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution. <!--more-->[wpmem_form login]
+This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution. <!--more-->
 
 **Note that FRINX ODL distribution 1.4.7 requires Java 8**
 
