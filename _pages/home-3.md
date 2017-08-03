@@ -60,17 +60,11 @@ p class="center"> [![start][5] *Get started*][6] [/av_textblock]
 
 [/av_one_full][av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
 
-[av_textblock size='' font_color='custom' color='#111111' custom_class='fx_left_half'] <img class="alignnone size-full wp-image-551" src="https://frinx.io/wp-content/uploads/2015/02/logo_fx_od.png" alt="logo" width="263" height="125" />
-
-<a class="fx_button contact" href="https://frinx.io/contact-form/?iframe=true">Contact us</a> [/av_textblock]
-
 [av_textblock size='' font_color='' color='' custom_class='fx_left_half started']
 
 <
 
-p class="center"> [![start][5] *Try the FRINX Playground within your browser*][7]
-
-[/av_textblock]
+p class="center"> [![start][5] *Try the FRINX Playground within your browser*][7] [/av_textblock]
 
 [/av_one_full][/av_section]
 
