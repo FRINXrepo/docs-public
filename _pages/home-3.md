@@ -56,15 +56,7 @@ without costly hardware or software upgrades in your network. We can also dramat
 
 <
 
-p class="center"> [![start][5] *Try the FRINX OpenDaylight distribution within your browser*][6]
-
-[/av_textblock]
-
-[av_textblock size='' font_color='' color='' custom_class='fx_left_half started']
-
-<
-
-p class="center"> [![start][5] *Get started*][7] [/av_textblock]
+p class="center"> [![start][5] *Get started*][6] [/av_textblock]
 
 [/av_one_full][/av_section]
 
@@ -73,5 +65,4 @@ p class="center"> [![start][5] *Get started*][7] [/av_textblock]
  [3]: https://frinx.io/sbe
  [4]: https://frinx.io/services
  [5]: https://frinx.io/wp-content/uploads/2015/02/icon_start.png
- [6]: http://46.229.232.136:8888/
- [7]: https://frinx.io/sign-up
+ [6]: https://frinx.io/sign-up
