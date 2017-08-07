@@ -8,7 +8,7 @@ permalink: https://frinx.io/home-3
 published: true
 post_date: 2016-11-28 16:00:59
 ---
-[av_section min_height='100' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' scroll_down='aviaTBscroll_down' id='' color='main_color' custom_bg='' src='https://frinx.io/wp-content/uploads/2015/02/fx_video_static.jpg' attachment='623' attachment_size='full' attach='scroll' position='center center' repeat='no-repeat' video='https://frinx.io/wp-content/uploads/2016/04/7803976.mp4' video_ratio='16:10' video_mobile_disabled='aviaTBvideo_mobile_disabled' overlay_opacity='0.8' overlay_color='#4ecac2' overlay_pattern='' overlay_custom_pattern='' custom_class=''] [av_heading heading='The Open Source Network' tag='h1' style='blockquote modern-quote modern-centered' size='70' subheading_active='' subheading_size='15' padding='0' color='custom-color-heading' custom_font='#ffffff' custom_class=''][/av_heading] [/av_section]
+[av_section min_height='100' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' scroll_down='aviaTBscroll_down' id='' color='main_color' custom_bg='' src='https://frinx.io/wp-content/uploads/2017/07/DSC_7317.jpg' attachment='5231' attachment_size='full' attach='scroll' position='center center' repeat='no-repeat' video='' video_ratio='16:10' video_mobile_disabled='aviaTBvideo_mobile_disabled' overlay_opacity='0.8' overlay_color='#4ecac2' overlay_pattern='' overlay_custom_pattern='' custom_class=''] [av_heading heading='The Open Source Network' tag='h1' style='blockquote modern-quote modern-centered' size='70' subheading_active='' subheading_size='15' padding='0' color='custom-color-heading' custom_font='#ffffff' custom_class=''][/av_heading] [/av_section]
 
 [av_section min_height='custom' min_height_px='127px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_top_contact'] [av_one_half first min_height='av-equal-height-column' vertical_alignment='av-align-middle' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='left-to-right' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] <info@frinx.com> [/av_textblock] [/av_one_half][av_one_half min_height='av-equal-height-column' vertical_alignment='av-align-middle' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='right-to-left' custom_class=''] [av_codeblock wrapper_element='' wrapper_element_attributes='' deactivate_wrapper='aviaTBdeactivate_wrapper' custom_class='']
 
@@ -44,9 +44,7 @@ without costly hardware or software upgrades in your network. We can also dramat
 
 [/av_one_half] [/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_get_started second']
-
-[av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
+[av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_get_started second'] [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
 
 [av_textblock size='' font_color='custom' color='#111111' custom_class='fx_left_half'] <img class="alignnone size-full wp-image-551" src="https://frinx.io/wp-content/uploads/2015/02/logo_fx_od.png" alt="logo" width="263" height="125" />
 
@@ -68,7 +66,9 @@ p class="center"> [![start][5] *Try the FRINX Playground in your browser*][6]
 
 p class="center"> [![start][5] *Get started*][7] [/av_textblock]
 
-[/av_one_full][/av_section]
+[/av_one_full] [/av_section]
+
+[av_video src='' format='16:9' width='16' height='9']
 
  [1]: https://frinx.io/odl_distribution
  [2]: https://frinx.io/fd-io_distribution
