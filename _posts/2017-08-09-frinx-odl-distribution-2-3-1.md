@@ -30,6 +30,6 @@ org.opendaylight.netconf.sal.restconf.impl.RestconfDocumentedException: errors: 
 
 #### Opendaylight Boron Release Notes
 
-The Frinx controller 2.3.0 is based on Opendaylight Boron.
+The Frinx controller 2.3.1 is based on OpenDaylight Boron.
 
 <https://wiki.opendaylight.org/view/Simultaneous_Release/Boron/Release_Notes>
