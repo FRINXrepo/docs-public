@@ -1,13 +1,13 @@
 ---
-ID: 5004
-post_title: Frinx ODL distribution 2.3.0
+ID: 5355
+post_title: Frinx ODL distribution 2.3.1
 author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/frinx-documents/frinx-odl-distribution-2-3-0.html
+  https://frinx.io/frinx-documents/frinx-odl-distribution-2-3-1.html
 published: true
-post_date: 2017-07-12 13:54:06
+post_date: 2017-08-09 08:51:18
 ---
 This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution.<!--more-->
 
