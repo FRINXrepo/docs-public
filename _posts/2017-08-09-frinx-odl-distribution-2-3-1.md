@@ -11,7 +11,7 @@ post_date: 2017-08-09 08:51:18
 ---
 This document describes the latest changes, additions, known issues, and fixes for the Frinx ODL Distribution.<!--more-->
 
-**Note that FRINX ODL distribution 2.3.0 requires Java 8**
+**Note that FRINX ODL distribution 2.3.1 requires Java 8**
 
 #### New Features, Improvements
 
