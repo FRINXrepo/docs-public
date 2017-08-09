@@ -15,7 +15,10 @@ This document describes the latest changes, additions, known issues, and fixes f
 
 #### New Features, Improvements
 
-1.  Features l2vpn and l3vpn has been renamed in Boron 2.3.1. Instead of odl-* naming is now frinx-* (frinx-l2vpn...) 
+1.  Karaf L2VPN and L3VPN features are renamed in Frinx ODL 2.3.1:  
+    odl-l3vpn* is renamend to frinx-l3vpn*  
+    odl-l2vpn* is renamend to frinx-l2vpn* 
+2.  Removed GBP features: odl-groupbasedpolicy-noop,odl-groupbasedpolicy-clustered 
 
 #### Known Issues
 
