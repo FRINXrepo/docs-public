@@ -15,8 +15,7 @@ This document describes the latest changes, additions, known issues, and fixes f
 
 #### New Features, Improvements
 
-1.  Added CLI service module to enable the controller to manage devices over a CLI 
-2.  Added L3VPN for automated provisioning of Layer 3 Virtual Private Networks (L3VPN) on Service Provider (SP) routers
+1.  Features l2vpn and l3vpn has been renamed in Boron 2.3.1. Instead of odl-* naming is now frinx-* (frinx-l2vpn...) 
 
 #### Known Issues
 
