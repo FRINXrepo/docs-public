@@ -18,7 +18,7 @@ USER: **[wpmem_field field=user_login]** Please choose from one of the following
 
 **Download zip file **Please click on the following link to download a zip archive of the FRINX ODL Distribution. By downloading the file you accept the FRINX software [EULA][1]
 
-Boron [distribution-karaf-2.3.0.frinx.zip][2] Beryllium [distribution-karaf-1.4.7.frinx.zip][3]
+Boron [distribution-karaf-2.3.1.frinx.zip][2] Beryllium [distribution-karaf-1.4.7.frinx.zip][3]
 
 Last release notes for boron [ Release notes boron][4] Last release notes for beryllium [ Release notes beryllium][5] Download release from archive [Archive][6]
 
@@ -40,7 +40,7 @@ docker run -it --hostname some-hostname --name some-frinx -p 8181:8181 frinx/fri
 
 for Boron
 
-<pre>docker pull frinx/frinx_odl:2.3.0.frinx
+<pre>docker pull frinx/frinx_odl:2.3.1.frinx
 TOKEN=[frinx-license_secret-token]
 docker run -it --hostname some-hostname --name some-frinx -p 8181:8181 frinx/frinx_odl frinx.createtoken.force $TOKEN
 </pre>
@@ -172,9 +172,9 @@ You will now be able to start karaf normally:
 [/av_three_fifth][av_one_fifth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation=''][/av_one_fifth]
 
  [1]: https://frinx.io/wp-content/uploads/2017/01/EULA_ODL_20170104_v102.pdf
- [2]: https://license.frinx.io/download/distribution-karaf-2.3.0.frinx.zip
+ [2]: https://license.frinx.io/download/distribution-karaf-2.3.1.frinx.zip
  [3]: https://license.frinx.io/download/distribution-karaf-1.4.7.frinx.zip
- [4]: https://frinx.io/frinx-documents/frinx-odl-distribution-2.3.0.html
+ [4]: https://frinx.io/frinx-documents/frinx-odl-distribution-2.3.1.html
  [5]: https://frinx.io/frinx-documents/frinx-odl-distribution-1.4.7.html
  [6]: https://frinx.io/archive
  [7]: https://docs.docker.com/engine/userguide/networking/dockernetworks/
