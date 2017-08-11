@@ -15,15 +15,58 @@ This document describes the latest changes, additions, known issues, and fixes f
 
 #### New Features, Improvements
 
-1.  Karaf L2VPN and L3VPN features are renamed in Frinx ODL 2.3.1:  
-    odl-l3vpn* is renamend to frinx-l3vpn*  
-    odl-l2vpn* is renamend to frinx-l2vpn* 
-2.  Removed GBP features: odl-groupbasedpolicy-noop,odl-groupbasedpolicy-clustered 
+1.  L2VPN:
+    
+    *   new project introduced in 2.3.1
+
+2.  L3VPN:
+    
+    Karaf L3VPN features are renamed in Frinx ODL 2.3.1:
+    
+    *   from odl-l3vpn-api to frinx-l3vpn-api
+    *   from odl-l3vpn to frinx-l3vpn
+    *   from odl-l3vpn-rest to frinx-l3vpn-rest
+    *   from odl-l3vpn-testing to frinx-l3vpn-testing
+    *   from odl-l3vpn-iosxrv to frinx-l3vpn-iosxrv 
+
+3.  Renamed provider edge topology:
+    
+    *   from provider-edge-topology to l3vpn-provider-edge-topology
+
+4.  GBP: Removed karaf features:
+    
+    *   odl-groupbasedpolicy-clustered
+    *   odl-groupbasedpolicy-noop
+
+5.  Fixed NETCONF IOS-XR capability check:
+    
+    *   Problem: Different versions of IOS-XR send capability with different string formating. 
+    *   Solution: Checks only name of capability (YANG module) and revision instead of entire capability string.
+
+6.  CLI plugin:
+    
+    *   Keepalive settings of CLI connection extracted into CLI node configuration
+    *   Translate registry additional information: Actual YANG model nodes that are supported/implemented are listed for each YANG model
+    *   Dry-run and journaling capabilities for CLI mountpoint: Enables users to write/read configuration to/from device as a dry-run operation to check what commands will ODL execute. Journal captures all executed commands for a CLI mountpoint and makes them visible for users. 
+
+7.  IOS support:
+    
+    *   Openconfig interface YANG model support *Interface Configuration and State read/write support *Interface Ipv4 read/write support
+    *   Openconfig BGP & RIB YANG model read support
+    *   Initial custom interface YANG model removed
+
+8.  Fixed boncycastle bundle order
+
+9.  Fixed karaf restart after akka node becomes quarantined
 
 #### Known Issues
 
-1.  After node isolation netconf clustering does not function correctly
-2.  GBP-features odl-groupbasedpolicy-clustered and odl-groupbasedpolicy-noop does not function correctly
+1.  NETCONF: 
+    *   MD-SAL clustering does not work correctly after temporary network isolation - one or more nodes can remain stuck in candidate state for all its shards.
+2.  L2VPN: 
+    *   L2VPN is not configured correctly when name in endpoint is the same for endpoints in different l2vpn-instances and these different endpoints are attached to same PE device.
+3.  L3VPN: 
+    *   RPC commit-l3vpn-svc fails when "l3vpn-svc-aug:route-distinguisher" attributes in vpn-service were updated(overwritten).
 
 ***Note - running feature:install odl-l3vpn produces an error message, shown below. This error message is benign and can be ignored; l3vpn works as expected*  
 Error message:**
