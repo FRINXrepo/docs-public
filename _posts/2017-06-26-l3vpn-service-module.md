@@ -1,6 +1,6 @@
 ---
 ID: 4776
-post_title: L3VPN Service Module
+post_title: L3VPN Service Module User Guide
 author: frinxadmin
 post_excerpt: ""
 layout: post
@@ -71,7 +71,7 @@ L3VPN Provider is composed of multiple components. The high level architecture i
 
 ![Architecture][9]
 
-An external application modifies *l3vpn-svc* in CONF DS. L3VPN can be configured on nodes which are read from *provider-edge-topology*. When all changes are done, the external application calls RPC *commit-l3vpn-svc*. The RPC reads the intended state from CONF DS, schedules processing, stores *status-l3vpn-provider* with "in-progress" status to OPER DS and then returns RPC output. L3VPN Provider creates a diff between *configured-l3vpn-svc* and *l3vpn-svc*. This diff is configured inside the network-wide transaction on the necessary PE routers by using particular Network Element Plugins.
+An external application modifies *l3vpn-svc* in CONF DS. L3VPN can be configured on nodes which are read from *l3vpn-provider-edge-topology*. When all changes are done, the external application calls RPC *commit-l3vpn-svc*. The RPC reads the intended state from CONF DS, schedules processing, stores *status-l3vpn-provider* with "in-progress" status to OPER DS and then returns RPC output. L3VPN Provider creates a diff between *configured-l3vpn-svc* and *l3vpn-svc*. This diff is configured inside the network-wide transaction on the necessary PE routers by using particular Network Element Plugins.
 
 If configuration of routers is successful then a new *configured-l3vpn-svc* is stored to OPER DS and status in *status-l3vpn-provider* is set to "complete". If configuration on one of the devices fails, the rollback of the network-wide transaction starts and *status-l3vpn-provider* is set to "rollback-in-progress".
 
@@ -191,21 +191,21 @@ Other limitations:
 
 ### User-facing features
 
-#### odl-l3vpn-iosxrv
+#### frinx-l3vpn-iosxrv
 
 **Karaf installation:**
 
-    feature:install odl-l3vpn-iosxrv   
+    feature:install frinx-l3vpn-iosxrv   
     
 
 **Description:**  
 Installs L3VPN Provider with IOS-XRv NEP and NETCONF connector. This feature is NEP for IOS-XRv devices.
 
-#### odl-l3vpn-testing
+#### frinx-l3vpn-testing
 
 **Karaf installation:**
 
-    feature:install odl-l3vpn-testing   
+    feature:install frinx-l3vpn-testing   
     
 
 **Description:**  
