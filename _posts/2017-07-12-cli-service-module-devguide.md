@@ -124,13 +124,13 @@ The following sequence of operations needs to happen from the point when Openday
 5.  CLI topology exposes the mountpoint into MD-SAL
 6.  CLI topology updates operational state of this node in CLI topology to connected
 
-### Mounting and managing Generic Linux VM over REST
+### Mounting and managing Generic Linux VM devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Linux mount*:
+Please refer to the [POSTMAN collection][8], folder *Linux mount*:
 
 ### Mounting and managing IOS devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Ios mount*:
+Please refer to the [POSTMAN collection][8], folder *Ios mount*:
 
 ### Mounting and managing IOS devices from an application
 
@@ -199,3 +199,4 @@ In this case *Version* operational data is being read from the device. In order 
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
  [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
  [7]: https://frinx.io/frinx-documents/cli-service-module.html
+ [8]: https://github.com/FRINXio/postman-collections
