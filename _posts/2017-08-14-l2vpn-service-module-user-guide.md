@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-08-14 14:55:50
 ---
-*The postman collection for the L2VPN service module can be accessed [here][1]*
+*The postman collection and YANG files can be accessed [here][1]*
 
 # Overview
 
@@ -104,7 +104,7 @@ This plugin configures L2VPN on IOS-XRv using NETCONF. It listens on topology-ne
 
 IOS-XRv NEP listens on nodes in *topology-netconf*. When a new IOS-XRv device is connected to Frinx ODL it appears as a new node in *topology-netconf* and IOS-XRv registers that node as PE to L2VPN Provider. If L2VPN Provider calls SPI in order to configure PEs via the IOS-XRv NEP, NETCONF is used for device configuration.
 
-Here is an example of L2VPN configuration on IOS-XRv (parameters in **bold** are specific for VPN or site):
+Here is an example of L2VPN configuration on IOS-XRv (parameters encapsulated in ** are specific for VPN or site):
 
 <pre>interface **GigabitEthernet0/0/0/0** l2transport
  no shutdown
