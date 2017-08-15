@@ -112,6 +112,76 @@ There are 2 types of handlers. Those which handle writes of configuration data a
 
 An RPC handler is a special kind of handler, different to the data handlers. RPC handler can encapsulate any commands. The biggest difference is that any configuration processing in RPCs is not part of transactions, reconciliation etc.
 
+### Mounting and managing IOS devices over REST
+
+Please refer to the [POSTMAN collection][1], folder *Ios mount*:
+
+#### Mounting and managing IOS devices from an application
+
+It is also possible to manage an IOS device in a similar fashion from within an OpenDaylight application. It is however necessary to acquire an appropriate mountpoint instance from MD-SAL's mountpoint service.
+
+To do so, first make sure to generate an appropriate Opendaylight application using the archetype.
+
+Next make sure to add a Mountpoint service as a dependency of the application, so update your blueprint:
+
+    <reference id="mountpointService"
+               interface="org.opendaylight.mdsal.binding.api.MountPointService"/>
+    
+
+and add an argument to your component:
+
+    <bean id="SOMEBEAN"
+      class="PACKAGE.SOMEBEAN"
+      init-method="init" destroy-method="close">
+      <argument ref="dataBroker" />
+      ...
+      <argument ref="mountpointService"/>
+    </bean>
+    
+
+Also add that argument to your constructor:
+
+      final MountPointService mountpointService
+    
+
+So now to get a connected mountpoint from the service:
+
+    Optional [MountPoint] mountPoint = a.getMountPoint(InstanceIdentifier.create(NetworkTopology.class) .child(Topology.class, new TopologyKey(new TopologyId("cli"))) .child(Node.class, new NodeKey(new NodeId("IOS1"))));
+    
+    if(mountPoint.isPresent()) { // Get DATA broker Optional<DataBroker> dataBroker = mountPoint.get().getService(DataBroker.class); // Get RPC service Optional<RpcService> rpcService = mountPoint.get().getService(RpcService.class);
+    
+        if(!dataBroker.isPresent()) {
+            // This cannot happen with CLI mountpoints
+            throw new IllegalArgumentException("Data broker not present");
+        }
+    
+    
+    }
+    
+
+And finally DataBroker service can be used to manage the device:
+
+    ReadWriteTransaction readWriteTransaction = dataBroker.get().newReadWriteTransaction(); // Perform read // reading operational data straight from device CheckedFuture<Optional<Version>, ReadFailedException> read = readWriteTransaction.read(LogicalDatastoreType.OPERATIONAL, InstanceIdentifier.create(Version.class)); try { Version version = read.get().get(); } catch (InterruptedException | ExecutionException e) { e.printStackTrace(); }
+    
+    Futures.addCallback(readWriteTransaction.submit(), new FutureCallback<Void>() { @Override public void onSuccess(@Nullable Void result) { // Successfully invoked TX }
+    
+        @Override
+        public void onFailure(Throwable t) {
+            // TX failure
+        }
+    
+    
+    }); 
+    
+
+In this case *Version* operational data is being read from the device. In order to be able to do so, make sure to add a maven dependency on the IOS unit containing the appropriate YANG model.
+
+### Generic Linux VM
+
+#### Mounting and managing over REST
+
+Please refer to the [POSTMAN collection][1], folder *Linux mount*:
+
  [1]: https://frinx.io/wp-content/uploads/2017/07/ODL.png "ODL"
  [2]: https://frinx.io/wp-content/uploads/2017/07/HC.png "HC"
  [3]: https://frinx.io/wp-content/uploads/2017/07/HCsMdsal.png "Honeycomb's core"
