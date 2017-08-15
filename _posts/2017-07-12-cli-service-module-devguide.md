@@ -96,7 +96,7 @@ It is also possible to include this bundle into a karaf feature and make it inst
 
 ### Testing
 
-Please refer to the [user guide][7] section which details how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
+Please see the end of this guide for how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
 
 ### Choosing the right YANG models
 
@@ -123,6 +123,10 @@ The following sequence of operations needs to happen from the point when Openday
 4.  CLI topology builds mountpoint services on top of the translation layer
 5.  CLI topology exposes the mountpoint into MD-SAL
 6.  CLI topology updates operational state of this node in CLI topology to connected
+
+### Mounting and managing Generic Linux VM over REST
+
+Please refer to the [POSTMAN collection][1], folder *Linux mount*:
 
 ### Mounting and managing IOS devices over REST
 
@@ -187,12 +191,6 @@ And finally DataBroker service can be used to manage the device:
     
 
 In this case *Version* operational data is being read from the device. In order to be able to do so, make sure to add a maven dependency on the IOS unit containing the appropriate YANG model.
-
-### Generic Linux VM
-
-#### Mounting and managing over REST
-
-Please refer to the [POSTMAN collection][1], folder *Linux mount*:
 
  [1]: https://frinx.io/wp-content/uploads/2017/07/ODL.png "ODL"
  [2]: https://frinx.io/wp-content/uploads/2017/07/HC.png "HC"
