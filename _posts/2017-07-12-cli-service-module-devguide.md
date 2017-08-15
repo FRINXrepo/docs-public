@@ -179,4 +179,4 @@ In this case *Version* operational data is being read from the device. In order 
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
  [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
  [7]: https://frinx.io/frinx-documents/cli-service-module.html
- [8]: http://%20https://frinx.io/frinx-documents/cli-service-module.html
+ [8]: http://https://frinx.io/frinx-documents/cli-service-module.html
