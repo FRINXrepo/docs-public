@@ -78,7 +78,7 @@ The API is described using YANG modules. An external application can consume the
 
 ##### ietf-l2vpn@2017-08-02.yang
 
-Original YANG is from [RFC draft - YANG Data Model for MPLS-based L2VPN][9]. This YANG module is modified due to compatibility with OpenDaylight and is extended with L2VPN Provider elements - [modified ietf-l2vpn YANG module][10]
+Original YANG is from [RFC draft - YANG Data Model for MPLS-based L2VPN][9]. This YANG module is modified due to compatibility with OpenDaylight and is extended with L2VPN Provider elements - see ietf-l2vpn@2017-08-02.yang [modified ietf-l2vpn YANG module][1]
 
 The YANG module contains 2 root statements and one RPC:
 
@@ -86,7 +86,7 @@ The YANG module contains 2 root statements and one RPC:
 *   **container l2vpn-state** – not used in current implementation
 *   **rpc commit-l2vpn** – configures intent of L2VPN service. The output of RPC is the result of service configuration.
 
-The following YANGs are modified due to compatibility with OpenDaylight: [ietf-mpls][11] [ietf-routing][12] [ietf-routing-types][13]
+The following YANGs are modified due to compatibility with OpenDaylight: [ietf-mpls][10] [ietf-routing][11] [ietf-routing-types][12]
 
 ### Network Element Plugin
 
@@ -100,7 +100,7 @@ Network Element Plugin (NEP) is a unit which implements SPI from the L2VPN Provi
 
 This plugin configures L2VPN on IOS-XRv using NETCONF. It listens on topology-netconf and announces PE capable devices to the L2VPN Provider. Rollback on a device is done automatically using the "Rollback-on-Error" capability.
 
-![IOS-XRv NEP][14]
+![IOS-XRv NEP][13]
 
 IOS-XRv NEP listens on nodes in *topology-netconf*. When a new IOS-XRv device is connected to Frinx ODL it appears as a new node in *topology-netconf* and IOS-XRv registers that node as PE to L2VPN Provider. If L2VPN Provider calls SPI in order to configure PEs via the IOS-XRv NEP, NETCONF is used for device configuration.
 
@@ -135,7 +135,7 @@ l2vpn
 
 #### Mock Network Element Plugin
 
-The purpose of this plugin is to mock functionality of the Network Element Plugin. It is mainly use for testing when you do not need to connect real devices. ![Mock NEP][15] The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, the NEP registers this node as a PE node to the L2VPN Provider. When the L2VPN Provider calls the SPI which Mocks NEP implements, intead of configuration of real devices, the SPI DTOs are logged.
+The purpose of this plugin is to mock functionality of the Network Element Plugin. It is mainly use for testing when you do not need to connect real devices. ![Mock NEP][14] The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, the NEP registers this node as a PE node to the L2VPN Provider. When the L2VPN Provider calls the SPI which Mocks NEP implements, intead of configuration of real devices, the SPI DTOs are logged.
 
 ### Limitations
 
@@ -178,9 +178,8 @@ Installs L2VPN Provider with Mock NEP and RESTCONF. This feature can be used for
  [7]: https://frinx.io/wp-content/uploads/2017/08/use-case.png "Use case example"
  [8]: https://frinx.io/wp-content/uploads/2017/08/architecture.png "Architecture"
  [9]: https://tools.ietf.org/html/draft-ietf-bess-l2vpn-yang-05
- [10]: ietf-l2vpn@2017-08-02.yang
- [11]: ietf-mpls@2017-08-02.yang
- [12]: ietf-routing@2017-08-02.yang
- [13]: ietf-routing-types@2017-08-02.yang
- [14]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv.png "IOS-XRv NEP"
- [15]: https://frinx.io/wp-content/uploads/2017/08/nep_mock1.png "Mock NEP"
+ [10]: ietf-mpls@2017-08-02.yang
+ [11]: ietf-routing@2017-08-02.yang
+ [12]: ietf-routing-types@2017-08-02.yang
+ [13]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv.png "IOS-XRv NEP"
+ [14]: https://frinx.io/wp-content/uploads/2017/08/nep_mock1.png "Mock NEP"
