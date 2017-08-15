@@ -164,7 +164,7 @@ The following sequence of operations needs to happen from the point when Openday
 
 #### Mounting and managing Generic Linux VM devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Linux mount*:
+Please refer to the [POSTMAN collection][1], folder *Linux mount*
 
 #### Mounting and managing IOS devices over REST
 
