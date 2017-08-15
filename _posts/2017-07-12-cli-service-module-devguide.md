@@ -114,7 +114,7 @@ An RPC handler is a special kind of handler, different to the data handlers. RPC
 
 ### Mounting and managing IOS devices from an application
 
-It is also possible to manage an IOS device in a similar fashion from within an OpenDaylight application. It is however necessary to acquire an appropriate mountpoint instance from MD-SAL's mountpoint service.
+Besides mounting using Postman collections of RESTCONF calls (see the [user guide][8]) it is also possible to manage an IOS device in a similar fashion from within an OpenDaylight application. It is however necessary to acquire an appropriate mountpoint instance from MD-SAL's mountpoint service.
 
 To do so, first make sure to generate an appropriate Opendaylight application using the archetype.
 
@@ -179,3 +179,4 @@ In this case *Version* operational data is being read from the device. In order 
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
  [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
  [7]: https://frinx.io/frinx-documents/cli-service-module.html
+ [8]: http://%20https://frinx.io/frinx-documents/cli-service-module.html
