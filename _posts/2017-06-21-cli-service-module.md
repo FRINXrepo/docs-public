@@ -168,7 +168,9 @@ Please refer to the [POSTMAN collection][1], folder *Linux mount*:
 
 #### Mounting and managing IOS devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Ios mount*: IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][7]
+Please refer to the [POSTMAN collection][1], folder *Ios mount*.
+
+IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][7]
 
 ## Supported devices
 
