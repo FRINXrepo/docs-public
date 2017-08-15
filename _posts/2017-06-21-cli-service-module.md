@@ -341,7 +341,7 @@ It is possible to mount any network device as a generic device. This allows invo
 
  [1]: https://github.com/FRINXio/postman-collections
  [2]: https://frinx.io/wp-content/uploads/2017/08/cliSouthPlugin1-227x300.png "CLI southbound plugin"
- [3]: https://frinx.io/wp-content/uploads/2017/06/cliMountpoint1.png "CLI mountpoint"
+ [3]: https://frinx.io/wp-content/uploads/2017/08/cliMountpoint1-1-236x300.png "CLI mountpoint"
  [4]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
  [5]: https://frinx.io/wp-content/uploads/2017/06/readCfg.png "Config data"
  [6]: https://frinx.io/wp-content/uploads/2017/06/readOper.png "Operational data"
