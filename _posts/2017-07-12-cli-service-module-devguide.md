@@ -112,26 +112,6 @@ There are 2 types of handlers. Those which handle writes of configuration data a
 
 An RPC handler is a special kind of handler, different to the data handlers. RPC handler can encapsulate any commands. The biggest difference is that any configuration processing in RPCs is not part of transactions, reconciliation etc.
 
-## Mounting a CLI device
-
-The following sequence of operations needs to happen from the point when Opendaylight is configured to mount a CLI device until it is truly accessible for users and applications:
-
-1.  Submit CLI device configuration into CLI topology 
-    *   Over REST, NETCONF or from within Opendaylight
-2.  CLI topology opens transport layer by opening a session with the device
-3.  CLI topology collects all the units into a plugin and instantiates translation layer
-4.  CLI topology builds mountpoint services on top of the translation layer
-5.  CLI topology exposes the mountpoint into MD-SAL
-6.  CLI topology updates operational state of this node in CLI topology to connected
-
-### Mounting and managing Generic Linux VM devices over REST
-
-Please refer to the [POSTMAN collection][8], folder *Linux mount*:
-
-### Mounting and managing IOS devices over REST
-
-Please refer to the [POSTMAN collection][8], folder *Ios mount*:
-
 ### Mounting and managing IOS devices from an application
 
 It is also possible to manage an IOS device in a similar fashion from within an OpenDaylight application. It is however necessary to acquire an appropriate mountpoint instance from MD-SAL's mountpoint service.
@@ -199,4 +179,3 @@ In this case *Version* operational data is being read from the device. In order 
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
  [6]: https://frinx.io/wp-content/uploads/2017/07/projectComponents.png "CLI plugin modules"
  [7]: https://frinx.io/frinx-documents/cli-service-module.html
- [8]: https://github.com/FRINXio/postman-collections
