@@ -175,6 +175,10 @@ Please refer to the [POSTMAN collection][1], folder *Ios mount*: IOS devices can
 
 Please see here for a full list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list.
+
+More details on IOS and generic devices follow:
+
 ### IOS
 
 IOS device management is supported. Currently supported aspects:
@@ -186,10 +190,6 @@ IOS device management is supported. Currently supported aspects:
 ### Generic device
 
 It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
-
-### Listing supported devices over REST
-
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list
 
 <table>
   <thead>
