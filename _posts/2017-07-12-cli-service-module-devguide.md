@@ -173,7 +173,7 @@ And finally DataBroker service can be used to manage the device:
 In this case *Version* operational data is being read from the device. In order to be able to do so, make sure to add a maven dependency on the IOS unit containing the appropriate YANG model.
 
  [1]: https://frinx.io/wp-content/uploads/2017/07/ODL.png "ODL"
- [2]: https://frinx.io/wp-content/uploads/2017/07/HC.png "HC"
+ [2]: https://frinx.io/wp-content/uploads/2017/08/HC1.png.png "HC"
  [3]: https://frinx.io/wp-content/uploads/2017/07/HCsMdsal.png "Honeycomb's core"
  [4]: https://frinx.io/wp-content/uploads/2017/07/cliMountpoint.png "Honeycomb's core as Mountpoint"
  [5]: https://frinx.io/wp-content/uploads/2017/07/cliInComponents.png "CLI plugin components"
