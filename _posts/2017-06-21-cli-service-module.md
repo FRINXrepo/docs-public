@@ -173,11 +173,11 @@ Please refer to the [POSTMAN collection][1], folder *Ios mount*: IOS devices can
 
 ## Supported devices
 
-Please see here for a full list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
+Please see [here][8] for a full list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list.
 
-More details on IOS and generic devices follow:
+More details regarding IOS and generic devices follow:
 
 ### IOS
 
@@ -352,3 +352,4 @@ It is possible to mount any network device as a generic device. This allows invo
  [5]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
  [7]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
+ [8]: http://%20https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
