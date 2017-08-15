@@ -176,7 +176,7 @@ IOS devices can also be mounted and managed from an application. For instruction
 
 Please see [here][8] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *registry* to see the actual list.
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *registry* for the call which displays the actual list.
 
 More details regarding IOS and generic devices follow:
 
