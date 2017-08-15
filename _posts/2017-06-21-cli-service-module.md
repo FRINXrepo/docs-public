@@ -352,4 +352,4 @@ It is possible to mount any network device as a generic device. This allows invo
  [5]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
  [7]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
- [8]: http://%20https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+ [8]: https://https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
