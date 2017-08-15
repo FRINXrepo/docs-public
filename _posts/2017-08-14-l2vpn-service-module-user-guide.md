@@ -183,4 +183,4 @@ Installs L2VPN Provider with Mock NEP and RESTCONF. This feature can be used for
  [12]: ietf-routing@2017-08-02.yang
  [13]: ietf-routing-types@2017-08-02.yang
  [14]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv.png "IOS-XRv NEP"
- [15]: https://frinx.io/wp-content/uploads/2017/08/nep_mock.png "Mock NEP"
+ [15]: https://frinx.io/wp-content/uploads/2017/08/nep_mock1.png "Mock NEP"
