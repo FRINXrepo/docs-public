@@ -96,13 +96,13 @@ It is also possible to include this bundle into a karaf feature and make it inst
 
 ### Testing
 
-Please see the end of this guide for how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
+Please see the [user guide][7] for how to mount a CLI device. If there is a new unit installed in Opendaylight, it will be possible to use the new unit's YANG model and its handlers.
 
 ### Choosing the right YANG models
 
 Before writing a custom YANG model for a unit, it is important to check whether such a model doesn't already exist. There are plenty of YANG models available, modeling many aspects of network device management. The biggest groups of models are: - Openconfig https://github.com/openconfig/public/tree/master/release/models - IETF <https://github.com/YangModels/yang/tree/master/standard/ietf>
 
-It is usually wiser to choose an existing YANG model instead of developing a custom one. Also it is very important to check for existing units already implemented for a device. If there are any, the best approach will most likely be to use YANG models from the same family as existing units use.
+It is usually wiser to choose an existing YANG model instead of developing a custom one. Also, it is very important to check for existing units already implemented for a device. If there are any, the best approach will most likely be to use YANG models from the same family as existing units use.
 
 ### Implementing handlers
 
