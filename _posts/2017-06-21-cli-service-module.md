@@ -130,18 +130,6 @@ There might be situations where there are inconsistencies between actual configu
 *   Allow the mountpoint to sync its state when first connecting to the device
 *   Allow apps/users to request synchronization when an inconsistent state is expected e.g. manual configuration of the device
 
-## Mounting a CLI device
-
-The following sequence of operations needs to happen from the point when Opendaylight is configured to mount a CLI device until it is truly accessible for users and applications:
-
-1.  Submit CLI device configuration into CLI topology 
-    *   Over REST, NETCONF or from within Opendaylight
-2.  CLI topology opens transport layer by opening a session with the device
-3.  CLI topology collects all the units into a plugin and instantiates translation layer
-4.  CLI topology builds mountpoint services on top of the translation layer
-5.  CLI topology exposes the mountpoint into MD-SAL
-6.  CLI topology updates operational state of this node in CLI topology to connected
-
 ## Usage
 
 This section provides samples for how to use the CLI southbound plugin to manage a particular device.
