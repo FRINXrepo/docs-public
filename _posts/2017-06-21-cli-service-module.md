@@ -151,12 +151,6 @@ If finer logging is required, use the following command to enable DEBUG/TRACE lo
     log:set TRACE io.frinx.cli
     
 
-### Listing supported devices over REST
-
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list:
-
-### IOS device
-
 ## Supported devices
 
 This section lists all the device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
@@ -172,6 +166,10 @@ IOS device management is supported. Currently supported aspects:
 ### Generic device
 
 It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
+
+### Listing supported devices over REST
+
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *CLI registry* to see the actual list
 
 <table>
   <thead>
