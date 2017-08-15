@@ -151,9 +151,29 @@ If finer logging is required, use the following command to enable DEBUG/TRACE lo
     log:set TRACE io.frinx.cli
     
 
+## Mounting a CLI device
+
+The following sequence of operations needs to happen from the point when Opendaylight is configured to mount a CLI device until it is truly accessible for users and applications:
+
+1.  Submit CLI device configuration into CLI topology 
+    *   Over REST, NETCONF or from within Opendaylight
+2.  CLI topology opens transport layer by opening a session with the device
+3.  CLI topology collects all the units into a plugin and instantiates translation layer
+4.  CLI topology builds mountpoint services on top of the translation layer
+5.  CLI topology exposes the mountpoint into MD-SAL
+6.  CLI topology updates operational state of this node in CLI topology to connected
+
+### Mounting and managing Generic Linux VM devices over REST
+
+Please refer to the [POSTMAN collection][1], folder *Linux mount*:
+
+### Mounting and managing IOS devices over REST
+
+Please refer to the [POSTMAN collection][1], folder *Ios mount*: IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][7]
+
 ## Supported devices
 
-This section lists all the device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
+Please see here for a full list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 ### IOS
 
@@ -331,3 +351,4 @@ It is possible to check a current list of units and thus a current list of suppo
  [4]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
  [5]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
+ [7]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
