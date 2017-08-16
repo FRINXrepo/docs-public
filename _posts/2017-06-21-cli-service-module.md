@@ -174,7 +174,7 @@ The following sequence of operations needs to happen from the point when Openday
 
 Please import the Postman collection available [here][1], into Postman, then open the folder *Ios mount*.
 
-You will see there are two calls available for mounting an Ios device. *In each case, edit the fields cli-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
+You will see there are two calls available for mounting an Ios device. *In each case, edit the following fields according to your specific device: *cli-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password*:
 
 **Mounting by telnet**
 
