@@ -170,7 +170,7 @@ The following sequence of operations needs to happen from the point when Openday
 5.  CLI topology exposes the mountpoint into MD-SAL
 6.  CLI topology updates operational state of this node in CLI topology to connected
 
-#### Mounting and managing IOS devices over REST
+#### How to mount and manage IOS devices over REST
 
 Please import the Postman collection available [here][1], into Postman, then open the folder *Ios mount*.
 
