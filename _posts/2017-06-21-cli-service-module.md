@@ -9,7 +9,9 @@ permalink: >
 published: true
 post_date: 2017-06-21 10:46:36
 ---
-*The Postman collection for the CLI service module can be accessed [here][1]. **(latest version: FRINX CLI 2.3.1.postman_collection.json)**. It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below* **Postman can be downloaded for free [here][2]**
+*The Postman collection for the CLI service module can be accessed [here][1]. **(latest version: FRINX CLI 2.3.1.postman_collection.json)**. It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below*
+
+**Postman can be downloaded for free [here][2]**
 
 ## Introduction
 
