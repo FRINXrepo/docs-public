@@ -192,7 +192,7 @@ You'll see that the *Ios mount* folder in Postman contains several other REST ca
 
 IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][11]
 
-#### Mounting and managing Generic Linux VM devices over REST
+#### How to mount and manage generic Linux VM devices over REST
 
 It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
 
