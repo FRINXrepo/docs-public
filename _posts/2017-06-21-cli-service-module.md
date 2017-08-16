@@ -198,7 +198,7 @@ It is possible to mount any network device as a generic device. This allows invo
 
 Please import the Postman collection available [here][1], into Postman, then open the folder *Linux mount*
 
-Open the body of the *mount* PUT call *edit the fields network-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
+Open the body of the *mount* PUT call and edit the following fields according to your specific device: *network-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password*:
 
 ![linux mount][9]
 
