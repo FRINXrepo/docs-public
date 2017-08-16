@@ -178,7 +178,7 @@ Please refer to the Postman collection available [here][1], folder *Linux mount*
 
 Please refer to the Postman collection available [here][1], folder *Ios mount*.
 
-Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device. *In each case, Edit the fields cli-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
+Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device. *In each case, edit the fields cli-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
 
 **Mounting by telnet**
 
