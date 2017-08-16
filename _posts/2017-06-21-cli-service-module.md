@@ -170,10 +170,6 @@ The following sequence of operations needs to happen from the point when Openday
 5.  CLI topology exposes the mountpoint into MD-SAL
 6.  CLI topology updates operational state of this node in CLI topology to connected
 
-#### Mounting and managing Generic Linux VM devices over REST
-
-Please refer to the Postman collection available [here][1], folder *Linux mount*
-
 #### Mounting and managing IOS devices over REST
 
 Please refer to the Postman collection available [here][1], folder *Ios mount*.
@@ -196,17 +192,21 @@ You'll see that the *Ios mount* folder in Postman contains several other REST ca
 
 IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][11]
 
+#### Mounting and managing Generic Linux VM devices over REST
+
+It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
+
+Please refer to the Postman collection available [here][1], folder *Linux mount*
+
+Once you import the collection into Postman, open the Linux mount folder. Open the body of the mount PUT call *edit the fields network-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
+
+![linux mount][9]
+
 ## Supported devices
 
 Please see [here][12] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to Postman collection available [here][1], folder *registry* for the call which displays the actual list.
-
-More details regarding IOS and generic devices follow:
-
-### Generic device
-
-It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
 
 *For a hands-on tour of the CLI plugin from within your browser, please try our [playground][13]*
 
