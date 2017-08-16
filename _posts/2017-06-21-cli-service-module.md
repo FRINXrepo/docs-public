@@ -200,15 +200,15 @@ Please import the Postman collection available [here][1], into Postman, then ope
 
 Open the body of the *mount* PUT call and edit the following fields according to your specific device: *network-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password*:
 
-![linux mount][9]
+![linux mount][12]
 
 ## Supported devices
 
-Please see [here][12] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
+Please see [here][13] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to Postman collection available [here][1], folder *registry* for the call which displays the actual list.
 
-*For a hands-on tour of the CLI plugin from within your browser, please try our [playground][13]*
+*For a hands-on tour of the CLI plugin from within your browser, please try our [playground][14]*
 
 <table>
   <thead>
@@ -375,5 +375,6 @@ It is possible to check a current list of units and thus a current list of suppo
  [9]: https://frinx.io/wp-content/uploads/2017/08/mount-telnet1.jpg
  [10]: https://frinx.io/wp-content/uploads/2017/08/mount-ssh1.jpg
  [11]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
- [12]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
- [13]: http://46.229.232.136:8888/
+ [12]: https://frinx.io/wp-content/uploads/2017/08/linux-mount.jpg
+ [13]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+ [14]: http://46.229.232.136:8888/
