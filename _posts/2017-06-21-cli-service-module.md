@@ -138,7 +138,7 @@ This section provides samples for how to use the CLI southbound plugin to manage
 
 ### Features
 
-Install the following features into a running FRINX OpenDaylight instance:
+Install the following features into a running FRINX OpenDaylight instance (For running Frinx OpenDaylight, please see our [guide][7]):
 
     feature:install cli-topology cli-southbound-unit-ios odl-restconf
     
@@ -172,11 +172,11 @@ Please refer to the [POSTMAN collection][1], folder *Linux mount*
 
 Please refer to the [POSTMAN collection][1], folder *Ios mount*.
 
-IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][7]
+IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][8]
 
 ## Supported devices
 
-Please see [here][8] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
+Please see [here][9] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *registry* for the call which displays the actual list.
 
@@ -196,7 +196,7 @@ It is possible to mount any network device as a generic device. This allows invo
 
 ## Interaction with a CLI device
 
-For a hands-on tour of the CLI plugin from within your browser, please try our [playground][9]
+For a hands-on tour of the CLI plugin from within your browser, please try our [playground][10]
 
 <table>
   <thead>
@@ -358,6 +358,7 @@ For a hands-on tour of the CLI plugin from within your browser, please try our [
  [4]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
  [5]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
- [7]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
- [8]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
- [9]: http://46.229.232.136:8888/
+ [7]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
+ [8]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
+ [9]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+ [10]: http://46.229.232.136:8888/
