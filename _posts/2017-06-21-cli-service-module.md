@@ -178,7 +178,8 @@ Please refer to the Postman collection available [here][1], folder *Linux mount*
 
 Please refer to the Postman collection available [here][1], folder *Ios mount*.
 
-Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device: **Mounting by telnet:**
+Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device:  
+**Mounting by telnet**
 
 ![telnet mount][9]
 
