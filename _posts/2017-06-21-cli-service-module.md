@@ -192,6 +192,10 @@ IOS device management is supported. Currently supported aspects:
 
 It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
 
+## Interaction with a CLI device
+
+For a hands-on tour of the CLI plugin from within your browser, please try our [playground][9]
+
 <table>
   <thead>
     <tr>
@@ -354,3 +358,4 @@ It is possible to mount any network device as a generic device. This allows invo
  [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
  [7]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
  [8]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+ [9]: http://46.229.232.136:8888/
