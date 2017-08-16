@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-06-21 10:46:36
 ---
-*The Postman collection for the CLI service module can be accessed [here][1]. (latest version: FRINX CLI 2.3.1.postman_collection.json). It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below*
+*The Postman collection for the CLI service module can be accessed [here][1]. (latest version: FRINX CLI 2.3.1.postman_collection.json). It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below* **Postman can be downloaded for free [here][2]**
 
 ## Introduction
 
@@ -17,7 +17,9 @@ The CLI southbound plugin enables the FRINX Opendaylight distribution to communi
 
 Much like the NETCONF southbound plugin, the CLI southbound plugin enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underlying transport and can manage devices over the CLI plugin in the same exact way as over NETCONF.
 
-![CLI southbound plugin][2]
+Once we have mounted the device, we can present an abstract, model-based network device and service interface to applications and users. For example, we can parse the output of an IOS command and return structured data.
+
+![CLI southbound plugin][3]
 
 ## Architecture
 
@@ -49,7 +51,7 @@ The plugin relies on MD-SAL and its concept of mountpoints to expose management 
 
 The following diagram shows the layers of a CLI mountpoint:
 
-![CLI mountpoint][3]
+![CLI mountpoint][4]
 
 #### APIs
 
@@ -91,7 +93,7 @@ Each unit has to be registered under a specific device type(s) e.g. an interface
 
 The following diagram shows an IOS device translation plugin split into multiple units:
 
-![IOS translation plugin][4]
+![IOS translation plugin][5]
 
 #### Transport layer
 
@@ -112,14 +114,14 @@ Just as there are 2 types of data, there are 2 streams of data in the CLI southb
     *   user/application intended configuration for the device 
     *   translation plugins/units need to handle this configuration in data handlers as C(reate), U(pdate) and D(elete) operations - these data flow only towards the device - these data are cached in the mountpoint so when application performs read Config, it gets the cached version
 
-![Config data][5]
+![Config data][6]
 
 *   **Operational** 
     *   actual configuration on the device
     *   optionally statistics from the device
     *   translation plugins/units need to pull these data out of the device when R(ead) operation is requested
 
-![Operational data][6]
+![Operational data][7]
 
 *   **RPCs** stand on their own and can actually encapsulate any command(s) on the device.
 
@@ -140,7 +142,7 @@ This section provides samples for how to use the CLI southbound plugin to manage
 
 ### Features
 
-Install the following features into a running FRINX OpenDaylight instance (For running Frinx OpenDaylight, please see our [guide][7]):
+Install the following features into a running FRINX OpenDaylight instance (For running Frinx OpenDaylight, please see our [guide][8]):
 
     feature:install cli-topology cli-southbound-unit-ios odl-restconf
     
@@ -174,11 +176,19 @@ Please refer to the Postman collection available [here][1], folder *Linux mount*
 
 Please refer to the Postman collection available [here][1], folder *Ios mount*.
 
-IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][8]
+Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device: **Mounting by telnet:**
+
+![telnet mount][9]
+
+**Mounting by ssh** ![aah mount][10]
+
+Now we can parse the output of an IOS command and return structured data.
+
+IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][11]
 
 ## Supported devices
 
-Please see [here][9] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
+Please see [here][12] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
 It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to Postman collection available [here][1], folder *registry* for the call which displays the actual list.
 
@@ -198,7 +208,7 @@ It is possible to mount any network device as a generic device. This allows invo
 
 ## Interaction with a CLI device
 
-For a hands-on tour of the CLI plugin from within your browser, please try our [playground][10]
+For a hands-on tour of the CLI plugin from within your browser, please try our [playground][13]
 
 <table>
   <thead>
@@ -355,12 +365,15 @@ For a hands-on tour of the CLI plugin from within your browser, please try our [
 </table>
 
  [1]: https://github.com/FRINXio/postman-collections
- [2]: https://frinx.io/wp-content/uploads/2017/08/cliSouthPlugin5.png "CLI southbound plugin"
- [3]: https://frinx.io/wp-content/uploads/2017/08/cliMountpoint2.png "CLI mountpoint"
- [4]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
- [5]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
- [6]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
- [7]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
- [8]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
- [9]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
- [10]: http://46.229.232.136:8888/
+ [2]: https://www.getpostman.com/postman
+ [3]: https://frinx.io/wp-content/uploads/2017/08/cliSouthPlugin5.png "CLI southbound plugin"
+ [4]: https://frinx.io/wp-content/uploads/2017/08/cliMountpoint2.png "CLI mountpoint"
+ [5]: https://frinx.io/wp-content/uploads/2017/06/iosUnits.png "IOS translation plugin"
+ [6]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
+ [7]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
+ [8]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
+ [9]: https://frinx.io/wp-content/uploads/2017/06/mount-telnet.jpg
+ [10]: https://frinx.io/wp-content/uploads/2017/06/mount-ssh.jpg
+ [11]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
+ [12]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+ [13]: http://46.229.232.136:8888/
