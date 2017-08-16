@@ -182,7 +182,9 @@ Once you import the collection into Postman, open the Ios mount folder. You will
 
 ![telnet mount][9]
 
-**Mounting by ssh** ![aah mount][10]
+**Mounting by ssh**
+
+![ssh mount][10]
 
 Now we can parse the output of an IOS command and return structured data.
 
@@ -370,8 +372,8 @@ It is possible to mount any network device as a generic device. This allows invo
  [6]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [7]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
  [8]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
- [9]: https://frinx.io/wp-content/uploads/2017/06/mount-telnet1.jpg
- [10]: https://frinx.io/wp-content/uploads/2017/06/mount-ssh1.jpg
+ [9]: https://frinx.io/wp-content/uploads/2017/08/mount-telnet1.jpg
+ [10]: https://frinx.io/wp-content/uploads/2017/08/mount-ssh1.jpg
  [11]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
  [12]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
  [13]: http://46.229.232.136:8888/
