@@ -184,6 +184,12 @@ Once you import the collection into Postman, open the Ios mount folder. You will
 
 Now we can parse the output of an IOS command and return structured data.
 
+You'll see that the *Ios mount* folder in Postman contains several other REST calls - the aspects of IOS device management they currently support are:
+
+*   Interface management 
+*   VRF management 
+*   Version data read 
+
 IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][11]
 
 ## Supported devices
@@ -194,21 +200,11 @@ It is possible to check a current list of units and thus a current list of suppo
 
 More details regarding IOS and generic devices follow:
 
-### IOS
-
-IOS device management is supported. Currently supported aspects:
-
-*   interface management 
-*   VRF management 
-*   Version data read 
-
 ### Generic device
 
 It is possible to mount any network device as a generic device. This allows invocation of any commands on the device using RPCs, which return the output back as freeform data and it is up to user/application to make sense of them.
 
-## Interaction with a CLI device
-
-For a hands-on tour of the CLI plugin from within your browser, please try our [playground][13]
+*For a hands-on tour of the CLI plugin from within your browser, please try our [playground][13]*
 
 <table>
   <thead>
