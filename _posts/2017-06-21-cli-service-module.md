@@ -210,6 +210,8 @@ It is possible to check a current list of units and thus a current list of suppo
 
 *For a hands-on tour of the CLI service module from within your browser, please try our [playground][14]*
 
+*For more information, please contact us at info@frinx.io*
+
 <table>
   <thead>
     <tr>
