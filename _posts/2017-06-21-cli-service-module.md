@@ -11,6 +11,8 @@ post_date: 2017-06-21 10:46:36
 ---
 *The Postman collection for the CLI service module can be accessed [here][1] It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below*
 
+## Introduction
+
 The CLI southbound plugin for the FRINX Opendaylight distribution enables it to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underlying transport and can manage devices over the CLI in the same exact way as devices over netconf.
 
 ![CLI southbound plugin][2]
