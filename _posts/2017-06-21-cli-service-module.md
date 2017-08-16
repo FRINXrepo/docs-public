@@ -178,7 +178,8 @@ Please refer to the Postman collection available [here][1], folder *Linux mount*
 
 Please refer to the Postman collection available [here][1], folder *Ios mount*.
 
-Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device:  
+Once you import the collection into Postman, open the Ios mount folder. You will see there are two calls available for mounting an Ios device. *In each case, Edit the fields cli-topology:node-id, cli-topology:host, cli-topology:port, cli-topology:username, cli-topology:password according to your specific device*:
+
 **Mounting by telnet**
 
 ![telnet mount][9]
@@ -186,8 +187,6 @@ Once you import the collection into Postman, open the Ios mount folder. You will
 **Mounting by ssh**
 
 ![ssh mount][10]
-
-Now we can parse the output of an IOS command and return structured data.
 
 You'll see that the *Ios mount* folder in Postman contains several other REST calls - the aspects of IOS device management they currently support are:
 
