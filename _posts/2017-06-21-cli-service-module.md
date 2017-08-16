@@ -206,7 +206,7 @@ Open the body of the *mount* PUT call and edit the following fields according to
 
 Please see [here][13] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to Postman collection available [here][1], folder *registry* for the call which displays the actual list.
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please import the Postman collection available [here][1] into Postman and open the folder *registry* to access the GET call that displays the actual list.
 
 *For a hands-on tour of the CLI service module from within your browser, please try our [playground][14]*
 
