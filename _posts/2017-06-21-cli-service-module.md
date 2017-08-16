@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-06-21 10:46:36
 ---
-*The Postman collection for the CLI service module can be accessed [here][1]. (latest version: FRINX CLI 2.3.1.postman_collection.json). It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below* **Postman can be downloaded for free [here][2]**
+*The Postman collection for the CLI service module can be accessed [here][1]. **(latest version: FRINX CLI 2.3.1.postman_collection.json)**. It contains several pre-configured REST calls for mounting and interacting with devices, which can be edited for your use (by changing IP addresses, port numbers etc). We refer to the postman collection in the usage section below* **Postman can be downloaded for free [here][2]**
 
 ## Introduction
 
@@ -372,8 +372,8 @@ For a hands-on tour of the CLI plugin from within your browser, please try our [
  [6]: https://frinx.io/wp-content/uploads/2017/08/readCfg2.png "Config data"
  [7]: https://frinx.io/wp-content/uploads/2017/08/readOper2.png "Operational data"
  [8]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
- [9]: https://frinx.io/wp-content/uploads/2017/06/mount-telnet.jpg
- [10]: https://frinx.io/wp-content/uploads/2017/06/mount-ssh.jpg
+ [9]: https://frinx.io/wp-content/uploads/2017/06/mount-telnet1.jpg
+ [10]: https://frinx.io/wp-content/uploads/2017/06/mount-ssh1.jpg
  [11]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
  [12]: https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
  [13]: http://46.229.232.136:8888/
