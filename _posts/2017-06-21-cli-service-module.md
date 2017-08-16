@@ -11,7 +11,7 @@ post_date: 2017-06-21 10:46:36
 ---
 *The postman collection for the CLI service module can be accessed [here][1]*
 
-The CLI southbound plugin for Opendaylight enables the controller to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underlying transport and can manage devices over the CLI in the same exact way as devices over netconf.
+The CLI southbound plugin for the FRINX Opendaylight distribution enables it to manage devices over a CLI. Much like the netconf southbound plugin, it enables fully model-driven, transactional device management for internal and external OpenDaylight applications. In fact, the applications are completely unaware of underlying transport and can manage devices over the CLI in the same exact way as devices over netconf.
 
 ![CLI southbound plugin][2]
 
