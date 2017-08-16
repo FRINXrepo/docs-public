@@ -168,11 +168,11 @@ The following sequence of operations needs to happen from the point when Openday
 
 #### Mounting and managing Generic Linux VM devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Linux mount*
+Please refer to the Postman collection available [here][1], folder *Linux mount*
 
 #### Mounting and managing IOS devices over REST
 
-Please refer to the [POSTMAN collection][1], folder *Ios mount*.
+Please refer to the Postman collection available [here][1], folder *Ios mount*.
 
 IOS devices can also be mounted and managed from an application. For instructions, please see the end of the [Developer Guide][8]
 
@@ -180,7 +180,7 @@ IOS devices can also be mounted and managed from an application. For instruction
 
 Please see [here][9] for a structured list of device types currently supported by the CLI southbound plugin and configuration aspects implemented for them.
 
-It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to [POSTMAN collection][1], folder *registry* for the call which displays the actual list.
+It is possible to check a current list of units and thus a current list of supported devices directly from OpenDaylight's REST interface. Please refer to Postman collection available [here][1], folder *registry* for the call which displays the actual list.
 
 More details regarding IOS and generic devices follow:
 
