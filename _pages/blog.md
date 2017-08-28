@@ -40,7 +40,7 @@ Here we present updates on implementations of our software and Proof of Concept 
 
 2016-12-28 *[PC Revue article][14]*
 
- [1]: https://frinx.io/odl-confd
+ [1]: https://frinx.io/frinx-odl-confd
  [2]: https://youtu.be/UkHj9OgHHyo
  [3]: https://frinx.io/vpn_cli_servicemodulesreleased
  [4]: https://frinx.io/opensourcetelcosfuture
