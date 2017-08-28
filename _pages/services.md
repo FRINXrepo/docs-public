@@ -12,8 +12,6 @@ post_date: 2016-06-01 13:42:50
 
 In addition to the support options available together with the Frinx ODL distribution, Frinx also offers ***bespoke development, consulting and support services for custom solutions.***
 
-<img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
-
 ### Frinx Premium Support
 
 *Designed for custom software applications, developed either by our customers, third parties or by Frinx.*
@@ -31,6 +29,8 @@ Customers choose Premium support when they operate the Frinx ODL distribution in
 Frinx offers consulting and development packages to address customer needs, ranging from ***solution architecture, evaluation of detailed software implementation choices to actual development of ODL applications and related open source networking components.***
 
 We offer consulting packages including 10 consultant days each and developer packages including 21 developer days each. For Premium Plus options and pricing please contact our team at <info@frinx.io>.
+
+<img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
 
 ### Frinx Training Frinx offers training classes for ODL developers and operators.
 
