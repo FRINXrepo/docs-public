@@ -32,7 +32,7 @@ We offer consulting packages including 10 consultant days each and developer pac
 
 <img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
 
-### Frinx Training classes for ODL developers and operators
+### Frinx training classes for ODL developers and operators
 
 *Training is held either in virtual classrooms or in physical locations.*
 
