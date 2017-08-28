@@ -2,31 +2,27 @@
 ID: 4170
 post_title: FRINX Smart Build Engine
 author: frinxadmin
-post_date: 2017-03-27 11:00:51
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/sbe
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-03-27 11:00:51
 ---
-### SBE
+### FRINX Smart Build Engine (SBE)
 
-The Frinx Smart Build Engine (SBE) is a continuous integration and continuous deployment system based on Docker containers. It leverages well-known open source projects and comes pre-integrated to get you up and running quicker. The system is container based and can run on one or multiple host VMs.
+*Ready-to-run package for the entire software development process*. A continuous integration and continuous deployment system based on Docker containers, it leverages well-known open source projects and comes pre-integrated to get you up and running quicker. The system can run on one or multiple host VMs.
 
-Customers can use the SBE as a ready-to-run package for the entire software development process. It contains several well-established tools, all pre-configured and linked out-of-the-box. It's scalable to very large projects and hence suitable for developing forked versions of exiting projects.
+*Full integration between several well-established open-source solutions for source code management and code review, continuous integration, code quality assessment, project management and repository management.*
 
-All SBE tools are accessible via a single jump-off page.
+*Preconfigured and linked tools mean software teams can embark immediately on the development process*
+
+*Scalable to very large projects and hence suitable for developing forked versions of existing projects.*
+
+*All SBE tools accessible via a single jump-off page.*
 
 For questions and orders please contact our team at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
 
-For an introduction, see our [SBE video][1]
+Please see our introductory video \[here\]\[4\] For full instructions on using the SBE see our \[guide\]\[5\]
 
 **The SBE Includes:**  
 - Docker containers with open source CI/CD components  
@@ -36,7 +32,7 @@ For an introduction, see our [SBE video][1]
 
 **Figure 1: SBE components**
 
-![Figure 1: Layers][2]
+![Figure 1: Layers][1]
 
 **Software Build** Building software is an end-to-end process that involves many distinct functions.
 
@@ -48,7 +44,7 @@ For an introduction, see our [SBE video][1]
 
 **Continuous Integration** Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early on. The automated build merges all developer working copies to a shared mainline several times a day.
 
-**Figure 2: Continuous Integration** ![Figure 3: Continuous Integration][3]
+**Figure 2: Continuous Integration** ![Figure 3: Continuous Integration][2]
 
 ### Components Description
 
@@ -72,6 +68,5 @@ Gerrit is a free, Web-based team code collaboration tool. Software developers in
 
 **SonarQube** Provides an overview of the overall health of your source code and even more importantly, it highlights issues found with new code. With a Quality Gate set on your project, you can simply fix the Leak and start mechanically improving.
 
- [1]: https://www.useloom.com/share/f4ce6cc0e96011e69309454fac1abeab
- [2]: https://frinx.io/wp-content/uploads/2016/10/layers.png "Figure 1: Layers"
- [3]: https://frinx.io/wp-content/uploads/2016/10/ci_flow.png "Figure 2: Continuous Integration"
+ [1]: https://frinx.io/wp-content/uploads/2016/10/layers.png "Figure 1: Layers"
+ [2]: https://frinx.io/wp-content/uploads/2016/10/ci_flow.png "Figure 2: Continuous Integration"
