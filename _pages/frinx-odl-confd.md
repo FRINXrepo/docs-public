@@ -1,14 +1,14 @@
 ---
-ID: 5611
+ID: 5618
 post_title: >
   How to configure FRINX ODL to interact
   with ConfD
 author: frinxadmin
 post_excerpt: ""
 layout: page
-permalink: https://frinx.io/odl-confd
+permalink: https://frinx.io/frinx-odl-confd
 published: true
-post_date: 2017-08-28 13:24:08
+post_date: 2017-08-28 13:45:51
 ---
 We have received a number of requests to share how FRINX ODL connects with Tail-f/Cisco. Cisco has published a whitepaper that provides some explanation, but we found a few steps missing. These are our notes how we got it to work. Please let us know if you run into any other questions and we will add those to this README document.
 
