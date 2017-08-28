@@ -22,7 +22,7 @@ post_date: 2017-03-27 11:00:51
 
 For questions and orders please contact our team at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
 
-Please see our introductory video \[here\]\[4\] For full instructions on using the SBE see our \[guide\]\[5\]
+Please see our introductory video [here][1] For full instructions on using the SBE see our [guide][2]
 
 **The SBE Includes:**  
 - Docker containers with open source CI/CD components  
@@ -32,7 +32,7 @@ Please see our introductory video \[here\]\[4\] For full instructions on using t
 
 **Figure 1: SBE components**
 
-![Figure 1: Layers][1]
+![Figure 1: Layers][3]
 
 **Software Build** Building software is an end-to-end process that involves many distinct functions.
 
@@ -44,7 +44,7 @@ Please see our introductory video \[here\]\[4\] For full instructions on using t
 
 **Continuous Integration** Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early on. The automated build merges all developer working copies to a shared mainline several times a day.
 
-**Figure 2: Continuous Integration** ![Figure 3: Continuous Integration][2]
+**Figure 2: Continuous Integration** ![Figure 3: Continuous Integration][4]
 
 ### Components Description
 
@@ -68,5 +68,7 @@ Gerrit is a free, Web-based team code collaboration tool. Software developers in
 
 **SonarQube** Provides an overview of the overall health of your source code and even more importantly, it highlights issues found with new code. With a Quality Gate set on your project, you can simply fix the Leak and start mechanically improving.
 
- [1]: https://frinx.io/wp-content/uploads/2016/10/layers.png "Figure 1: Layers"
- [2]: https://frinx.io/wp-content/uploads/2016/10/ci_flow.png "Figure 2: Continuous Integration"
+ [1]: https://www.useloom.com/share/f4ce6cc0e96011e69309454fac1abeab
+ [2]: https://frinx.io/frinx-documents/sbe-intro.html
+ [3]: https://frinx.io/wp-content/uploads/2016/10/layers.png "Figure 1: Layers"
+ [4]: https://frinx.io/wp-content/uploads/2016/10/ci_flow.png "Figure 2: Continuous Integration"
