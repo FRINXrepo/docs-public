@@ -12,9 +12,9 @@ post_date: 2017-03-24 12:57:12
 
 Targeted at end-users and resellers/developers/OEM customers, releases are synchronized to the ODL release schedule.
 
-**Curated and tested** - each release passes through stages of rigorous quality assurance before we make it available to our customers.
+***Curated and tested*** - each release passes through stages of rigorous quality assurance before we make it available to our customers.
 
-**We also add components and modules** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
+***We add components and modules*** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
 
 *We've also added automated provisioning of [L2][2] and [L3VPN][3].*
 
