@@ -26,69 +26,123 @@ p style="text-align: right"> <a href="http://linkedin.com" target="_blank"><span
 
 [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_get_started'] [av_textblock size='' font_color='' color='' custom_class='fx_solution_header']
 
-## *the* **Frinx** <span class="fx_forced">Solution</span> [/av_textblock] [/av_section] [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#fbfbfb' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_solution_tx_row'] [av_one_half first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='left-to-right' custom_class='fx_solution_cite'] [av_video src='https://youtu.be/tbVMZpGYHrU' format='16-9' width='16' height='9' custom_class=''] [/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='fade-in' custom_class='fx_solution_tx'] [av_textblock size='' font_color='' color='' custom_class=''] **Cutting-edge OpenSource-based networking solutions ** A sea change is underway in networking. Our team has been heavily involved. Now they're helping customers harness the tech. Our solutions include: 
-*   Network automation
-*   Control of existing and next gen virtualized network devices
-*   L2/3VPN, customer port and service activation
-*   Central API to and from your network to gather service inventory and optimize resource utilization
-*   Accelerated data plane performance in OpenStack for NFV or media applications You don't need costly hardware/software upgrades For more details please see our Products & Services pages: 
-
-[FRINX ODL Distribution][1] [FRINX FD.io Distribution][2] [FRINX Smart Build Engine][3] [ FRINX Custom Consulting, Development & Support Options][4] [/av_textblock] [/av_one_half][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#fbfbfb' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_three_cols'] [av_one_third first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_distribution.png' attachment='581' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Distribution' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Powerful OpenDaylight distribution targeted at end-users and resellers/developers/ OEM customers Quality assurance and additional software only available through the Frinx distribution Frinx releases are synchronized with the ODL release schedule [/av_textblock] [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_support.png' attachment='582' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Support' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Our support packages cover all flavors of break/fix support and extend to customized system and application development and consulting services [/av_textblock] [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_training.png' attachment='583' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Training' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Through both in-person and virtual training classes We are also happy to organize training for your team in the location of your choice to jumpstart your ODL development project [/av_textblock] [/av_one_third] [/av_section] [av_section min_height='custom' min_height_px='112px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='https://frinx.io/wp-content/uploads/2015/02/xx_break.png' attachment='587' attachment_size='full' attach='scroll' position='top center' repeat='repeat-x' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_break_xx'][/av_section] [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#ffffff' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_solution_tx_row why_fx'] [av_textblock size='' font_color='' color='' custom_class='fx_solution_header'] 
-
-<
-
-h2>*why* **Frinx?** [/av_textblock]
-
-[av_one_half first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='left-to-right' custom_class='fx_solution_cite']
-
-[av_hr class='custom' height='50' shadow='no-shadow' position='right' custom_border='av-border-fat' custom_width='230px' custom_border_color='#adafb2' custom_margin_top='30px' custom_margin_bottom='5px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class='']
-
-[av_heading tag='h3' padding='0' heading='Centralized configuration and control without costly upgrades' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_hr class='custom' height='50' shadow='no-shadow' position='right' custom_border='av-border-thin' custom_width='230px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='30px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class='']
-
-[/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='fade-in' custom_class='fx_solution_tx']
-
-[av_textblock size='' font_color='' color='' custom_class=''] </b>Our current projects include a variety of OpenDaylight (OpenSource control plane) and FastData.io (OpenSource data plane) implementations.
-
-**Why Open Source?** It has become the de-facto standard for new networking applications. Customers are freed from a reliance on the same networking software and features used by their competitors, sourced from a limited choice of vendors.
-
-Customers can create unique new functionality based on their schedule and direction, not based on networking vendors' roadmaps and strategies.
-
-**Why FRINX?** We add the functionality necessary for service providers and enterprise customers to deploy open source projects. [/av_textblock]
-
-[/av_one_half] [/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_get_started second'] [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
-
-[av_textblock size='' font_color='custom' color='#111111' custom_class='fx_left_half'] <img class="alignnone size-full wp-image-551" src="https://frinx.io/wp-content/uploads/2015/02/logo_fx_od.png" alt="logo" width="263" height="125" />
-
-<a class="fx_button contact" href="https://frinx.io/contact-form/?iframe=true">Contact us</a> [/av_textblock]
-
-[av_textblock size='' font_color='' color='' custom_class='fx_left_half started']
-
-<
-
-p class="center"> [![start][5] *Try the FRINX Playground in your browser*][6]
-
-[/av_textblock]
-
-[/av_one_full][av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
-
-[av_textblock size='' font_color='' color='' custom_class='fx_left_half started']
-
-<
-
-p class="center"> [![start][5] *Get started*][7] [/av_textblock]
-
-[/av_one_full] [/av_section]
-
-[av_font_icon icon='' style='left' caption='' link='' linktarget='' size='40px' position='left'][/av_font_icon]
-
- [1]: https://frinx.io/odl_distribution
- [2]: https://frinx.io/fd-io_distribution
- [3]: https://frinx.io/sbe
- [4]: https://frinx.io/services
- [5]: https://frinx.io/wp-content/uploads/2015/02/icon_start.png
- [6]: http://46.229.232.136:8888/
- [7]: https://frinx.io/sign-up
+## *the* **Frinx** <span class="fx_forced">Solution</span> [/av_textblock] [/av_section] [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#fbfbfb' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_solution_tx_row'] [av_one_half first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='50px,0px,0px,0px' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='left-to-right' custom_class='fx_solution_cite'] [av_video src='https://youtu.be/tbVMZpGYHrU' format='16-9' width='16' height='9' custom_class=''] [av_textblock size='' font_color='' color='' custom_class='fx_left_half started'] <p class="center">
+  <a href="http://46.229.232.136:8888/"><img src="https://frinx.io/wp-content/uploads/2015/02/icon_start.png" alt="start" /> <em>Try the FRINX Playground in your browser</em></a> [/av_textblock] [/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='fade-in' custom_class='fx_solution_tx'] [av_textblock size='' font_color='' color='' custom_class=''] <b>Cutting-edge OpenSource-based networking solutions </b> A sea change is underway in networking. Our team has been heavily involved. Now they're helping customers harness the tech. Our solutions include: <ul>
+    <li>
+      Network automation
+    </li>
+    <li>
+      Control of existing and next gen virtualized network devices
+    </li>
+    <li>
+      L2/3VPN, customer port and service activation
+    </li>
+    <li>
+      Central API to and from your network to gather service inventory and optimize resource utilization
+    </li>
+    <li>
+      Accelerated data plane performance in OpenStack for NFV or media applications
+    </li>
+  </ul> You don't need costly hardware/software upgrades For more details please see our Products & Services pages: 
+  
+  <a href="https://frinx.io/odl_distribution">FRINX ODL Distribution</a> <a href="https://frinx.io/fd-io_distribution">FRINX FD.io Distribution</a> <a href="https://frinx.io/sbe">FRINX Smart Build Engine</a> <a href="https://frinx.io/services"> FRINX Custom Consulting, Development & Support Options</a> [/av_textblock] [av_textblock size='' font_color='' color='' custom_class=''] <b>Cutting-edge OpenSource-based networking solutions </b> A sea change is underway in networking. Our team has been heavily involved. Now they're helping customers harness the tech. Our solutions include: <ul>
+    <li>
+      Network automation
+    </li>
+    <li>
+      Control of existing and next gen virtualized network devices
+    </li>
+    <li>
+      L2/3VPN, customer port and service activation
+    </li>
+    <li>
+      Central API to and from your network to gather service inventory and optimize resource utilization
+    </li>
+    <li>
+      Accelerated data plane performance in OpenStack for NFV or media applications
+    </li>
+  </ul> You don't need costly hardware/software upgrades For more details please see our Products & Services pages: 
+  
+  <a href="https://frinx.io/odl_distribution">FRINX ODL Distribution</a> <a href="https://frinx.io/fd-io_distribution">FRINX FD.io Distribution</a> <a href="https://frinx.io/sbe">FRINX Smart Build Engine</a> <a href="https://frinx.io/services"> FRINX Custom Consulting, Development & Support Options</a> [/av_textblock] [/av_one_half][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#fbfbfb' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_three_cols'] [av_one_third first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_distribution.png' attachment='581' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Distribution' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Powerful OpenDaylight distribution targeted at end-users and resellers/developers/ OEM customers Quality assurance and additional software only available through the Frinx distribution Frinx releases are synchronized with the ODL release schedule [/av_textblock] [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_support.png' attachment='582' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Support' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Our support packages cover all flavors of break/fix support and extend to customized system and application development and consulting services [/av_textblock] [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' custom_class=''] [av_image src='https://frinx.io/wp-content/uploads/2015/02/icon_training.png' attachment='583' attachment_size='full' align='left' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='pop-up' custom_class=''][/av_image] [av_heading tag='h4' padding='0' heading='Training' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading] [av_hr class='custom' height='50' shadow='no-shadow' position='left' custom_border='av-border-fat' custom_width='80px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='0px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class=''] [av_textblock size='' font_color='' color='' custom_class=''] Through both in-person and virtual training classes We are also happy to organize training for your team in the location of your choice to jumpstart your ODL development project [/av_textblock] [/av_one_third] [/av_section] [av_section min_height='custom' min_height_px='112px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='https://frinx.io/wp-content/uploads/2015/02/xx_break.png' attachment='587' attachment_size='full' attach='scroll' position='top center' repeat='repeat-x' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_break_xx'][/av_section] [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#ffffff' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_solution_tx_row why_fx'] [av_textblock size='' font_color='' color='' custom_class='fx_solution_header'] </h2> <p>
+    <
+  </p>
+  
+  <p>
+    h2><em>why</em> <strong>Frinx?</strong> [/av_textblock]
+  </p>
+  
+  <p>
+    [av_one_half first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='left-to-right' custom_class='fx_solution_cite']
+  </p>
+  
+  <p>
+    [av_hr class='custom' height='50' shadow='no-shadow' position='right' custom_border='av-border-fat' custom_width='230px' custom_border_color='#adafb2' custom_margin_top='30px' custom_margin_bottom='5px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class='']
+  </p>
+  
+  <p>
+    [av_heading tag='h3' padding='0' heading='Centralized configuration and control without costly upgrades' color='' style='' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+  </p>
+  
+  <p>
+    [av_hr class='custom' height='50' shadow='no-shadow' position='right' custom_border='av-border-thin' custom_width='230px' custom_border_color='#adafb2' custom_margin_top='0px' custom_margin_bottom='30px' icon_select='no' custom_icon_color='' icon='ue808' font='entypo-fontello' custom_class='']
+  </p>
+  
+  <p>
+    [/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#ffffff' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='fade-in' custom_class='fx_solution_tx']
+  </p>
+  
+  <p>
+    [av_textblock size='' font_color='' color='' custom_class=''] </b>Our current projects include a variety of OpenDaylight (OpenSource control plane) and FastData.io (OpenSource data plane) implementations.
+  </p>
+  
+  <p>
+    <b>Why Open Source?</b> It has become the de-facto standard for new networking applications. Customers are freed from a reliance on the same networking software and features used by their competitors, sourced from a limited choice of vendors.
+  </p>
+  
+  <p>
+    Customers can create unique new functionality based on their schedule and direction, not based on networking vendors' roadmaps and strategies.
+  </p>
+  
+  <p>
+    <b>Why FRINX?</b> We add the functionality necessary for service providers and enterprise customers to deploy open source projects. [/av_textblock]
+  </p>
+  
+  <p>
+    [/av_one_half] [/av_section]
+  </p>
+  
+  <p>
+    [av_section min_height='' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='fx_get_started second']
+  </p>
+  
+  <p>
+    [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
+  </p>
+  
+  <p>
+    [av_textblock size='' font_color='custom' color='#111111' custom_class='fx_left_half'] <img class="alignnone size-full wp-image-551" src="https://frinx.io/wp-content/uploads/2015/02/logo_fx_od.png" alt="logo" width="263" height="125" />
+  </p>
+  
+  <p>
+    <a class="fx_button contact" href="https://frinx.io/contact-form/?iframe=true">Contact us</a> [/av_textblock]
+  </p>
+  
+  <p>
+    [/av_one_full][av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='pop-up' custom_class='fx_get_started_row']
+  </p>
+  
+  <p>
+    [av_textblock size='' font_color='' color='' custom_class='fx_left_half started']
+  </p>
+  
+  <p>
+    <
+  </p>
+  
+  <p>
+    p class="center"> <a href="https://frinx.io/sign-up"><img src="https://frinx.io/wp-content/uploads/2015/02/icon_start.png" alt="start" /> <em>Get started</em></a> [/av_textblock]
+  </p>
+  
+  <p>
+    [/av_one_full][/av_section][av_font_icon icon='' style='left' caption='' link='' linktarget='' size='40px' position='left'][/av_font_icon]
+  </p>
