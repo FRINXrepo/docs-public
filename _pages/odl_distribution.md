@@ -14,9 +14,11 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 **Curated and tested** - each release passes through stages of rigorous quality assurance before we make it available to our customers.
 
-**We also add components and modules** that make the Frinx distribution simpler to use and operate compared with other solutions on the market.
+**We also add components and modules** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
 
-Frinx also offers training, customized consulting and development packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
+*We've also added automated provisioning of [L2][2] and [L3VPN][3].*
+
+Frinx also offers **training, customized consulting and development** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
 For questions and orders please contact our team at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.  
 
@@ -40,7 +42,10 @@ With the SBE, a development team can immediately get the software development pr
 
 Because it’s scalable to very large projects, it makes it much easier to take a large open source project such as OpenDaylight and fork a new version.
 
-Please see our introductory video [here][1] For full instructions on using the SBE see our [guide][2]
+Please see our introductory video [here][4] For full instructions on using the SBE see our [guide][5]
 
- [1]: https://www.useloom.com/share/f4ce6cc0e96011e69309454fac1abeab
- [2]: https://frinx.io/frinx-documents/sbe-intro.html
+ [1]: https://frinx.io/frinx-documents/cli-service-module.html
+ [2]: https://frinx.io/frinx-documents/l2vpn-service-module-user-guide.html
+ [3]: https://frinx.io/frinx-documents/l3vpn-service-module.html
+ [4]: https://www.useloom.com/share/f4ce6cc0e96011e69309454fac1abeab
+ [5]: https://frinx.io/frinx-documents/sbe-intro.html
