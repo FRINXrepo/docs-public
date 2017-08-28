@@ -6,7 +6,7 @@ post_title: >
 author: frinxadmin
 post_excerpt: ""
 layout: page
-permalink: https://frinx.io/blog/frinx-odl-confd
+permalink: https://frinx.io/frinx-odl-confd
 published: true
 post_date: 2017-08-28 13:45:51
 ---
