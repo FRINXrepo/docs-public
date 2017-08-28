@@ -18,7 +18,7 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 *We've also added automated provisioning of [L2][2] and [L3VPN][3].*
 
-Frinx also offers **training, customized consulting and development** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
+Frinx also offers ***training, customized consulting and development*** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
 For questions and orders please contact our team at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.  
 
@@ -37,6 +37,8 @@ A detailed description of FRINX services and support options can be found in the
 ### FRINX Smart Build Engine
 
 The FRINX Smart Build Engine (SBE) is a ready-to-run package for the entire software development process. It provides full integration between several well-established open-source solutions for source code management and code review, continuous integration, code quality assessment, project management and repository management.
+
+<img src="https://frinx.io/wp-content/uploads/2016/11/nginx.png" alt="" width="1316" height="841" class="alignleft size-full wp-image-4410" />
 
 With the SBE, a development team can immediately get the software development process underway, because all the tools have been preconfigured and linked together by FRINX.
 
