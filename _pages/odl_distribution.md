@@ -10,11 +10,11 @@ post_date: 2017-03-24 12:57:12
 ---
 ### Frinx ODL Distribution
 
-FRINX delivers an OpenDaylight distribution targeted at end-users and resellers/developers/OEM customers. Releases are synchronized to the ODL release schedule, offer quality assurance and include additional software only available through this distribution.
+Targeted at end-users and resellers/developers/OEM customers, releases are synchronized to the ODL release schedule.
 
-Frinx ODL is a curated and tested distribution of OpenDaylight. Each Frinx release passes through stages of rigorous quality assurance before we make it available to our customers.
+**Curated and tested** - each release passes through stages of rigorous quality assurance before we make it available to our customers.
 
-We also add components and modules that make the Frinx distribution simpler to use and operate compared with other solutions on the market.
+**We also add components and modules** that make the Frinx distribution simpler to use and operate compared with other solutions on the market.
 
 Frinx also offers training, customized consulting and development packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
@@ -26,9 +26,11 @@ The Frinx ODL Base Support option allows for unlimited SW upgrades for the dura
 
 ### Frinx ODL Production Support
 
-Includes all components of the Base Support package with the following additions: You have access to email and phone support available 8×5 during CET business hours and our support team will get back to you no later than 4 hours after you have contacted us. Please contact our team  info@frinx.io for 24×7 support options and more options regarding SLAs.
+Includes all components of the Base Support package with the following additions: You have access to email and phone support **available 8×5 during CET business hours** and our support team will get back to you no later than 4 hours after you have contacted us. Please contact our team  info@frinx.io for 24×7 support options and more options regarding SLAs.
 
-Customers choose this support package when they operate the Frinx ODL distribution in production and critical network resources and service revenue depends on the uptime of their Frinx ODL instances. A detailed description of FRINX services and support options can be found in the Frinx Master Service Agreement. Please contact us at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
+Chosen when critical network resources and service revenue depend on the uptime of Frinx ODL instances.
+
+A detailed description of FRINX services and support options can be found in the Frinx Master Service Agreement. Please contact us at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
 
 ### FRINX Smart Build Engine
 
