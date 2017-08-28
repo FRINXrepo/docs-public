@@ -6,11 +6,11 @@ post_title: >
 author: frinxadmin
 post_excerpt: ""
 layout: page
-permalink: https://frinx.io/frinx-odl-confd
+permalink: https://frinx.io/blog/frinx-odl-confd
 published: true
 post_date: 2017-08-28 13:45:51
 ---
-We have received a number of requests to share how FRINX ODL connects with Tail-f/Cisco. Cisco has published a whitepaper that provides some explanation, but we found a few steps missing. These are our notes how we got it to work. Please let us know if you run into any other questions and we will add those to this README document.
+We have received a number of requests to share how FRINX ODL connects with Tail-f/Cisco. Cisco has published a whitepaper that provides some explanation, but we found a few steps missing. These are our notes how we got it to work. Please let us know if you run into any other questions and we will add those to this README document, also accessible on [github][1]
 
 The Tail-f paper can be found here: <http://www.tail-f.com/integrating-confd-opendaylight/>
 
@@ -386,3 +386,5 @@ Now you can use the following curl commands from your localhost, or you can use 
             }
         ]
     }
+
+ [1]: https://github.com/FRINXio/confd
