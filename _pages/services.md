@@ -36,7 +36,7 @@ We offer consulting packages including 10 consultant days each and developer pac
 
 *Training is held either in virtual classrooms or in physical locations.*
 
-A minimum of 10 places is required to hold a training course at your location. Frinx offers and develops the following classes (
+A minimum of 10 places is required to hold a training course at your location. Frinx offers and develops the following classes
 
 **O**: Recommended for operators, **D**: Recommended for developers):  
 O: ODL Administration & Operation  
@@ -46,5 +46,4 @@ OD: Intro to TOPO processing framework
 D: ODL Advanced Application Design and Implementation  
 D: ODL Advanced Architecture Training  
 OD: ODL System Test and Deployment  
-OD: ODL High Availability OD: Intro to Yang  
-**O**: Recommended for operators, **D**: Recommended for developers
+OD: ODL High Availability OD: Intro to Yang
