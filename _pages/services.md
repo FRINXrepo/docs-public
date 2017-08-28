@@ -10,11 +10,11 @@ post_date: 2016-06-01 13:42:50
 ---
 ### Frinx Custom Consulting, Development & Support Options
 
-In addition to the support options available together with the Frinx ODL distribution, Frinx also offers bespoke development, consulting and support services for custom solutions.
+In addition to the support options available together with the Frinx ODL distribution, Frinx also offers ***bespoke development, consulting and support services for custom solutions.***
 
 ### Frinx Premium Support
 
-Designed for custom software applications, developed either by our customers, third parties or by Frinx.
+*Designed for custom software applications, developed either by our customers, third parties or by Frinx.*
 
 For customer and third party applications a review together with the Frinx team is required to jointly plan and decide the best support option.
 
@@ -26,13 +26,15 @@ Customers choose Premium support when they operate the Frinx ODL distribution in
 
 ### FRINX Premium Support Plus - Bespoke Consulting and Development
 
-Frinx offers consulting and development packages to address customer needs, ranging from solution architecture, evaluation of detailed software implementation choices to actual development of ODL applications and related open source networking components.
+Frinx offers consulting and development packages to address customer needs, ranging from ***solution architecture, evaluation of detailed software implementation choices to actual development of ODL applications and related open source networking components.***
 
 We offer consulting packages including 10 consultant days each and developer packages including 21 developer days each. For Premium Plus options and pricing please contact our team at <info@frinx.io>.
 
 ### Frinx Training Frinx offers training classes for ODL developers and operators.
 
-Training is held either in virtual classrooms or in physical locations. A minimum of 10 places is required to hold a training course at your location. Frinx offers and develops the following classes (
+*Training is held either in virtual classrooms or in physical locations.*
+
+A minimum of 10 places is required to hold a training course at your location. Frinx offers and develops the following classes (
 
 **O**: Recommended for operators, **D**: Recommended for developers):  
 O: ODL Administration & Operation  
