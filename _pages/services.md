@@ -12,13 +12,19 @@ post_date: 2016-06-01 13:42:50
 
 In addition to the support options available together with the Frinx ODL distribution, Frinx also offers ***bespoke development, consulting and support services for custom solutions.***
 
+<img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
+
+<p style="text-align: center">
+  Why customers choose Frinx products and services
+</p>
+
 ### Frinx Premium Support
 
 *Designed for custom software applications, developed either by our customers, third parties or by Frinx.*
 
 For customer and third party applications a review together with the Frinx team is required to jointly plan and decide the best support option.
 
-Also includes a single point of contact in the Frinx team who is trained to understand the customer environment and applications.
+Includes a ***single point of contact*** in the Frinx team who is trained to understand the customer environment and applications.
 
 Customers have email and phone support available 8x5 during CET business hours and our support team will get back to you no later than 4 hours after you contact us. There is no limit to the number of cases. Please contact our team <info@frinx.io> for 24x7 support and more options regarding SLAs.
 
@@ -46,9 +52,3 @@ D: ODL Advanced Architecture Training
 OD: ODL System Test and Deployment  
 OD: ODL High Availability OD: Intro to Yang  
 **O**: Recommended for operators, **D**: Recommended for developers
-
-<img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
-
-<p style="text-align: center">
-  Why customers choose Frinx products and services
-</p>
