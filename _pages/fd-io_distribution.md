@@ -2,23 +2,15 @@
 ID: 4095
 post_title: FRINX FD.io Distribution
 author: frinxadmin
-post_date: 2017-03-24 13:24:34
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/fd-io_distribution
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-03-24 13:24:34
 ---
 ### Fast Data Plane - FD.io
 
-FRINX offers customers an alternative to the existing Openstack networking options when they require a simple and feature rich networking solution with unmatched deterministic data plane throughput and rich analytics.
+FRINX offers customers an alternative to the existing Openstack networking options when they require a simple and feature rich networking solution with ***unmatched deterministic data plane throughput*** and ***rich analytics***.
 
 We provide a supported distribution of the FD.io technology, which brings enormous improvements in software-based packet-processing performance, drawing on Cisco development and several years of production deployment experience.
 
