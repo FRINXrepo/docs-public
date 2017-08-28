@@ -10,13 +10,13 @@ post_date: 2017-03-27 11:00:51
 ---
 ### FRINX Smart Build Engine (SBE)
 
-*Ready-to-run package for the entire software development process*. A continuous integration and continuous deployment system based on Docker containers, it leverages well-known open source projects and comes pre-integrated to get you up and running quicker. The system can run on one or multiple host VMs.
+***Ready-to-run package for the entire software development process***. A continuous integration and continuous deployment system based on Docker containers, it leverages well-known open source projects and comes pre-integrated to get you up and running quicker. The system can run on one or multiple host VMs.
 
 *Full integration between several well-established open-source solutions for source code management and code review, continuous integration, code quality assessment, project management and repository management.*
 
-*Preconfigured and linked tools mean software teams can embark immediately on the development process*
+***Preconfigured and linked tools mean software teams can embark immediately on the development process***
 
-*Scalable to very large projects and hence suitable for developing forked versions of existing projects.*
+***Scalable to very large projects and hence suitable for developing forked versions of existing projects.***
 
 *All SBE tools accessible via a single jump-off page.*
 
