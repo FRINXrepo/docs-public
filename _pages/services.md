@@ -14,10 +14,6 @@ In addition to the support options available together with the Frinx ODL distrib
 
 <img class="aligncenter size-large wp-image-1566" src="https://frinx.io/wp-content/uploads/2016/06/frinx_product_support02-1030x509.png" alt="frinx_product_support02" width="1030" height="509" />
 
-<p style="text-align: center">
-  Why customers choose Frinx products and services
-</p>
-
 ### Frinx Premium Support
 
 *Designed for custom software applications, developed either by our customers, third parties or by Frinx.*
