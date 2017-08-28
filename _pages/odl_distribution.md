@@ -34,18 +34,6 @@ Chosen when critical network resources and service revenue depend on the uptime 
 
 A detailed description of FRINX services and support options can be found in the Frinx Master Service Agreement. Please contact us at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
 
-### FRINX Smart Build Engine
-
-The FRINX Smart Build Engine (SBE) is a ready-to-run package for the entire software development process. It provides full integration between several well-established open-source solutions for source code management and code review, continuous integration, code quality assessment, project management and repository management.
-
-With the SBE, a development team can immediately get the software development process underway, because all the tools have been preconfigured and linked together by FRINX.
-
-Because it’s scalable to very large projects, it makes it much easier to take a large open source project such as OpenDaylight and fork a new version.
-
-Please see our introductory video [here][4] For full instructions on using the SBE see our [guide][5]
-
  [1]: https://frinx.io/frinx-documents/cli-service-module.html
  [2]: https://frinx.io/frinx-documents/l2vpn-service-module-user-guide.html
  [3]: https://frinx.io/frinx-documents/l3vpn-service-module.html
- [4]: https://www.useloom.com/share/f4ce6cc0e96011e69309454fac1abeab
- [5]: https://frinx.io/frinx-documents/sbe-intro.html
