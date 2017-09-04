@@ -12,10 +12,7 @@ post_date: 2017-01-03 08:19:00
 ## Installation
 
 1\. If you have not already done so, [Download the FRINX ODL distribution][1] and [install it][2]  
-2\. [Install Elasticsearch][3] - download the zip file, then unpackage it by opening a terminal, going to the directory where the download file is, and typing
-
-    unzip filename
-    
+2\. [Install Elasticsearch][3]
 
 In the unpackaged folder, start elasticsearch with
 
@@ -157,7 +154,7 @@ All logging information is now logged to an Elasticsearch node though Logstash. 
 
  [1]: https://frinx.io//downloads/ "FRINX distribution"
  [2]: https://frinx.io/frinx-documents/running-frinx-odl-distribution-for-the-first-time.html
- [3]: https://www.elastic.co/downloads/elasticsearch
+ [3]: https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html
  [4]: https://www.elastic.co/downloads/kibana
  [5]: https://www.elastic.co/downloads/logstash
  [6]: https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html "Getting started with Logstash"
