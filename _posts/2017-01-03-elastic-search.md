@@ -43,31 +43,6 @@ For the Linuz-64 bit tar.gz download file, unpackage it with
 
 The base configuration is to use log4j socket listener for Logstash and the log4j socket appender in ODL Frinx.
 
-**Configure Log4j**
-
-In the Frinx ODL distribution, go to your /etc directory.
-
-Backup your old Log4j config if it exists:
-
-    cp org.ops4j.pax.logging.cfg org.ops4j.pax.logging.cfg.bkp
-    
-
-Now open org.ops4j.pax.logging.cfg in a text editor.
-
-At the top of the file, under 'Root logger' you will see the following lines:
-
-> log4j.rootLogger=INFO, async, osgi:*
-> 
-> log4j.category.org.apache.karaf.features=DEBUG log4j.category.io.frinx=DEBUG log4j.category.org.opendaylight.controller.cluster=DEBUG log4j.category.org.opendaylight.netconf.sal.connect=DEBUG log4j.category.org.opendaylight.netconf.topology=DEBUG
-
-Replace the first four of these lines with the following:
-
-> log4j.rootLogger= INFO, out,ELKTransform,osgi:*
-> 
-> log4j.appender.ELKTransform=org.apache.log4j.net.SocketAppender log4j.appender.ELKTransform.port=9500 log4j.appender.ELKTransform.remoteHost=127.0.0.1
-
-Save the file.
-
 **Configure Logstash**
 
 We must now configure socket listener for Logstash.
