@@ -20,7 +20,7 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 *We've also added automated provisioning of [L2][3] and [L3VPN][4].*
 
-*Figure 2: The Frinx ODL controller translates the L2VPN service abstraction to network element configuration* ![l2vpn][5]
+*Figure 2: Frinx ODL translates L2VPN service abstraction to network element configuration* ![l2vpn][5]
 
 Frinx also offers ***training, customized consulting and development*** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
