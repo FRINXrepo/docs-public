@@ -14,7 +14,7 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 ***Curated and tested*** - each release passes through stages of rigorous quality assurance before we make it available to our customers.
 
-***We add components and modules*** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
+***FRINX components and modules*** make our distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
 
 *Figure 1: FRINX ODL allows apps and users to interact with any CLI device* ![FRINX ODL allows apps and users to interact with any CLI device][2]
 
