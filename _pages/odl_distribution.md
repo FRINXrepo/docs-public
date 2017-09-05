@@ -16,11 +16,11 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 ***We add components and modules*** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
 
-*FRINX ODL allows apps and users to interact with any CLI device* ![FRINX ODL allows apps and users to interact with any CLI device][2]
+*Figure 1: FRINX ODL allows apps and users to interact with any CLI device* ![FRINX ODL allows apps and users to interact with any CLI device][2]
 
 *We've also added automated provisioning of [L2][3] and [L3VPN][4].*
 
-*The Frinx ODL controller translates the L2VPN service abstraction to network element configuration* ![l2vpn][5]
+*Figure 2: The Frinx ODL controller translates the L2VPN service abstraction to network element configuration* ![l2vpn][5]
 
 Frinx also offers ***training, customized consulting and development*** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
