@@ -16,7 +16,9 @@ Targeted at end-users and resellers/developers/OEM customers, releases are synch
 
 ***We add components and modules*** that make the Frinx distribution simpler to use and operate compared with other solutions on the market. *For example, our [CLI plugin][1] means Frinx ODL can communicate with devices even if they don't speak NETCONF or any other programmatic API.*
 
-*We've also added automated provisioning of [L2][2] and [L3VPN][3].*
+![FRINX ODL allows apps and users to interact with any CLI device][2]
+
+*We've also added automated provisioning of [L2][3] and [L3VPN][4].*
 
 Frinx also offers ***training, customized consulting and development*** packages to bootstrap, accelerate or implement your ODL and open source based networking projects.
 
@@ -35,5 +37,6 @@ Chosen when critical network resources and service revenue depend on the uptime 
 A detailed description of FRINX services and support options can be found in the Frinx Master Service Agreement. Please contact us at <a href="mailto:info@frinx.io" target="_blank">info@frinx.io</a>.
 
  [1]: https://frinx.io/frinx-documents/cli-service-module.html
- [2]: https://frinx.io/frinx-documents/l2vpn-service-module-user-guide.html
- [3]: https://frinx.io/frinx-documents/l3vpn-service-module.html
+ [2]: https://frinx.io/wp-content/uploads/2017/03/show-cli-version.jpg
+ [3]: https://frinx.io/frinx-documents/l2vpn-service-module-user-guide.html
+ [4]: https://frinx.io/frinx-documents/l3vpn-service-module.html
