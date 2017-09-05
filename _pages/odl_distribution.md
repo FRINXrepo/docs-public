@@ -42,4 +42,4 @@ A detailed description of FRINX services and support options can be found in the
  [2]: https://frinx.io/wp-content/uploads/2017/03/show-cli-version.jpg
  [3]: https://frinx.io/frinx-documents/l2vpn-service-module-user-guide.html
  [4]: https://frinx.io/frinx-documents/l3vpn-service-module.html
- [5]: https://frinx.io/wp-content/uploads/2017/03/show-l2vpn-config1.jpg
+ [5]: https://frinx.io/wp-content/uploads/2017/03/show-l2vpn-config2.jpg
