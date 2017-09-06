@@ -9,6 +9,8 @@ permalink: >
 published: true
 post_date: 2017-09-06 11:34:53
 ---
+*This feature was deprecated in FRINX 2.3.1. For using Elasticsearch with FRINX ODL logs see [here][1]*
+
 **Setting Up the environment**  
 To setup and run the Frinx TSDR data store elasticsearch plugin, you need to have an elasticsearch node (or a cluster of such nodes) running. We will use a customized elasticsearch docker image for this purpose.
 
@@ -158,3 +160,5 @@ The elasticseach_ip is the IP address of the server where the elasticsearch 
     </tr>
   </tbody>
 </table>
+
+ [1]: https://frinx.io/frinx-documents/elastic-search.html
