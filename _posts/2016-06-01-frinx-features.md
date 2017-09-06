@@ -2,20 +2,12 @@
 ID: 760
 post_title: Out of the box features
 author: frinxeditor
-post_date: 2016-06-01 14:42:18
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/frinx-features.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-01 14:42:18
 ---
 The FRINX distribution offers the following features:
 
@@ -37,6 +29,14 @@ The FRINX distribution offers the following features:
      l2switch
      bgpcep
      lispflowmapping
+     cli
+     daexim
+     faas    
+     genius
+     netvirt
+     honeycomb-vbd
+     l2vpn
+     l3vpn
     
 
 **Compatibility with other OpenDaylight projects**  
