@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-01-03 08:19:00
 ---
-## Installation
+**Installation**
 
 1\. If you have not already done so, [Download the FRINX ODL distribution][1] and [install it][2]  
 2\. [Install Elasticsearch][3]
@@ -36,11 +36,11 @@ For the Linuz-64 bit tar.gz download file, unpackage it with
     tar -xvf filename
     
 
-## Configuration
+**Configuration**
 
 The base configuration is to use log4j socket listener for Logstash and the log4j socket appender in ODL Frinx.
 
-**Configure Logstash**
+*Configure Logstash*
 
 We must now configure socket listener for Logstash.
 
@@ -82,7 +82,7 @@ The start logstash with
     bin/logstash -f config/frinx.conf
     
 
-## Operation
+**Operation**
 
 We have already started elasticsearch, kibana, and logstash. Now start karaf as normal by going to your FRINX ODL Distribution main directory for example distribution-karaf-2.3.0.frinx.
 
