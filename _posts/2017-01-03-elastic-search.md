@@ -40,9 +40,7 @@ For the Linuz-64 bit tar.gz download file, unpackage it with
 
 The base configuration is to use log4j socket listener for Logstash and the log4j socket appender in ODL Frinx.
 
-*Configure Logstash*
-
-We must now configure socket listener for Logstash.
+We must now configure socket listener for Logstash:
 
 From your logstash folder (the folder created from unpackaging the download file at the start of this guide), move into the config folder:
 
