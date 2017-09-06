@@ -169,6 +169,60 @@ Installs L2VPN Provider with IOS-XRv NEP and NETCONF connector. This feature is 
 **Description:**  
 Installs L2VPN Provider with Mock NEP and RESTCONF. This feature can be used for testing and demonstration purposes where real PE devices are not available.
 
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature Guide
+      </th>
+      
+      <th>
+      </th>
+      
+      <th>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+      </td>
+      
+      <td>
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        Feature introduced in
+      </td>
+      
+      <td>
+        FRINX 2.3.1
+      </td>
+      
+      <td>
+        VPN service module implementation with support for L2VPN and IOS XR (Version 6.1.2) NEP via NETCONF
+      </td>
+    </tr>
+  </tbody>
+</table>
+
  [1]: https://github.com/FRINXio/postman-collections
  [2]: https://frinx.io/wp-content/uploads/2017/08/l2vpn_service3.png "L2VPN Service"
  [3]: https://frinx.io/wp-content/uploads/2017/08/problem3.png "Example of of problem"
