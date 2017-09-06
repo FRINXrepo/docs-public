@@ -113,3 +113,48 @@ Or you can directly query elasticsearch:
     
 
 The elasticseach_ip is the IP address of the server where the elasticsearch is running.
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature Guide
+      </th>
+      
+      <th>
+      </th>
+      
+      <th>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>
+        Feature introduced in
+      </td>
+      
+      <td>
+        Frinx 1.4.0
+      </td>
+      
+      <td>
+        Elasticsearch module
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        Feature deprecated in
+      </td>
+      
+      <td>
+        Frinx 2.3.1
+      </td>
+      
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
