@@ -74,7 +74,7 @@ COMING SOON
  [2]: https://frinx.io/frinx-documents/sbe-intro.html
  [3]: https://frinx.io/frinx-documents/cli-service-module.html
  [4]: https://frinx.io/frinx-documents/cli-service-module-devguide.html
- [5]: https://github.com/FRINXio/translation-units
+ [5]: https://github.com/FRINXio/translation-units-docs
  [6]: https://frinx.io/network-device-simulation-with-gns3
  [7]: https://youtu.be/BuP1DnS9u7k
  [8]: https://tools.ietf.org/html/rfc6020
