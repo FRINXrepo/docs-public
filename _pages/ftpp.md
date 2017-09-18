@@ -29,7 +29,7 @@ Our ***training videos*** and ***documentation*** are readily available through 
 *   Access to [SBE][2]​
 *   Access to FRINX ODL perpetual license​
 
-**FTTP Resources:**
+## FTTP Resources:
 
 ### INTRODUCTION TO UNIFIED NODE AND CLI MODULES
 
