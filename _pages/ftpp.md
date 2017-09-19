@@ -12,7 +12,7 @@ post_date: 2017-09-11 12:52:07
 
 Our partner program provides access to FRINX resources, allowing our development work to be leveraged and our know-how to be disseminated and built upon.
 
-Our ***training videos*** and ***documentation*** are readily available through our Free Tier program, while our ***continuous build environment*** and ***helpdesk*** are accessible through our Professional Tier. More details can be found below.
+Our ***training videos*** and ***documentation*** are readily available through our Free Tier program, while our ***FRINX Smart Build Engine*** and ***helpdesk*** are accessible through our Professional Tier. More details can be found below.
 
 **Free Tier**  
 *Accessible to everyone – no registration required​*
