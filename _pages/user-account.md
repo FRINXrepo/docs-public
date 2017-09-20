@@ -18,9 +18,7 @@ post_date: 2016-07-04 08:25:06
 
 [wpmem_profile]
 
-[sbscrbr_form]
-
-[plugin_delete_me /]
+[mc4wp_form id="5827"]
 
 [/av_textblock]
 
