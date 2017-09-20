@@ -16,9 +16,7 @@ post_date: 2016-07-04 08:25:06
 
 # User account
 
-[wpmem_profile]
-
-[mc4wp_form id="5827"]
+[wpmem_profile] Ocassionally we'd like to send you our newsletter. Please indicate below whether this is ok, thank you. [mc4wp_form id="5827"]
 
 [/av_textblock]
 
