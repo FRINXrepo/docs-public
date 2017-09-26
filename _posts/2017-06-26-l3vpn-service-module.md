@@ -96,7 +96,7 @@ The YANG module contains 3 root statements and one RPC:
 *   **container configured-l3vpn-svc** – shows last successfully configured L3VPN service.
 *   **rpc commit-l3vpn-svc** – starts processing intent of L3VPN service. An output of RPC is the version which was assigned to the intent. The output is returned immediately after processing starts.
 
-##### l3vpn-svc-aug@2017-05-02.yang[13][13]
+##### [l3vpn-svc-aug@2017-05-02.yang][13]
 
 Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN.
 
@@ -281,7 +281,7 @@ Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for
  [10]: https://github.com/FRINXio/postman-collections/blob/master/ietf-l3vpn-svc%402017-05-02.yang
  [11]: https://tools.ietf.org/html/rfc8049
  [12]: https://frinx.io/wp-content/uploads/2017/06/ietf-l3vpn-svc_uml.png "IETF UML"
- [13]: https://github.com/FRINXio/postman-collections/blob/master/l3vpn-svc-aug%402017-05-02.yang "l3vpn-svc-aug@2017-05-02.yang"
+ [13]: https://github.com/FRINXio/postman-collections/blob/master/l3vpn-svc-aug@2017-05-02.yang
  [14]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv3.png "IOS-XRv NEP"
  [15]: https://frinx.io/wp-content/uploads/2017/08/nep_mock3.png "Mock NEP"
  [16]: https://tools.ietf.org/html/rfc8049#section-6.3.2.3
