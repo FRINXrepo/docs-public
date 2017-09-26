@@ -2,20 +2,12 @@
 ID: 4603
 post_title: Qemu + VPP + Vhost user
 author: frinxadmin
-post_date: 2017-05-29 16:36:39
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-vpp-distribution/vpp-operations-manual/qemu-vpp-vhost-user.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 16:36:39
 ---
 This article shows you how to set up a VM or a bare metal machine with qemu and KVM and VPP handling L2 networking between VMs.
 

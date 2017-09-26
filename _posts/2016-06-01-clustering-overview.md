@@ -2,20 +2,12 @@
 ID: 768
 post_title: Clustering
 author: frinxeditor
-post_date: 2016-06-01 08:17:31
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/clustering-overview.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-01 08:17:31
 ---
 Clustering is a mechanism that enables multiple processes and programs to work together as one entity. For example, a Google Web search is in fact processed by thousands of web servers connected in a cluster. Similarly, you can have multiple instances of the OpenDaylight controller working together as one entity. There are a number of uses for clustering:
 

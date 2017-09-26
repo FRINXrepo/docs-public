@@ -2,19 +2,11 @@
 ID: 3805
 post_title: FRINX FD.io Distribution
 author: ngray@frinx.io
-post_date: 2017-02-07 08:46:12
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/frinx-fdio-distribution
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-02-07 08:46:12
 ---
 ### FRINX Releases FD.io Distribution for Bandwidth-Hungry Applications
 

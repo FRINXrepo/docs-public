@@ -2,20 +2,12 @@
 ID: 873
 post_title: ODL distribution overview
 author: admin
-post_date: 2016-05-26 21:51:32
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/odl-distribution-overview.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-05-26 21:51:32
 ---
 #### Vendor Agnostic
 

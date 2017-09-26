@@ -4,7 +4,7 @@ post_title: Home
 author: frinxadmin
 post_excerpt: ""
 layout: page
-permalink: https://frinx.io/home-3
+permalink: https://frinx.io/
 published: true
 post_date: 2016-11-28 16:00:59
 ---

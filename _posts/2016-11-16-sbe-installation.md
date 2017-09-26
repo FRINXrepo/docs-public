@@ -2,20 +2,12 @@
 ID: 2681
 post_title: Installation
 author: ngray@frinx.io
-post_date: 2016-11-16 12:46:12
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/sbe-installation.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-11-16 12:46:12
 ---
 The FRINX SBE runs on one or multiple hosts. The following instructions explain how to install it on one host. For installations across multiple hosts please contact info@frinx.io.
 

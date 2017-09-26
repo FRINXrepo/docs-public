@@ -2,19 +2,11 @@
 ID: 2982
 post_title: Wedge 100 Switch
 author: frinxadmin
-post_date: 2016-11-21 12:19:20
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/wedge100
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-11-21 12:19:20
 ---
 ### Hands-on with the Wedge 100 Open Compute Platform Switch from Facebook
 

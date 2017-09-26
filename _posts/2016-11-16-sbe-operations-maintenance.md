@@ -2,20 +2,12 @@
 ID: 2685
 post_title: 'Operations &#038; Maintenance'
 author: ngray@frinx.io
-post_date: 2016-11-16 12:48:02
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/sbe-operations-maintenance.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-11-16 12:48:02
 ---
 *   Container maintenance
 *   Build scripts description

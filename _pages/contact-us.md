@@ -2,19 +2,11 @@
 ID: 1385
 post_title: Contact Us
 author: frinxeditor
-post_date: 2016-06-07 11:10:53
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/contact-us
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-07 11:10:53
 ---
 [av_heading heading='Contact Us' tag='h3' style='' size='' subheading_active='' subheading_size='15' padding='10' color='' custom_font='' custom_class=''][/av_heading]
 

@@ -2,20 +2,12 @@
 ID: 774
 post_title: Glossary of terms
 author: frinxeditor
-post_date: 2016-06-01 14:46:35
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/glossary-of-terms.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-01 14:46:35
 ---
 KARAF <http://karaf.apache.org/manual/latest/#_osgi>- Lightweight OSGI container used to dynamically load java classes
 

@@ -4,20 +4,12 @@ post_title: >
   Using NETCONF with the Frinx ODL
   Distribution
 author: frinxeditor
-post_date: 2016-06-01 14:44:24
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/using-netconf-with-the-frinx-odl-distribution.html
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-06-01 14:44:24
 ---
 [wpmem_form login] 
 # Using NETCONF with the Frinx ODL Distribution

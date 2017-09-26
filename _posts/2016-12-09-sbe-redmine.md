@@ -2,24 +2,12 @@
 ID: 3284
 post_title: Redmine user manual
 author: frinxadmin
-post_date: 2016-12-09 15:24:40
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/sbe-redmine.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
-apost_date:
-  - 'a:1:{i:0;s:19:"2016-11-16 12:51:40";}'
-hheader_title_bar:
-  - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
+post_date: 2016-12-09 15:24:40
 ---
 This is the Redmine manual for users to develop, track and manage tasks in the Secondary Build Environment. Redmine is a flexible project management Web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database. Redmine is open source and released under the terms of the GNU General Public License v2 (GPL). It allows you to create multiple projects, assign multiple persons with the help of a local Wiki page and document storage place. Redmine can be used by managers, developers and reporters (support teams). It allows you to create a nice project hierarchy and to organize and track multiple bugs, features and support nice and smoothly.  
 The translation of the Redmine guide is available in Japanese language here: http://redmine.jp/guide/

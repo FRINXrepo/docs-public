@@ -4,19 +4,11 @@ post_title: >
   High Speed Data Plane for NFVI with
   OpenStack
 author: frinxadmin
-post_date: 2016-12-06 08:29:17
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/s-hsdp
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-12-06 08:29:17
 ---
 ### Problem Definition:
 

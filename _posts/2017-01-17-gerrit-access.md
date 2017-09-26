@@ -2,20 +2,12 @@
 ID: 3623
 post_title: Gerrit Access and Administration
 author: frinxadmin
-post_date: 2017-01-17 08:22:38
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/gerrit-access.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-17 08:22:38
 ---
 The FRINX SBE uses Git and Gerrit for code review and version control.
 

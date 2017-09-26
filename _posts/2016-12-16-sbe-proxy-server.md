@@ -2,24 +2,12 @@
 ID: 3342
 post_title: Proxy server
 author: frinxadmin
-post_date: 2016-12-16 12:06:51
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/sbe-proxy-server.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
-apost_date:
-  - 'a:1:{i:0;s:19:"2016-11-16 12:51:40";}'
-hheader_title_bar:
-  - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
+post_date: 2016-12-16 12:06:51
 ---
 ### Proxy server configuration
 

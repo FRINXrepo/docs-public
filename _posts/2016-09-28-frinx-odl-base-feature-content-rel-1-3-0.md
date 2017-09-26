@@ -2,20 +2,12 @@
 ID: 2310
 post_title: 'Frinx ODL Base Feature Content &#8211; Rel. 1.3.0'
 author: ngray@frinx.io
-post_date: 2016-09-28 07:11:36
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/frinx-odl-base-feature-content-rel-1-3-0.html
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-09-28 07:11:36
 ---
 [wpmem_form login] <table width="489">
   <tbody>

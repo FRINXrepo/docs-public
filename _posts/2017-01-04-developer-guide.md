@@ -2,20 +2,12 @@
 ID: 3480
 post_title: Developer Guide
 author: frinxadmin
-post_date: 2017-01-04 08:18:36
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/developer-guide.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-04 08:18:36
 ---
 The FRINX SBE uses Git and Gerrit to manage version control. Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 

@@ -2,20 +2,12 @@
 ID: 4561
 post_title: General
 author: frinxadmin
-post_date: 2017-05-29 13:03:15
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-vpp-distribution/vpp-operations-manual/howto-general.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 13:03:15
 ---
 **Dump VPP message table**
 

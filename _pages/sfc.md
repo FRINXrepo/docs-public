@@ -4,19 +4,11 @@ post_title: >
   Pluggable Service Function Chaining
   Solution
 author: ngray@frinx.io
-post_date: 2016-12-06 11:11:38
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/sfc
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-12-06 11:11:38
 ---
 ### Problem Definition:
 

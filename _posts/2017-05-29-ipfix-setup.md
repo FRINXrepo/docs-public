@@ -2,20 +2,12 @@
 ID: 4587
 post_title: IPFIX Setup
 author: frinxadmin
-post_date: 2017-05-29 14:47:32
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-vpp-distribution/vpp-operations-manual/ipfix-setup.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 14:47:32
 ---
 ### Configure VPP using VAT
 

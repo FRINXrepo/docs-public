@@ -2,19 +2,11 @@
 ID: 1380
 post_title: Careers
 author: frinxeditor
-post_date: 2016-06-07 10:48:38
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/careersfrinx
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2016-06-07 10:48:38
 ---
 ### Careers
 

@@ -2,19 +2,11 @@
 ID: 3234
 post_title: CDN Cache Selection Optimization
 author: frinxadmin
-post_date: 2016-12-06 08:28:04
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/s-cdn
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-12-06 08:28:04
 ---
 ### Problem Definition:
 

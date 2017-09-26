@@ -5,20 +5,12 @@ post_title: >
   Open-Source Based Network Operations
   System
 author: frinxadmin
-post_date: 2017-05-29 14:11:55
 post_excerpt: ""
 layout: page
 permalink: >
   https://frinx.io/frinx_softbank_collaboration
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 14:11:55
 ---
 Bratislava, May 2017
 

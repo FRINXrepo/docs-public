@@ -5,7 +5,7 @@ author: frinxadmin
 post_excerpt: ""
 layout: post
 permalink: >
-  https://frinx.io/frinx-feature-guide/frinx-cli-supported-devices.html
+  https://frinx.io/frinx-features-user-guide/frinx-cli-supported-devices.html
 published: true
 post_date: 2017-08-15 14:16:13
 ---

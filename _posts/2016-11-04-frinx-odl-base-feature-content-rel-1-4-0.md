@@ -4,20 +4,12 @@ post_title: >
   Frinx ODL Base Feature Content – Rel.
   1.4.0
 author: frinxadmin
-post_date: 2016-11-04 20:00:31
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/frinx-odl-base-feature-content-rel-1-4-0.html
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-11-04 20:00:31
 ---
 [wpmem_form login]
 

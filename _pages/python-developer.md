@@ -2,19 +2,11 @@
 ID: 3969
 post_title: Python Developer
 author: frinxadmin
-post_date: 2017-02-27 11:08:09
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/python-developer
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-02-27 11:08:09
 ---
 ## Python Developer
 

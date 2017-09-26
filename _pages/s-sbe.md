@@ -2,19 +2,11 @@
 ID: 3240
 post_title: FRINX Secondary Build Engine
 author: frinxadmin
-post_date: 2016-12-06 08:30:36
 post_excerpt: ""
 layout: page
 permalink: https://frinx.io/s-sbe
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-12-06 08:30:36
 ---
 ### Problem Definition:
 

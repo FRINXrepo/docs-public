@@ -2,20 +2,12 @@
 ID: 4611
 post_title: VLAN Setup
 author: frinxadmin
-post_date: 2017-05-29 19:39:00
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-vpp-distribution/vpp-operations-manual/vlan-setup.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-05-29 19:39:00
 ---
 ### Topology
 

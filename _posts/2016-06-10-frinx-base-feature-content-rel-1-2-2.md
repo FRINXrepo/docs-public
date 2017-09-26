@@ -2,20 +2,12 @@
 ID: 1547
 post_title: 'Frinx ODL Base Feature Content &#8211; Rel. 1.2.2'
 author: frinxeditor
-post_date: 2016-06-10 10:23:53
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/frinx-base-feature-content-rel-1-2-2.html
 published: true
-sidebar:
-  - 'a:1:{i:0;s:0:"";}'
-footer:
-  - 'a:1:{i:0;s:0:"";}'
-header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
-header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+post_date: 2016-06-10 10:23:53
 ---
 [wpmem_form login] 
     Name                                           Version

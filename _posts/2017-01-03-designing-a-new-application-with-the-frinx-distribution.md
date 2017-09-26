@@ -2,20 +2,12 @@
 ID: 3449
 post_title: Adding a new application to FRINX ODL
 author: frinxadmin
-post_date: 2017-01-03 14:13:32
 post_excerpt: ""
 layout: post
 permalink: >
   https://frinx.io/frinx-documents/designing-a-new-application-with-the-frinx-distribution.html
 published: true
-sidebar:
-  - ""
-footer:
-  - ""
-header_title_bar:
-  - ""
-header_transparency:
-  - ""
+post_date: 2017-01-03 14:13:32
 ---
 #### 1\. Project structure
 
