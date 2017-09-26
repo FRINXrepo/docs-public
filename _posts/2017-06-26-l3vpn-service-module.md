@@ -278,7 +278,7 @@ Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for
  [7]: https://frinx.io/wp-content/uploads/2017/08/topo_hub-and-spoke3.png "Hub and Spoke topology"
  [8]: https://frinx.io/wp-content/uploads/2017/08/use-case3.png "Use case example"
  [9]: https://frinx.io/wp-content/uploads/2017/08/architecture3.png "Architecture"
- [10]: https://github.com/FRINXio/postman-collections/blob/master/l3vpn-svc-aug%402017-05-02.yang
+ [10]: https://github.com/FRINXio/postman-collections/blob/master/ietf-l3vpn-svc%402017-05-02.yang
  [11]: https://tools.ietf.org/html/rfc8049
  [12]: https://frinx.io/wp-content/uploads/2017/06/ietf-l3vpn-svc_uml.png "IETF UML"
  [13]: https://github.com/FRINXio/postman-collections/blob/master/ietf-l3vpn-svc%402017-05-02.yang "ietf-l3vpn-svc@2017-05-02.yang"
