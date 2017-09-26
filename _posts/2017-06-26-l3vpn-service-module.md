@@ -87,7 +87,7 @@ The API is described using YANG modules. An external application can consume the
 
 ##### [ietf-l3vpn-svc@2017-05-02.yang][10]
 
-The original YANG is from [RFC 8049][11]. Supported statements are shown in [generated UML from the original YANG][12]. This YANG module is modified in order to reuse its parts and is extended with L3VPN Provider elements - [modified ietf-l3vpn-svc YANG module][13]
+The original YANG is from [RFC 8049][11]. Supported statements are shown in [generated UML from the original YANG][12]. This YANG module is modified in order to reuse its parts and is extended with L3VPN Provider elements.
 
 The YANG module contains 3 root statements and one RPC:
 
@@ -96,9 +96,9 @@ The YANG module contains 3 root statements and one RPC:
 *   **container configured-l3vpn-svc** – shows last successfully configured L3VPN service.
 *   **rpc commit-l3vpn-svc** – starts processing intent of L3VPN service. An output of RPC is the version which was assigned to the intent. The output is returned immediately after processing starts.
 
-##### l3vpn-svc-aug@2017-05-02.yang[14][14]
+##### l3vpn-svc-aug@2017-05-02.yan[14][13]
 
-Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN - [l3vpn-svc-aug YANG module][14]
+Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN.
 
 ### Network Element Plugin
 
@@ -112,7 +112,7 @@ The Network Element Plugin (NEP) is a unit which implements SPI from the L3VPN P
 
 This plugin configures L3VPN on IOS-XRv using NETCONF. It listens on topology-netconf and announces PE capable devices to the L3VPN Provider. Rollback on a device is done automatically using the "Rollback-on-Error" capability.
 
-![IOS-XRv NEP][15]
+![IOS-XRv NEP][14]
 
 IOS-XRv NEP listens on nodes in *topology-netconf*. When a new IOS-XRv device is connected to Frinx ODL it appears as a new node in *topology-netconf* and IOS-XRv registers that node as PE to L3VPN Provider. If L3VPN Provider calls SPI in order to configure PEs via the IOS-XRv NEP, NETCONF is used for device configuration.
 
@@ -173,7 +173,7 @@ NETCONF session configuration in IOS XR to allow ODL to connect:
 
 #### Mock Network Element Plugin
 
-The purpose of this plugin is to mock functionality of the Network Element Plugin. It is used mainly for testing when you do not need to connect real devices. ![Mock NEP][16]
+The purpose of this plugin is to mock functionality of the Network Element Plugin. It is used mainly for testing when you do not need to connect real devices. ![Mock NEP][15]
 
 The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, the NEP registers this node as a PE node to the L3VPN Provider. When the L3VPN Provider calls the SPI which Mock NEP implements, instead of configuration of real devices, the SPI DTOs are stored under nodes in *mock-pe-topology* of OPER DS.
 
@@ -181,7 +181,7 @@ The Mock NEP listens on nodes from *mock-pe-topology*. When a node is created, t
 
 Implementation of L3VPN provider does not support all statements in ietf-l3vpn-svc@2017-05-02.yang. Unsupported statements can be found in YANG deviations.
 
-[Inheritance of Parameters Defined at Site Level and Site Network Access Level][17] is not supported, therefore parameters must be defined at Site Network Access level. L3VPN Provider does not support reconciliation, therefore only L3VPN created via L3VPN Provider are visible through the API.
+[Inheritance of Parameters Defined at Site Level and Site Network Access Level][16] is not supported, therefore parameters must be defined at Site Network Access level. L3VPN Provider does not support reconciliation, therefore only L3VPN created via L3VPN Provider are visible through the API.
 
 Other limitations:
 
@@ -281,8 +281,7 @@ Installs L3VPN Provider with Mock NEP and RESTCONF. This feature can be used for
  [10]: https://github.com/FRINXio/postman-collections/blob/master/ietf-l3vpn-svc%402017-05-02.yang
  [11]: https://tools.ietf.org/html/rfc8049
  [12]: https://frinx.io/wp-content/uploads/2017/06/ietf-l3vpn-svc_uml.png "IETF UML"
- [13]: https://github.com/FRINXio/postman-collections/blob/master/ietf-l3vpn-svc%402017-05-02.yang "ietf-l3vpn-svc@2017-05-02.yang"
- [14]: https://github.com/FRINXio/postman-collections/blob/master/l3vpn-svc-aug%402017-05-02.yang "l3vpn-svc-aug@2017-05-02.yang"
- [15]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv3.png "IOS-XRv NEP"
- [16]: https://frinx.io/wp-content/uploads/2017/08/nep_mock3.png "Mock NEP"
- [17]: https://tools.ietf.org/html/rfc8049#section-6.3.2.3
+ [13]: https://github.com/FRINXio/postman-collections/blob/master/l3vpn-svc-aug%402017-05-02.yang "l3vpn-svc-aug@2017-05-02.yang"
+ [14]: https://frinx.io/wp-content/uploads/2017/08/nep_ios-xrv3.png "IOS-XRv NEP"
+ [15]: https://frinx.io/wp-content/uploads/2017/08/nep_mock3.png "Mock NEP"
+ [16]: https://tools.ietf.org/html/rfc8049#section-6.3.2.3
