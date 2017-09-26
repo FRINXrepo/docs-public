@@ -25,7 +25,9 @@ Host1 and Host2 are two different sites for the same company and they both conne
 
 ![Two company's sites connected to SP][3]
 
-In this case L3VPN provides site-to-site connectivity and the SP network behaves as a router between the company’s sites. The company’s routes are exchanged via the SP network. ![Solution with L3VPN between sites.][4]
+In this case L3VPN provides site-to-site connectivity and the SP network behaves as a router between the company’s sites. The company’s routes are exchanged via the SP network.
+
+![Solution with L3VPN between sites.][4]
 
 ### Terminology
 
