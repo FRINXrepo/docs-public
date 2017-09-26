@@ -96,7 +96,7 @@ The YANG module contains 3 root statements and one RPC:
 *   **container configured-l3vpn-svc** – shows last successfully configured L3VPN service.
 *   **rpc commit-l3vpn-svc** – starts processing intent of L3VPN service. An output of RPC is the version which was assigned to the intent. The output is returned immediately after processing starts.
 
-##### l3vpn-svc-aug@2017-05-02.yang
+##### l3vpn-svc-aug@2017-05-02.yang[14][14]
 
 Augments ietf-l3vpn-svc module with statements which are needed for configuration of L3VPN - [l3vpn-svc-aug YANG module][14]
 
